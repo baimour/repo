@@ -304,7 +304,7 @@ MD5sum: 26e4c6efe45542c6c76aea6f4b6ae94e
 SHA1: 78a982afd0a4a5b32f281fae45dbaa6a378c780b
 SHA256: 3d720371e170e2d02952b4b4bc30bbcd5c16980bb9a2546123d1acd3f03e79f4
 Section: Tweaks
-Description: 主题管理器扩展包
+Description: 主题管理器扩展�
 Author: AnemoneTeam <anemonetheming@gmail.com>
 Icon: https://repo.theodyssey.dev/depictions/icons/anemone3.png
 Name: Anemone 3 SpringBoard Extension Pack
@@ -1881,6 +1881,41 @@ Author: pixelomer <contact@pixelomer.com>
 Depiction: https://chariz.com/get/tweakreviewsdb
 Icon: https://img.chariz.cloud/icon/tweakreviewsdb/icon@3x.png
 Name: TweakReviewsDB
+
+Package: com.ryanpetrich.powercuff
+Version: 0.2
+Architecture: iphoneos-arm64
+Maintainer: Ryan Petrich
+Depends: firmware (>= 15.0), mobilesubstrate, preferenceloader
+Filename: ./debs/Powercuff_0.2_iphoneos-arm64.deb
+Size: 12344
+MD5sum: b9b69eb1904b3c892ee44e8b7d773e44
+SHA1: 0d5bdd9bb6e228264dd75ab7714356a98d737628
+SHA256: d47ba1e9a17c8ac806aca9372ced72a3f460636e776209f9f0c5339358dab6a7
+Section: System
+Description: Powercuff降频控制插件！自定义电量模式，以便于延长电池寿命
+Author: Ryan Petrich
+Icon: https://repo.cypwn.xyz/assets/repo/Featured/powercuff.png
+Name: Powercuff
+Sponsor: Ryan Petrich
+
+Package: com.ryanpetrich.powercuff
+Version: 0.2
+Architecture: iphoneos-arm64e
+Maintainer: Ryan Petrich
+Pre-Depends: rootless-compat(>= 0.9)
+Depends: firmware (>= 15.0), mobilesubstrate, preferenceloader
+Filename: ./debs/Powercuff_0.2_iphoneos-arm64e.deb
+Size: 14878
+MD5sum: 239a7b3b84e8197fdabd14ad21a4c7b7
+SHA1: ea3f81dbe5dad55e058e4dab0e936f883e7c493e
+SHA256: d7630622974519d40eb6009908be546ffaa75184e0737f1a99500753e2563605
+Section: System
+Description: Powercuff降频控制插件！自定义电量模式，以便于延长电池寿命
+Author: Ryan Petrich
+Icon: https://repo.cypwn.xyz/assets/repo/Featured/powercuff.png
+Name: Powercuff
+Sponsor: Ryan Petrich
 
 Package: com.shadow.h5gg.plugin.hideview
 Version: 1
@@ -5125,7 +5160,7 @@ SHA1: 2538d7cb6a74ea73e12aec558763055eb247721c
 SHA256: e879e7057edbff95d2390df24e708e6266defbe87805aee9b385270e95d84073
 Section: Utilities
 Homepage: https://revulate.dev
-Description: 用于查看崩溃的详细信息、可确定所述崩溃的可能原因
+Description: 用于查看崩溃的详细信息、可确定所述崩溃的可能原�
 Author: Revulate <revulate1@gmail.com>
 Depiction: https://revulate.dev/depiction/web/com.spark.crash-reporter.html
 Icon: https://gitee.com/baimour/sileo-depiction.git/raw/master/SileoDepiction/crashrepprter/icon.png
@@ -5562,7 +5597,7 @@ Description: 兼容iOS9-10系统
 Tag: purpose::extension, compatible::ios9, compatible::ios10, compatible::ios11
 Author: TheComputerWhisperer <actualcomputerwhisperer@gmail.com>
 Icon: https://gitee.com/baimour/sileo-depiction.git/raw/master/SileoDepiction/detailpower/icon.png
-Name: DetailPowerU 电量详情
+Name: DetailPowerU 电量详�
 Sileodepiction: https://gitee.com/baimour/sileo-depiction.git/raw/master/SileoDepiction/detailpower/Depiction
 Sponsor: TheComputerWhisperer
 
@@ -7152,7 +7187,7 @@ SHA256: 1f35c5fe05a1c5dcb199f41de7ccd5528dfb9cde97fa67a9b6f0c04117d63246
 Section: Development
 Homepage: https://theemeraldisle.family
 Description: 原作者：iPadkid358 - 然后由Randy420维护，使用简单的终端命令将Flex 3补丁转为Theos项目
-  
+ �
  - 使用‘ftt-？'命令可查看完整的选项列表
 Author: ipad_kid_Randy420 <ipadkid358@gmail.com, randy.skinner@hotmail.com>
 Depiction: https://Randy-420.GitHub.io/depic/ftt.html
@@ -7175,7 +7210,7 @@ SHA256: 087b48cbb6bfcdac554febbd7e7f3195d92890b9e953c6b5c54b6e1d51ccaadc
 Section: Development
 Homepage: https://theemeraldisle.family
 Description: 原作者：iPadkid358 - 然后由Randy420维护，使用简单的终端命令将Flex 3补丁转为Theos项目
-  
+ �
  - 使用‘ftt-？'命令可查看完整的选项列表
 Author: ipad_kid_Randy420 <ipadkid358@gmail.com, randy.skinner@hotmail.com>
 Depiction: https://Randy-420.GitHub.io/depic/ftt.html
@@ -8264,7 +8299,7 @@ SHA256: 837ac1eeeec8cfdd107daca0edf7e5b78f2d8c28880ef502716a74ffdf96ddc2
 Section: Tweaks
 Priority: optional
 Description: 主要针对调用调用AVPlayer播放视频广告的各种小游戏，例如微信小游戏，支持BU、GDT开头的激励视频广告，使用3DTouch来启用插件功能
-Author: 土拨鼠
+Author: 土拨�
 Icon: file:///Applications/Cydia.app/Sections/Tweaks.png
 Name: 激励视频跳过助手
 Sponsor: White <1410970825@qq.com>
@@ -8562,7 +8597,7 @@ MD5sum: 972bba61ecb54b0afbec9ed079e0eef1
 SHA1: fdf1990fb3e052f0d879f6641c5cbcf1c70a8802
 SHA256: b08f181d6344eeb621a0c5a3ebbb0e71e614dbb979fbb4e3010890ce536e9115
 Section: Tweaks
-Description: Lightricks软件包括Photoleap, Videoleap, Beatleap, Lightleap, 艺章(Artleap), Motionleap及Facetune Video, Facetune破解，解锁会员订阅
+Description: Lightricks软件包括Photoleap, Videoleap, Beatleap, Lightleap, 艺章(Artleap), Motionleap及Facetune Video, Facetune破解，解锁会员订�
 Author: 小果子
 Name: Lightricks-leap通用破解
 
@@ -9076,7 +9111,7 @@ SHA1: 64c351270396f9457835ab17e1bce0f685321b81
 SHA256: 2a2ec0d846223e1d14bed63fa7665b5ec278150cc8be073ec9829e823b5e8e39
 Section: Themes
 Description: 使用SnowBoard加载主题
-Author: 妄想者
+Author: 妄想�
 Icon: file:///Applications/Cydia.app/Sections/Toys.png
 Name: 拟态简黑主题
 Sponsor: White <1410970825@qq.com>
@@ -9141,6 +9176,45 @@ Depiction: http://moreinfo.thebigboss.org/moreinfo/depiction.php?file=modernstyl
 Name: ModernStyleSettings
 Sileodepiction: https://gitee.com/baimour/sileo-depiction.git/raw/master/SileoDepiction/ModernStyleSettings/Depiction
 Sponsor: thebigboss.org <http://thebigboss.org>
+
+Package: com.white.monitor
+Version: 09010fuck
+Architecture: iphoneos-arm64e
+Maintainer: White
+Installed-Size: 236
+Pre-Depends: rootless-compat(>= 0.9)
+Depends: mobilesubstrate (>= 0.9.5000)
+Conflicts: com.shadow.fuckthermal
+Filename: ./debs/09010Fuck_iphoneos-arm64e.deb
+Size: 122220
+MD5sum: 73b3837470f7c78d984c19b215be08b9
+SHA1: 6120a8fbf5debaf38ea176b3b08fe7d34a2621e2
+SHA256: 9c97d1fffbb32905b06d1b5f2bd03321f94d15cfdf25251e9c06f2666d6c8b75
+Section: System
+Description: fuck温控和DeviceMonitor009和010结合，支持iOS13-16所有设备，解除降频插件安装成功后请重启用户空间。插件并不一定有效，自行测试！
+Author: Forest
+Icon: https://chinesebuilding.club/pic/cydia.png
+Name: 去温控组合
+Sponsor: White
+
+Package: com.white.monitor
+Version: 09010fuck
+Architecture: iphoneos-arm64
+Maintainer: White
+Installed-Size: 236
+Depends: mobilesubstrate (>= 0.9.5000)
+Conflicts: com.shadow.fuckthermal
+Filename: ./debs/09010Fuck_iphoneos-arm64.deb
+Size: 87360
+MD5sum: 71f8fa0e7c910c2beec130f1919672aa
+SHA1: 5299ef0ac15fc22042eadc74912c444dda6f00e8
+SHA256: 8de3051f350e0dfccd579c30df86fa06f4d0d503ab079eab36b6212d8512dbe4
+Section: System
+Description: fuck温控和DeviceMonitor009和010结合，支持iOS13-16所有设备，解除降频插件安装成功后请重启用户空间。插件并不一定有效，自行测试！
+Author: Forest
+Icon: https://chinesebuilding.club/pic/cydia.png
+Name: 去温控组合
+Sponsor: White
 
 Package: com.white.morelinesnotifications
 Version: 1.1
@@ -9504,7 +9578,7 @@ MD5sum: 56ffc499addbf4812690073cf96bf800
 SHA1: 7779767144878ca19a00e315d2a7fb0a1c5726af
 SHA256: 89753e3f251f2e42187c8e1bec03b376c7ef3502ecbc6181f0c073023f35bc71
 Section: Tweaks
-Description: 全局隐藏iOS中杂乱的元素
+Description: 全局隐藏iOS中杂乱的元�
 Author: Quix <3parsa3@gmail.com>
 Icon: https://gitee.com/baimour/sileo-depiction.git/raw/master/SileoDepiction/noclutter/icon.png
 Name: NoClutter
@@ -9786,7 +9860,7 @@ MD5sum: 6076eb285e3c8c89d77a21ff1b87aa4f
 SHA1: db7a148ee4b7d5f603a97c955b54235fc55fbf87
 SHA256: 65678dd415030170ed78fa0211b42cf5a7c99067f496f2dcba0e3a29a4686937
 Section: Tweaks
-Description: 去除键盘延迟，安装即生效。如果没有延迟则不需要安装
+Description: 去除键盘延迟，安装即生效。如果没有延迟则不需要安�
 Tag: purpose::extension, compatible::ios9, compatible::ios10, compatible::ios11, compatible::ios12
 Author: Frozen Penguin
 Name: NoTrackpadDelay
@@ -10652,7 +10726,7 @@ Section: Tweaks
 Description: 兼容旧版和重写版，登录界面和其他一些地方未生效
 Author: Ball
 Icon: https://gitee.com/baimour/sileo-depiction.git/raw/master/SileoDepiction/reprovision/icon.png
-Name: ReProvision Reborn 汉化包
+Name: ReProvision Reborn 汉化�
 Sileodepiction: https://gitee.com/baimour/sileo-depiction.git/raw/master/SileoDepiction/reprovision/Depiction
 Sponsor: Ball
 
@@ -13990,7 +14064,7 @@ Dev: rpetrich
 Icon: https://gitee.com/baimour/sileo-depiction.git/raw/master/SileoDepiction/activator/icon.png
 Name: Activator
 Sponsor: thebigboss.org <http://thebigboss.org>
-依赖源：https: //rpetri.ch/cydia/
+ľ�赖源：https: //rpetri.ch/cydia/
 
 Package: libc++-10-dev
 Version: 10.0.0~svn-20200108+247e5b37d63-1
@@ -14038,7 +14112,7 @@ SHA1: f0e301be6b12968baf77372a79961befaeee4ae0
 SHA256: d4a48e88784ce0a6898ecfd6a3ed075bfee26851b2a5bb365d14a3baf5b0101a
 Section: Development
 Priority: optional
-Description: Clang依赖库 - 通用开发包
+Description: Clang依赖库 - 通用开发�
 
 Package: libclang-cpp10
 Version: 10.0.0~svn-20200108+247e5b37d63-1
@@ -14657,7 +14731,7 @@ SHA1: 4a7530340f56d7c243f43b8d49ecbaef54afa2be
 SHA256: 5643b41e39799ecba86365507b9f1d858f9470ba4af4ee8e9c4dce3a15967373
 Section: Cracks
 Homepage: https://tigisoftware.com/cydia/
-Description: AppsManager解锁全部功能，主程序请在官方源安装
+Description: AppsManager解锁全部功能，主程序请在官方源安�
 Author: Netskao
 Icon: https://gitee.com/baimour/sileo-depiction.git/raw/master/SileoDepiction/appsmanager/icon.png
 Name: AppsManager Crack
@@ -14905,7 +14979,7 @@ SHA1: c17c61a59f194070adaee963569590d94bb5f59d
 SHA256: 51462c64a7ddb54c4f36acfad103ce3279d0b75e7480f249f462e2919c7e6cfb
 Section: Cracks
 Homepage: https://tigisoftware.com/cydia/
-Description: Filza解锁全部功能，主程序请在官方源安装
+Description: Filza解锁全部功能，主程序请在官方源安�
 Author: Netskao
 Icon: https://gitee.com/baimour/sileo-depiction.git/raw/master/SileoDepiction/filza/icon.png
 Name: Filza Crack
@@ -15027,7 +15101,7 @@ MD5sum: 24f6268ee283f3921ef287072c19dcdc
 SHA1: da190920be72b5cffaf6b9bf72d515ad1f1c632a
 SHA256: 252ae9f85999006265c9ff0ef09f9215b4ea41990bf0fdd5abaf26dcc031a46e
 Section: NoAds
-Description: QQ净化，还原聊天本质，干净的QQ给你
+Description: QQ净化，还原聊天本质，干净的QQ给�
 Author: Netskao
 Icon: https://gitee.com/baimour/sileo-depiction.git/raw/master/SileoDepiction/QQ/icon.png
 Name: QQ净化
@@ -15045,7 +15119,7 @@ MD5sum: 64a3748cb88fa90aef5109ef90ebfe20
 SHA1: 7fa66bddf575960740b8823b1ba633c6aec1c59c
 SHA256: 9b5c3661d1cf0fea509b627f8c836d1b6d362d49390c3d93bb6f6bf80b38f05c
 Section: NoAds
-Description: QQ净化，还原聊天本质，干净的QQ给你
+Description: QQ净化，还原聊天本质，干净的QQ给�
 Author: Netskao
 Icon: https://gitee.com/baimour/sileo-depiction.git/raw/master/SileoDepiction/gpsmaster/icon.png
 Name: QQ净化
