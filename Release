@@ -3,7 +3,7 @@ Label: White
 Suite: stable
 Version: 1.7
 Codename: White
-Architectures: iphoneos-arm iphoneos-arm64
+Architectures: iphoneos-arm iphoneos-arm64 iphoneos-arm64e
 Components: main
 Description: White's Repo
 
