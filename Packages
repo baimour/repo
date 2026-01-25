@@ -1171,6 +1171,96 @@ Icon: https://gitee.com/baimour/sileo-depiction.git/raw/master/SileoDepiction/ja
 Name: WeChat Jan
 Sileodepiction: https://gitee.com/baimour/sileo-depiction.git/raw/master/SileoDepiction/jan/Depiction
 
+Package: com.iosbx.theosgui
+Version: 1.3.4
+Architecture: iphoneos-arm
+Maintainer: IosBX
+Installed-Size: 9400
+Filename: ./debs/com.iosbx.theosgui_1.3.4_iphoneos-arm.deb
+Size: 3148870
+MD5sum: 2a34812f7c7ccb5f7b77ed5bf29f9e24
+SHA1: 9a5c1665f3c37e1eb268415137255cdb2a731843
+SHA256: 5385ad5cda3ccab38e64a770b15ad773ae4da5df49cb27bfaef925b1159a5415
+Section: Utilities
+Description: Theos 图形化开发工具，直观的可视化界面，一键创建、管理、编译和安装项目。
+Author: IosBX
+Name: TheosGUI
+
+Package: com.iosbx.theosgui
+Version: 1.3.4
+Architecture: iphoneos-arm64
+Maintainer: IosBX
+Installed-Size: 9484
+Filename: ./debs/com.iosbx.theosgui_1.3.4_iphoneos-arm64.deb
+Size: 3166654
+MD5sum: 6d445a31fc281e86cc76427424d5d029
+SHA1: 8817f64212adc67460e32ee0ef6d78132ab883d5
+SHA256: 9852d33bf5d5ac15c04130d68bc8b510fdf50c51fcf2069b677073e19cab38d7
+Section: Utilities
+Description: Theos 图形化开发工具，直观的可视化界面，一键创建、管理、编译和安装项目。
+Author: IosBX
+Name: TheosGUI
+
+Package: com.iosbx.theosgui
+Version: 1.3.4
+Architecture: iphoneos-arm64e
+Maintainer: IosBX
+Installed-Size: 9384
+Filename: ./debs/com.iosbx.theosgui_1.3.4_iphoneos-arm64e.deb
+Size: 3147798
+MD5sum: 5c8dfcc7934841d0b380ff412f3e9343
+SHA1: 20b9f63331ebbb635c29c1fa843e7990fa90642f
+SHA256: 7901d8c09fe7431cd280b4948d8a9ab9f5eaee64f90da41d34302059b4a0f1c3
+Section: Utilities
+Description: Theos 图形化开发工具，直观的可视化界面，一键创建、管理、编译和安装项目。
+Author: IosBX
+Name: TheosGUI
+
+Package: com.iosbx.theosgui
+Version: 1.4.2
+Architecture: iphoneos-arm
+Maintainer: IosBX
+Installed-Size: 10444
+Filename: ./debs/com.iosbx.theosgui_1.4.2_iphoneos-arm.deb
+Size: 3418170
+MD5sum: cee8386cfca15b40cc283eedf27098fe
+SHA1: c300ec2d35459e4764490b219cdbe1db694e91b3
+SHA256: 1ce857155fb6d37880666f1c40397e2546202b1a059e91d7bc32af6e52c01c49
+Section: Utilities
+Description: Theos 图形化开发工具，直观的可视化界面，一键创建、管理、编译和安装项目。
+Author: IosBX
+Name: TheosGUI
+
+Package: com.iosbx.theosgui
+Version: 1.4.2
+Architecture: iphoneos-arm64e
+Maintainer: IosBX
+Installed-Size: 10412
+Filename: ./debs/com.iosbx.theosgui_1.4.2_iphoneos-arm64e.deb
+Size: 3414836
+MD5sum: d975695d562679cd4351709cbef2fe95
+SHA1: b1111c9c832453c14fd0d44f0a4bd5c86f6fa127
+SHA256: 7d99a72ce8ba7400f58625a1a91b52093eaf6277df235806914ea90fd050bfcd
+Section: Utilities
+Description: Theos 图形化开发工具，直观的可视化界面，一键创建、管理、编译和安装项目。
+Author: IosBX
+Name: TheosGUI
+
+Package: com.iosbx.theosgui
+Version: 1.4.2
+Architecture: iphoneos-arm64
+Maintainer: IosBX
+Installed-Size: 10492
+Filename: ./debs/com.iosbx.theosgui_1.4.2_iphoneos-arm64.deb
+Size: 3425890
+MD5sum: 0ce27fe668802dccadb2f57f82e44697
+SHA1: b4987f9e82c9999da07b86584b4251ca0d643d82
+SHA256: a5faea173d3a24cbb5f8d684aa1ac3c6a92f8b54e6f0ea7993c51ee8f549de61
+Section: Utilities
+Description: Theos 图形化开发工具，直观的可视化界面，一键创建、管理、编译和安装项目。
+Author: IosBX
+Name: TheosGUI
+
 Package: com.jailbreak365.notify10
 Version: 1.0.0-2
 Architecture: iphoneos-arm
