@@ -1882,6 +1882,24 @@ Depiction: https://chariz.com/get/tweakreviewsdb
 Icon: https://img.chariz.cloud/icon/tweakreviewsdb/icon@3x.png
 Name: TweakReviewsDB
 
+Package: com.roothide.patcher
+Version: 2.1.2-1+debug
+Architecture: iphoneos-arm64e
+Maintainer: roothide
+Depends: firmware (>= 15.0), libxar1, ldid, file, dpkg, gawk, plutil (>= 0.2.2-1), uikittools (>= 2.1.6-4)
+Filename: ./debs/com.roothide.patcher_2.1.2-1+debug_iphoneos-arm64e.deb
+Size: 1169072
+MD5sum: 4cdc5af808be6e810e9a87e9a7b3946d
+SHA1: 9a2027f126a66fbd4535c6002f7ba4ac48e6cfa3
+SHA256: d517ac7abb3151c9f790000739e26830b351d83805baac56c12a0f49fa15f764
+Section: Utilities
+Description: 修补无根插件并转换以兼容RootHide，不适用一些插件
+Author: roothide
+Depiction: https://github.com/roothide/RootHidePatcher
+Icon: https://github.com/roothide/RootHidePatcher/blob/master/derootifier-2-modified.png?raw=true
+Name: RootHide Patcher
+Support: https://github.com/roothide/RootHidePatcher
+
 Package: com.ryanpetrich.powercuff
 Version: 0.2
 Architecture: iphoneos-arm64
@@ -6664,6 +6682,27 @@ Sileodepiction: https://gitee.com/baimour/sileo-depiction.git/raw/master/SileoDe
 
 Package: com.white.filza
 Version: 4.0.1-4
+Architecture: iphoneos-arm64e
+Maintainer: TIGI Software
+Pre-Depends: rootless-compat(>= 0.9)
+Recommends: zip, unzip, gzip, p7zip, unrar, xz-utils
+Conflicts: ru.rejail.filza, com.tigisoftware.filza, com.tigisoftware.filza39, netskao.filzacrack
+Replaces: ru.rejail.filza, com.tigisoftware.filza, com.tigisoftware.filza39, netskao.filzacrack
+Filename: ./debs/filza_4.0.1-4_iphoneos-arm64e.deb
+Size: 16972542
+MD5sum: 4c758de7b07442e762b01a06b77995ad
+SHA1: b01d094b6c58de38487b8545e891e890a6779775
+SHA256: 6a1d28fffa005369b419352c66e8228e8ed90b90df5263ed0a2d9f4c9de272c7
+Section: Utilities
+Description: 适用iPhone、iPad、iPod Touch的文件管理器，支持iOS 11+的64位设备
+Author: TIGI Software
+Depiction: https://rejail.ru/depiction.php?file=filza
+Icon: https://gitee.com/baimour/sileo-depiction.git/raw/master/SileoDepiction/filza/icon.png
+Name: Filza File Manager
+Sileodepiction: https://gitee.com/baimour/sileo-depiction.git/raw/master/SileoDepiction/filza/Depiction
+
+Package: com.white.filza
+Version: 4.0.1-4
 Architecture: iphoneos-arm
 Maintainer: TIGI Software
 Recommends: zip, unzip, gzip, p7zip, unrar, xz-utils
@@ -11145,6 +11184,50 @@ Icon: https://gitee.com/baimour/sileo-depiction.git/raw/master/SileoDepiction/sh
 Name: Shadow
 Sileodepiction: https://gitee.com/baimour/sileo-depiction.git/raw/master/SileoDepiction/shadow/Depiction
 
+Package: com.white.shadow
+Version: 3.7.6
+Architecture: iphoneos-arm64
+Maintainer: jjolano
+Installed-Size: 1076
+Pre-Depends: dpkg
+Depends: firmware (>= 15.0), com.opa334.altlist, com.opa334.libsandy, me.jjolano.fmwk.hookkit, me.jjolano.hkmodule.ellekit, me.jjolano.hkmodule.substrate, me.jjolano.fmwk.rootbridge
+Recommends: mobilesubstrate, preferenceloader, me.jjolano.hkmodule.fishhook
+Suggests: com.ps.injectionfoundation
+Conflicts: me.jjolano.shadow.beta, me.jjolano.shadow, me.jjolano.shadow.legacy
+Replaces: me.jjolano.shadow.beta
+Provides: me.jjolano.shadow.beta
+Filename: ./debs/shadow_3.7.6_iphoneos-arm64.deb
+Size: 101044
+MD5sum: 12186c9361dadd4c6fdd793feb1b7fa5
+SHA1: a430e22e43f2ba7c2021e021c9eb2fa62b49ea82
+SHA256: e13e04cc1bbd0478ba76d2de51d28d4d1da52a467c41130570549586891203b8
+Section: System
+Description: 现代越狱检测绕过插件
+Author: jjolano
+Name: Shadow
+
+Package: com.white.shadow
+Version: 3.7.6
+Architecture: iphoneos-arm64e
+Maintainer: jjolano
+Installed-Size: 1076
+Pre-Depends: rootless-compat(>= 0.9), dpkg
+Depends: firmware (>= 15.0), com.opa334.altlist, com.opa334.libsandy, me.jjolano.fmwk.hookkit, me.jjolano.hkmodule.ellekit, me.jjolano.hkmodule.substrate, me.jjolano.fmwk.rootbridge
+Recommends: mobilesubstrate, preferenceloader, me.jjolano.hkmodule.fishhook
+Suggests: com.ps.injectionfoundation
+Conflicts: me.jjolano.shadow.beta, me.jjolano.shadow, me.jjolano.shadow.legacy
+Replaces: me.jjolano.shadow.beta
+Provides: me.jjolano.shadow.beta
+Filename: ./debs/shadow_3.7.6_iphoneos-arm64e.deb
+Size: 138170
+MD5sum: 9743ecca7d37a3861f9637d84f743d4e
+SHA1: 755c0a735d720ecbdafcf4328bb2d247ca8ee906
+SHA256: ede7d72f7d6ab8711a2054f8b0683d9caf1aa6b072c081af5a88aac8209b449d
+Section: System
+Description: 现代越狱检测绕过插件
+Author: jjolano
+Name: Shadow
+
 Package: com.white.shadowsocks
 Version: 0.3.2-3
 Architecture: iphoneos-arm
@@ -11839,6 +11922,39 @@ Icon: file:///Applications/Cydia.app/Sections/System.png
 Name: Cydia智能滑动增强
 Sponsor: White <1410970825@qq.com>
 
+Package: com.white.swipeselection
+Version: 2.0
+Architecture: iphoneos-arm64
+Maintainer: iCraze
+Installed-Size: 156
+Depends: mobilesubstrate
+Filename: ./debs/swipeselection_2.0_iphoneos-arm64.deb
+Size: 14316
+MD5sum: 3ced67dabf79f56acb4283ef9337d617
+SHA1: ee6f75fb79098bbed1a6d88b48f8af1266e85376
+SHA256: 1597fcfb441675ed91548fc056f526c047b0acecc89e6dbddb5fac39d9139bad
+Section: Tweaks
+Description: 给默认键盘增加滑动移动光标功能
+Author: Kyle Howells
+Name: SwipeSelection
+
+Package: com.white.swipeselection
+Version: 2.0
+Architecture: iphoneos-arm64e
+Maintainer: iCraze
+Installed-Size: 156
+Pre-Depends: rootless-compat(>= 0.9)
+Depends: mobilesubstrate
+Filename: ./debs/swipeselection_2.0_iphoneos-arm64e.deb
+Size: 18818
+MD5sum: 599208c55f791a0214887d56892e8722
+SHA1: 2201eba7dff7725b46af3da814aa88dc821a0152
+SHA256: 06c5fccecd8c05bfefa2bc2989af3568d844a378b037e547b1eb619effd387e5
+Section: Tweaks
+Description: 给默认键盘增加滑动移动光标功能
+Author: Kyle Howells
+Name: SwipeSelection
+
 Package: com.white.tai
 Version: 5.2.2
 Architecture: iphoneos-arm
@@ -11923,20 +12039,43 @@ Name: Dependencies for Procursus
 
 Package: com.white.taidependscoolstar
 Version: 0.7
+Architecture: iphoneos-arm64e
+Maintainer: Randy420 <randy.skinner@hotmail.com>
+Installed-Size: 0
+Depends: clang, odcctools, curl, git, grep, perl, rsync, unzip, xz-utils, make, ldid, file, plutil, fakeroot
+Conflicts: com.randy420.taidependsother, com.randy420.taidependslegacy
+Replaces: com.randy420.taidependsother, com.randy420.taidependslegacy
+Filename: ./debs/dependsCool_0.7_iphoneos-arm64e.deb
+Size: 1016
+MD5sum: 49759bea4d75c0fe90b405d028be373a
+SHA1: 7cceb6b461c6a8b517a5db93ade0755b94c55f45
+SHA256: e19ac13de136797da51603298b6048365c68eddff6a4e963cf4fd1ebd29cad7c
+Section: Development
+Homepage: https://theemeraldisle.family
+Description: 基于Procursus源环境Theos开发依赖
+Tag: role::hacker
+Author: Randy420 <randy.skinner@hotmail.com>
+Depiction: https://Randy-420.GitHub.io/depic/taidependscoolstar.html
+Icon: https://gitee.com/baimour/sileo-depiction.git/raw/master/SileoDepiction/taidependscoolstar/icon.png
+Name: Dependencies for Procursus
+Sileodepiction: https://gitee.com/baimour/sileo-depiction.git/raw/master/SileoDepiction/taidependscoolstar/Depiction
+
+Package: com.white.taidependscoolstar
+Version: 0.7
 Architecture: iphoneos-arm64
 Maintainer: Randy420 <randy.skinner@hotmail.com>
 Installed-Size: 0
-Depends: clang, odcctools, curl, git, grep, perl, rsync, unzip, xz-utils, make, ldid, swift, file, fakeroot
+Depends: clang, odcctools, curl, git, grep, perl, rsync, unzip, xz-utils, make, ldid, file, plutil, fakeroot
 Conflicts: com.randy420.taidependsother, com.randy420.taidependslegacy
 Replaces: com.randy420.taidependsother, com.randy420.taidependslegacy
 Filename: ./debs/dependsCool_0.7_iphoneos-arm64.deb
-Size: 1032
-MD5sum: 00d1e56966077dda98a7f7067ba14f5b
-SHA1: 8a8a4c3a13118bcd1c3e8da5f4a69717f86f0e96
-SHA256: e8595942e54257f6d4053094b8e94c932993469330ae1ea42ee8574d7d131161
+Size: 1012
+MD5sum: 1821e17ec5473d83525fb0cce9c4d4cb
+SHA1: 7cc8a1e2f641586080bc39081b77d6f590918dae
+SHA256: c2ad81c4bc69b790bdd6740fb0dd2c0a9d395d488b694f462154532e3276127a
 Section: Development
 Homepage: https://theemeraldisle.family
-Description: 基于Procursus源环境开发依赖项
+Description: 基于Procursus源环境Theos开发依赖
 Tag: role::hacker
 Author: Randy420 <randy.skinner@hotmail.com>
 Depiction: https://Randy-420.GitHub.io/depic/taidependscoolstar.html
