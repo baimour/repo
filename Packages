@@ -14606,43 +14606,6 @@ Icon: https://gitee.com/baimour/sileo-depiction.git/raw/master/SileoDepiction/cl
 Name: 网易云音乐 NoAds
 Sponsor: Huayuarc
 
-Package: com.white.xuanhua120hz
-Version: 1.0.0-11+debug
-Architecture: iphoneos-arm64
-Maintainer: Rain
-Installed-Size: 372
-Depends: mobilesubstrate (>= 0.9.5000), firmware (>= 15.0)
-Filename: ./debs/120hz_1.0.0-11+debug_iphoneos-arm64.deb
-Size: 22208
-MD5sum: 7f80880b653d780f12f3fb714a312fd8
-SHA1: 857578d073059ece26b4be30eb167c79b91abafd
-SHA256: e3783024f43b1a4544e2d683370b0ea4c04bc05bda43b51b28019b516e1f1d3e
-Section: Tweaks
-Description: 免费120Hz刷新率，提升动画速度！开发者Rain。确保您的设备硬件支持120Hz。系统兼容性：此插件可能与iOS版本不兼容，具体取决于系统的内部实现。电池消耗：动态调整刷新率可以降低电池消耗。插件无设置项，多巴胺里注销即可！可以安装搬运工源里的手机性能显示插件即可看到是不是120hz，搜性能显示即可，不一定有用，无效请缷载！
-Author: Rain
-Icon: https://chinesebuilding.club/pic/cydia.png
-Name: Free 120hz
-Sponsor: Rain
-
-Package: com.white.xuanhua120hz
-Version: 1.0.0-11+debug
-Architecture: iphoneos-arm64e
-Maintainer: Rain
-Installed-Size: 372
-Pre-Depends: rootless-compat(>= 0.9)
-Depends: mobilesubstrate (>= 0.9.5000), firmware (>= 15.0)
-Filename: ./debs/120hz_1.0.0-11+debug_iphoneos-arm64e.deb
-Size: 28254
-MD5sum: 37ae5dca61ff7c9ff84b268476eed463
-SHA1: a995f593e11ec3f148f68575c4de434233b4db4c
-SHA256: cfd5d03f79dff4f0f4db45168050df95123ff34544f7755120308b30943850bc
-Section: Tweaks
-Description: 免费120Hz刷新率，提升动画速度！开发者Rain。确保您的设备硬件支持120Hz。系统兼容性：此插件可能与iOS版本不兼容，具体取决于系统的内部实现。电池消耗：动态调整刷新率可以降低电池消耗。插件无设置项，多巴胺里注销即可！可以安装搬运工源里的手机性能显示插件即可看到是不是120hz，搜性能显示即可，不一定有用，无效请缷载！
-Author: Rain
-Icon: https://chinesebuilding.club/pic/cydia.png
-Name: Free 120hz
-Sponsor: Rain
-
 Package: com.white.yiyancrack
 Version: 1.0
 Architecture: iphoneos-arm64
