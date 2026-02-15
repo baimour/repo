@@ -4516,6 +4516,45 @@ Icon: https://gitee.com/baimour/sileo-depiction.git/raw/master/SileoDepiction/ca
 Name: 菜鸟 NoAds
 Sileodepiction: https://gitee.com/baimour/sileo-depiction.git/raw/master/SileoDepiction/cainiao/Depiction
 
+Package: com.white.caperfhud
+Version: 1.0.0
+Architecture: iphoneos-arm64
+Maintainer: khanhduy032
+Installed-Size: 80
+Conflicts: xyz.cypwn.caperfhudmodule, byg.iosios.net.caperfhud
+Replaces: xyz.cypwn.caperfhudmodule, byg.iosios.net.caperfhud
+Filename: ./debs/caperfhud_1.0.0_iphoneos-arm64.deb
+Size: 27868
+MD5sum: 37ca996d40efaec99812ead89eeaa4e0
+SHA1: eb49c11473e6b5ed84f8512815cc90db94c9bd30
+SHA256: e348b26b7d1a02135a5a547ea6cd06079ef66ea7fdd6d84b2a22e843b12b34d5
+Section: Utilities
+Description: 手机性能显示，显示帧率、显示FPS、显示网络延迟、安装之后在桌面打开即可！
+Author: khanhduy032
+Icon: https://chinesebuilding.club/pic/cydia.png
+Name: CAPerfHUD
+Sponsor: khanhduy032
+
+Package: com.white.caperfhud
+Version: 1.0.0
+Architecture: iphoneos-arm64e
+Maintainer: khanhduy032
+Installed-Size: 80
+Pre-Depends: rootless-compat(>= 0.9)
+Conflicts: xyz.cypwn.caperfhudmodule, byg.iosios.net.caperfhud
+Replaces: xyz.cypwn.caperfhudmodule, byg.iosios.net.caperfhud
+Filename: ./debs/caperfhud_1.0.0_iphoneos-arm64e.deb
+Size: 34956
+MD5sum: 46700bff8e01477d7697b5f85235d690
+SHA1: d36668aae5a77e332c797c72758a271731023ca3
+SHA256: fdd1003e35d06aa2f42a66e3695cd8a3a460ac485a07e9ebaa093fbd74eaf765
+Section: Utilities
+Description: 手机性能显示，显示帧率、显示FPS、显示网络延迟、安装之后在桌面打开即可！
+Author: khanhduy032
+Icon: https://chinesebuilding.club/pic/cydia.png
+Name: CAPerfHUD
+Sponsor: khanhduy032
+
 Package: com.white.carriercrack-global
 Version: 3.1.19
 Architecture: iphoneos-arm
@@ -4661,20 +4700,46 @@ Name: CellDia
 
 Package: com.white.choicy
 Version: 1.4.10-3
+Architecture: iphoneos-arm64e
+Maintainer: BigBoss <bigboss@thebigboss.org>
+Installed-Size: 814
+Pre-Depends: rootless-compat(>= 0.9)
+Depends: firmware (>= 10.0), mobilesubstrate (>= 0.9.5000), preferenceloader, com.opa334.altlist (>= 1.0.4), com.huami.ChoicyConfigPin
+Conflicts: com.opa334.choicy
+Replaces: com.opa334.choicy
+Filename: ./debs/choicy_1.4.10-3_iphoneos-arm64e.deb
+Size: 138984
+MD5sum: d684e2f6262c4636ec92bd891557ef51
+SHA1: 1df481c9caaad7a4f12dcd0e0d4fa53529cf46ad
+SHA256: 597e19f0ef5554c0c6c25aba9d73d598a48ebb2287c0030d7645a87a8d59c231
+Section: Tweaks
+Homepage: http://moreinfo.thebigboss.org/moreinfo/depiction.php?file=choicyDp
+Description: 高级插件注入配置
+Tag: purpose::extension
+Author: opa334 <opa334@protonmail.com>
+Depiction: http://moreinfo.thebigboss.org/moreinfo/depiction.php?file=choicyDp
+Dev: opa334
+Icon: https://gitee.com/baimour/sileo-depiction.git/raw/master/SileoDepiction/choicy/icon.png
+Name: Choicy
+Sileodepiction: https://gitee.com/baimour/sileo-depiction.git/raw/master/SileoDepiction/choicy/Depiction
+Sponsor: thebigboss.org <http://thebigboss.org>
+
+Package: com.white.choicy
+Version: 1.4.10-3
 Architecture: iphoneos-arm64
 Maintainer: BigBoss <bigboss@thebigboss.org>
 Installed-Size: 814
-Depends: firmware (>= 10.0), mobilesubstrate (>= 0.9.5000), preferenceloader, com.opa334.altlist (>= 1.0.4)
+Depends: firmware (>= 10.0), mobilesubstrate (>= 0.9.5000), preferenceloader, com.opa334.altlist (>= 1.0.4), com.huami.ChoicyConfigPin
 Conflicts: com.opa334.choicy
 Replaces: com.opa334.choicy
 Filename: ./debs/choicy_1.4.10-3_iphoneos-arm64.deb
-Size: 106648
-MD5sum: d5f770d9ef234a01eff9eb6c9b7d3a7e
-SHA1: f950b749abd982459ecc154e21a90dceeafdc028
-SHA256: 4321daced79cd08d012366a22c50d4235fa03f6f5ca1b3a2982dc60ee7ef9ccb
+Size: 106956
+MD5sum: f0b73d3fcfec475b4fb76f6d42d9485d
+SHA1: beacc4afb14c138a7f4a058c27bf74b76f6de57c
+SHA256: e0f3f2cdbdcb9e6a853a6f7165c9888b21c4e439e7c4897923cf58b7182d2596
 Section: Tweaks
 Homepage: http://moreinfo.thebigboss.org/moreinfo/depiction.php?file=choicyDp
-Description: 高级插件配置
+Description: 高级插件注入配置
 Tag: purpose::extension
 Author: opa334 <opa334@protonmail.com>
 Depiction: http://moreinfo.thebigboss.org/moreinfo/depiction.php?file=choicyDp
@@ -4698,6 +4763,49 @@ SHA256: e06a779612d4613cdcc822f48b55387f1f6f64b9da37279c928f945630a7eb7f
 Section: Tweaks
 Description: 高级插件配置，应用屏蔽插件注入
 Author: opa334
+Icon: https://gitee.com/baimour/sileo-depiction.git/raw/master/SileoDepiction/choicy/icon.png
+Name: Choicy
+Sileodepiction: https://gitee.com/baimour/sileo-depiction.git/raw/master/SileoDepiction/choicy/Depiction
+
+Package: com.white.choicy
+Version: 1.5.3-2
+Architecture: iphoneos-arm64
+Maintainer: opa334 <opa334@protonmail.com>
+Installed-Size: 1136
+Depends: mobilesubstrate, com.opa334.altlist (>=1.0.4), preferenceloader, com.huami.ChoicyConfigPin
+Conflicts: com.opa334.choicy
+Replaces: com.opa334.choicy
+Filename: ./debs/choicy_1.5.3-2_iphoneos-arm64.deb
+Size: 161712
+MD5sum: 67e12e5531885c41dac2dfa22b784323
+SHA1: 9e8f716791b9b4af5703130589e7167a489379ae
+SHA256: 00e4eabdbd416dbd14ae16c1b72b97165974ba5dd9f34c6325abd80394076717
+Section: Tweaks
+Description: 高级插件注入配置
+Author: opa334 <opa334@protonmail.com>
+Depiction: https://opa334.github.io/depic/Choicy/index.html
+Icon: https://gitee.com/baimour/sileo-depiction.git/raw/master/SileoDepiction/choicy/icon.png
+Name: Choicy
+Sileodepiction: https://gitee.com/baimour/sileo-depiction.git/raw/master/SileoDepiction/choicy/Depiction
+
+Package: com.white.choicy
+Version: 1.5.3-2
+Architecture: iphoneos-arm64e
+Maintainer: opa334 <opa334@protonmail.com>
+Installed-Size: 1136
+Pre-Depends: rootless-compat(>= 0.9)
+Depends: mobilesubstrate, com.opa334.altlist (>=1.0.4), preferenceloader, com.huami.ChoicyConfigPin
+Conflicts: com.opa334.choicy
+Replaces: com.opa334.choicy
+Filename: ./debs/choicy_1.5.3-2_iphoneos-arm64e.deb
+Size: 214326
+MD5sum: d441490298a8fb0da2933dfa51246599
+SHA1: 8c4e77ffe912296f1ae5df4e6b2ef99863b1ef06
+SHA256: 154fb824e8fdca10fc55fa5b0756794fa15bbd08223c47b825b49d05c02646cf
+Section: Tweaks
+Description: 高级插件注入配置
+Author: opa334 <opa334@protonmail.com>
+Depiction: https://opa334.github.io/depic/Choicy/index.html
 Icon: https://gitee.com/baimour/sileo-depiction.git/raw/master/SileoDepiction/choicy/icon.png
 Name: Choicy
 Sileodepiction: https://gitee.com/baimour/sileo-depiction.git/raw/master/SileoDepiction/choicy/Depiction
@@ -7814,6 +7922,43 @@ Author: White
 Icon: https://gitee.com/baimour/sileo-depiction.git/raw/master/SileoDepiction/gtgj/icon.png
 Name: 高铁管家 NoAds
 Sileodepiction: https://gitee.com/baimour/sileo-depiction.git/raw/master/SileoDepiction/gtgj/Depiction
+
+Package: com.white.hammerit
+Version: 1.7.0
+Architecture: iphoneos-arm64
+Maintainer: lclrc(SquidForce)
+Installed-Size: 3808
+Depends: mobilesubstrate, preferenceloader, com.opa334.altlist, com.opa334.ccsupport, com.opa334.libsandy, firmware (>= 15.0)
+Conflicts: com.lclrc.hammerit, com.dao.hammerit
+Filename: ./debs/hammerit_1.7.0_iphoneos-arm64.deb
+Size: 982424
+MD5sum: cf3fe9dced5c5b9762b54805dde66857
+SHA1: cdf6935b9509b084bdedd38f7b8e0e7bb66f9e5c
+SHA256: 782a33e74019dc9b2a79cbf693e042d9ff080af4a2c6584dfd79e3b8b2377182
+Section: Tweaks
+Description: 控制您的文本或按照您的意愿翻译
+Author: lclrc(SquidForce)
+Icon: file:///var/jb/Library/PreferenceBundles/HammerItPrefs.bundle/HammerIt@3x.png
+Name: Hammer It
+
+Package: com.white.hammerit
+Version: 1.7.0
+Architecture: iphoneos-arm64e
+Maintainer: lclrc(SquidForce)
+Installed-Size: 3808
+Pre-Depends: rootless-compat(>= 0.9)
+Depends: mobilesubstrate, preferenceloader, com.opa334.altlist, com.opa334.ccsupport, com.opa334.libsandy, firmware (>= 15.0)
+Conflicts: com.lclrc.hammerit, com.dao.hammerit
+Filename: ./debs/hammerit_1.7.0_iphoneos-arm64e.deb
+Size: 2768360
+MD5sum: 8c0694a8b49c2e81ce7741c57cacfbdb
+SHA1: 1c0ad42213b078f972b054c3357fee3a3fff336c
+SHA256: 9430f92a1bf4857ee1c6ab81c96f8a624b493363a21c13920f9b911403c3e8c7
+Section: Tweaks
+Description: 控制您的文本或按照您的意愿翻译
+Author: lclrc(SquidForce)
+Icon: file:///var/jb/Library/PreferenceBundles/HammerItPrefs.bundle/HammerIt@3x.png
+Name: Hammer It
 
 Package: com.white.haptickeys
 Version: 4.4
@@ -13680,6 +13825,43 @@ Author: Huayuarc
 Icon: https://gitee.com/baimour/sileo-depiction.git/raw/master/SileoDepiction/cloudmusic/icon.png
 Name: 网易云音乐 NoAds
 Sponsor: Huayuarc
+
+Package: com.white.xuanhua120hz
+Version: 1.0.0-11+debug
+Architecture: iphoneos-arm64e
+Maintainer: Rain
+Installed-Size: 372
+Pre-Depends: rootless-compat(>= 0.9)
+Depends: mobilesubstrate (>= 0.9.5000), firmware (>= 15.0)
+Filename: ./debs/xuanhua120hz_1.0.0-11+debug_iphoneos-arm64e.deb
+Size: 28254
+MD5sum: 37ae5dca61ff7c9ff84b268476eed463
+SHA1: a995f593e11ec3f148f68575c4de434233b4db4c
+SHA256: cfd5d03f79dff4f0f4db45168050df95123ff34544f7755120308b30943850bc
+Section: Tweaks
+Description: 免费120Hz刷新率，提升动画速度！开发者Rain。确保您的设备硬件支持120Hz。系统兼容性：此插件可能与iOS版本不兼容，具体取决于系统的内部实现。电池消耗：动态调整刷新率可以降低电池消耗。插件无设置项，多巴胺里注销即可！可以安装搬运工源里的手机性能显示插件即可看到是不是120hz，搜性能显示即可，不一定有用，无效请缷载！
+Author: Rain
+Icon: https://chinesebuilding.club/pic/cydia.png
+Name: Free 120hz
+Sponsor: Rain
+
+Package: com.white.xuanhua120hz
+Version: 1.0.0-11+debug
+Architecture: iphoneos-arm64
+Maintainer: Rain
+Installed-Size: 372
+Depends: mobilesubstrate (>= 0.9.5000), firmware (>= 15.0)
+Filename: ./debs/xuanhua120hz_1.0.0-11+debug_iphoneos-arm64.deb
+Size: 22208
+MD5sum: 7f80880b653d780f12f3fb714a312fd8
+SHA1: 857578d073059ece26b4be30eb167c79b91abafd
+SHA256: e3783024f43b1a4544e2d683370b0ea4c04bc05bda43b51b28019b516e1f1d3e
+Section: Tweaks
+Description: 免费120Hz刷新率，提升动画速度！开发者Rain。确保您的设备硬件支持120Hz。系统兼容性：此插件可能与iOS版本不兼容，具体取决于系统的内部实现。电池消耗：动态调整刷新率可以降低电池消耗。插件无设置项，多巴胺里注销即可！可以安装搬运工源里的手机性能显示插件即可看到是不是120hz，搜性能显示即可，不一定有用，无效请缷载！
+Author: Rain
+Icon: https://chinesebuilding.club/pic/cydia.png
+Name: Free 120hz
+Sponsor: Rain
 
 Package: com.white.yiyancrack
 Version: 1.0
