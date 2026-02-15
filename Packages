@@ -599,6 +599,25 @@ Sileodepiction: https://gitee.com/baimour/sileo-depiction.git/raw/master/SileoDe
 
 Package: com.doantien.bilibili
 Version: 3.3.0
+Architecture: iphoneos-arm64e
+Maintainer: iOSGods
+Installed-Size: 11276
+Pre-Depends: rootless-compat(>= 0.9)
+Depends: firmware (>= 10.0), mobilesubstrate
+Filename: ./debs/bilibilinter_3.3.0_iphoneos-arm64e.deb
+Size: 6387382
+MD5sum: 170b34afd43f1b684362100979a73800
+SHA1: 2d148e609db034aea504e2f23c643a8ec452877f
+SHA256: d0f594a6dde340c612959a6eb8d190105b3781f626675f8550b104aa3b74a2e6
+Section: NoAds
+Description: BiliBili - HD Anime, Videos iGMM Cheats by tien0246 for iOSGods
+Author: tien0246
+Icon: https://gitee.com/baimour/sileo-depiction.git/raw/master/SileoDepiction/BilibiliUnlock/icon2.png
+Name: 哔哩哔哩国际版大会员画质
+Sileodepiction: https://gitee.com/baimour/sileo-depiction.git/raw/master/SileoDepiction/BilibiliUnlock/Depiction2
+
+Package: com.doantien.bilibili
+Version: 3.3.0
 Architecture: iphoneos-arm
 Maintainer: iOSGods
 Installed-Size: 11276
@@ -683,6 +702,54 @@ Section: 老iOS专用
 Description: 屏蔽iOS 7-9运营商更新
 Author: haoerloveyou <haoerloveyou@gmail.com>
 Name: Kill Cellular Update
+
+Package: com.huami.ChoicyConfigPin
+Version: 1.0-2
+Architecture: iphoneos-arm64e
+Maintainer: huami
+Installed-Size: 168
+Depends: mobilesubstrate (>= 0.9.5000), com.opa334.choicy, com.opa334.altlist
+Filename: ./debs/ChoicyConfigPin_1.0-2-arm64e.deb
+Size: 5816
+MD5sum: 2af3f8598e60364b7014179d208d4151
+SHA1: df337a19ca4f4ad3ebca011651bf05c642ae9430
+SHA256: 5f9819970c1dd085e842d15297b25b2f691070c7564c61f62a3e6c16f42cd764
+Section: Tweaks
+Description: 将启用自定义配置的应用程序固定到Choicy的顶部
+Author: huami
+Name: ChoicyConfigPin
+
+Package: com.huami.ChoicyConfigPin
+Version: 1.0-2
+Architecture: iphoneos-arm
+Maintainer: huami
+Installed-Size: 168
+Depends: mobilesubstrate (>= 0.9.5000), com.opa334.choicy, com.opa334.altlist
+Filename: ./debs/ChoicyConfigPin_1.0-2-arm.deb
+Size: 6956
+MD5sum: 01079016317930443a412afa839c1caa
+SHA1: 1b2b74b5c7033fa909c0a9bc0df491a6f34f9d65
+SHA256: e6c277517f56aa4fe4f576d6b5908ba4161daa7322e510f9b932eb09e42f3bde
+Section: Tweaks
+Description: 将启用自定义配置的应用程序固定到Choicy的顶部
+Author: huami
+Name: ChoicyConfigPin
+
+Package: com.huami.ChoicyConfigPin
+Version: 1.0-2
+Architecture: iphoneos-arm64
+Maintainer: huami
+Installed-Size: 168
+Depends: mobilesubstrate (>= 0.9.5000), com.opa334.choicy (>> 1.5.1), com.opa334.altlist
+Filename: ./debs/ChoicyConfigPin_1.0-2-arm64.deb
+Size: 6892
+MD5sum: 35dd2a101567db4b5acb2edbbf306250
+SHA1: 9d111e67d32897a7c6225d143f66e0e3b9eb9529
+SHA256: 31d512a8697cc1406771e87d5aaace18fe2f9283b030614bbb24b06efb1952df
+Section: Tweaks
+Description: 将启用自定义配置的应用程序固定到Choicy的顶部
+Author: huami
+Name: ChoicyConfigPin
 
 Package: com.huami.DYYY
 Version: 1.4-2
@@ -3227,6 +3294,25 @@ Sponsor: thebigboss.org <http://thebigboss.org>
 
 Package: com.white.appstore++
 Version: 0.10.1-5
+Architecture: iphoneos-arm64e
+Maintainer: CokePokes <xuanhua880@gmail.com>
+Pre-Depends: rootless-compat(>= 0.9)
+Depends: firmware (>= 11.0), mobilesubstrate
+Conflicts: com.unlimapps.uaupdatetools, com.cokepokes.appstoreplusplus, byg.iosios.net.appstoreplusplus
+Filename: ./debs/appstore++_0.10.1-5_iphoneos-arm64e.deb
+Size: 8389734
+MD5sum: 6a50e0d66cda2d095961838dd2f682d2
+SHA1: 0e78c51901713b0a80fa5e27eb810eb3f39cab42
+SHA256: e6a40712cdc0269bde6a5e88562edbb9af0c7f25be1ba3d86613173657a4414e
+Section: Tweaks
+Description: 降级/升级应用程序版本
+Author: CokePokes <xuanhua880@gmail.com>
+Icon: https://gitee.com/baimour/sileo-depiction.git/raw/master/SileoDepiction/appstoreplus/icon.png
+Name: AppStore++
+Sileodepiction: https://gitee.com/baimour/sileo-depiction.git/raw/master/SileoDepiction/appstoreplus/Depiction
+
+Package: com.white.appstore++
+Version: 0.10.1-5
 Architecture: iphoneos-arm64
 Maintainer: CokePokes <xuanhua880@gmail.com>
 Depends: firmware (>= 11.0), mobilesubstrate
@@ -3271,6 +3357,25 @@ Size: 10969448
 MD5sum: 06a9625edd6cb648acca03b13adf8f78
 SHA1: 592b0ab29b37fa5669a4c7ca4d671e91cad91a47
 SHA256: 4ce8059178109fdb33441f817387f377c3f5e64b5f04753fd114040fc3d3f87f
+Section: Utilities
+Description: 允许您降级/升级应用程序
+Author: CokePokes
+Icon: https://gitee.com/baimour/sileo-depiction.git/raw/master/SileoDepiction/appstoreplus/icon.png
+Name: AppStore++
+Sileodepiction: https://gitee.com/baimour/sileo-depiction.git/raw/master/SileoDepiction/appstoreplus/Depiction
+Sponsor: CokePokes
+
+Package: com.white.appstoreplus
+Version: 1.0.3
+Architecture: iphoneos-arm64e
+Maintainer: CokePokes
+Pre-Depends: rootless-compat(>= 0.9)
+Depends: firmware (>= 15.0), mobilesubstrate
+Filename: ./debs/appstoreplus_1.0.3_iphoneos-arm64e.deb
+Size: 33209730
+MD5sum: 2d08d6288bbd8fa7fc44847b9309b44e
+SHA1: e56bbeca5d9d46f1aa1f91b84de679c541890e63
+SHA256: 82e2404fb09953c0bfa7d6560e8cee88ead22575f2b484b84d2d14dbc5676152
 Section: Utilities
 Description: 允许您降级/升级应用程序
 Author: CokePokes
@@ -3671,6 +3776,41 @@ Author: Huayuarc <xuanhua880@gmail.com>
 Icon: https://gitee.com/baimour/sileo-depiction.git/raw/master/SileoDepiction/bankabc/icon.png
 Name: 中国农业银行屏蔽更新弹窗
 Sileodepiction: https://gitee.com/baimour/sileo-depiction.git/raw/master/SileoDepiction/bankabc/Depiction2
+
+Package: com.white.batman
+Version: 0.0.2-1+debug
+Architecture: iphoneos-arm64e
+Maintainer: daniel
+Installed-Size: 156
+Depends: mobilesubstrate
+Filename: ./debs/batman_0.0.2-1+debug_iphoneos-arm64e.deb
+Size: 4920
+MD5sum: e8e82c2070c948e783519fec21e53073
+SHA1: 489fc18b654f23be0809451f716349342dff9f81
+SHA256: aad3532b090338cff17821b363a012e918ae56f08c6dc2cd963e0656a69ea0e5
+Section: Tweaks
+Description: 显示更多的电池使用信息
+Author: daniel
+Name: Batman
+
+Package: com.white.batteryhealthenabler
+Version: 1.0.0
+Architecture: iphoneos-arm64e
+Maintainer: PoomSmart
+Installed-Size: 152
+Pre-Depends: rootless-compat(>= 0.9)
+Depends: mobilesubstrate (>= 0.9.5000), firmware (>= 11.3)
+Filename: ./debs/batteryhealthenabler_1.0.0_iphoneos-arm64e.deb
+Size: 7478
+MD5sum: abd439cf0fe1598d40c4c173cdc982a5
+SHA1: cf63bd81503c99fefaf8f33f71bdc1dd98938051
+SHA256: 95993e850bb6f36a8f11d52efff352f0cf1b4667e115802c72790ac8583258f7
+Section: Tweaks
+Description: 在不受支持的设备上启用电池健康
+Author: PoomSmart
+Depiction: https://poomsmart.github.io/repo/depictions/batteryhealthenabler.html
+Name: Battery Health Enabler
+Sileodepiction: https://gitee.com/baimour/sileo-depiction.git/raw/master/SileoDepiction/batteryhealthenabler/Depiction
 
 Package: com.white.batteryhealthenabler
 Version: 1.0.0
@@ -4233,6 +4373,25 @@ Sileodepiction: https://gitee.com/baimour/sileo-depiction.git/raw/master/SileoDe
 
 Package: com.white.bilibili
 Version: 1.2.2-2
+Architecture: iphoneos-arm64e
+Maintainer: White <1410970825@qq.com>
+Installed-Size: 1032
+Pre-Depends: rootless-compat(>= 0.9)
+Depends: firmware (>= 10.0), mobilesubstrate
+Filename: ./debs/bilibili_1.2.2-2_iphoneos-arm64e.deb
+Size: 333340
+MD5sum: 4b05232b8018ff365807b28b5a6f67e9
+SHA1: c23615ad1b1dfc233329b8b4a5c035a5b1039a36
+SHA256: 7d9a3f86c58250d5718517f8ffd1d184a9946a9aba087883ce809afe0e9d5426
+Section: NoAds
+Description: 基于7.65.0制作，其他版本自测
+Author: White <1410970825@qq.com>
+Icon: https://gitee.com/baimour/sileo-depiction.git/raw/master/SileoDepiction/BilibiliUnlock/icon.png
+Name: 哔哩哔哩大会员画质
+Sileodepiction: https://gitee.com/baimour/sileo-depiction.git/raw/master/SileoDepiction/BilibiliUnlock/Depiction
+
+Package: com.white.bilibili
+Version: 1.2.2-2
 Architecture: iphoneos-arm
 Maintainer: White <1410970825@qq.com>
 Installed-Size: 1528
@@ -4303,6 +4462,25 @@ Icon: https://gitee.com/baimour/sileo-depiction.git/raw/master/SileoDepiction/Bi
 Name: 哔哩哔哩净化
 Sileodepiction: https://gitee.com/baimour/sileo-depiction.git/raw/master/SileoDepiction/BilibiliUnlock/oDepiction
 Sponsor: Netskao
+
+Package: com.white.bilinter
+Version: 1.0
+Architecture: iphoneos-arm64e
+Maintainer: White <(null)>
+Installed-Size: 172
+Pre-Depends: rootless-compat(>= 0.9)
+Depends: firmware (>= 10.0), mobilesubstrate
+Filename: ./debs/bilinter_1.0_iphoneos-arm64e.deb
+Size: 19690
+MD5sum: 895311eddc4281e712a89360d80dceda
+SHA1: c666c1bbe10191ca16e7879210665db34fa62d93
+SHA256: e3b2018dcdf74b3e7870d67d7679c6a8340ef3a8f40433b2afd3e57e08f8504c
+Section: NoAds
+Description: 基于3.19制作，去广告，伪装会员
+Author: White <(null)>
+Icon: https://gitee.com/baimour/sileo-depiction.git/raw/master/SileoDepiction/BilibiliUnlock/icon2.png
+Name: 哔哩哔哩国际版 Hook
+Sileodepiction: https://gitee.com/baimour/sileo-depiction.git/raw/master/SileoDepiction/BilibiliUnlock/Depinter
 
 Package: com.white.bilinter
 Version: 1.0
@@ -4428,6 +4606,42 @@ Author: Netskao
 Icon: https://gitee.com/baimour/sileo-depiction.git/raw/master/SileoDepiction/BilibiliUnlock/icon.png
 Name: 哔哩哔哩 NoAds(重写版)
 Sileodepiction: https://gitee.com/baimour/sileo-depiction.git/raw/master/SileoDepiction/BilibiliUnlock/nDepiction
+
+Package: com.white.boardswipe
+Version: 1.0.0
+Architecture: iphoneos-arm64e
+Maintainer: AnubisTweaks
+Installed-Size: 1036
+Pre-Depends: rootless-compat(>= 0.9), rootless-compat(>= 0.9)
+Depends: mobilesubstrate, preferenceloader
+Filename: ./debs/BoardSwipe_1.0.0_iphoneos-arm64e.deb
+Size: 512148
+MD5sum: 4d567335bf753d7fb1b17fbf052de55a
+SHA1: 835d20c88a18b9f0755a61ee94fcf1df4a94fdfd
+SHA256: 34138de0c773d4bf67cc7e1eb6694715f3cc4b8515ac7884f9c5d4b0d97743e6
+Section: Tweaks
+Description: 上下滑动快捷切换/关闭键盘
+Author: AnubisTweaks
+Icon: https://raw.githubusercontent.com/AnubisTweaks/AnubisTweaks.github.io/main/assets/icons/boardswipe/icon.png
+Name: BoardSwipe
+
+Package: com.white.boardswipe
+Version: 1.0.0
+Architecture: iphoneos-arm64
+Maintainer: AnubisTweaks
+Installed-Size: 1036
+Pre-Depends: rootless-compat(>= 0.9)
+Depends: mobilesubstrate, preferenceloader
+Filename: ./debs/BoardSwipe_1.0.0_iphoneos-arm64.deb
+Size: 486832
+MD5sum: 290ca38d20a00cd956ea7038568455c6
+SHA1: 980b13abddc37aedddc97d495241e5ecdebeae1b
+SHA256: 8ade773d0deefadd41f9ae043988e52529ca3fa74ee36167d3dd590a5f47781c
+Section: Tweaks
+Description: 上下滑动快捷切换/关闭键盘
+Author: AnubisTweaks
+Icon: https://raw.githubusercontent.com/AnubisTweaks/AnubisTweaks.github.io/main/assets/icons/boardswipe/icon.png
+Name: BoardSwipe
 
 Package: com.white.bytafont2
 Version: 2.6.4
@@ -5722,6 +5936,23 @@ Sileodepiction: https://gitee.com/baimour/sileo-depiction.git/raw/master/SileoDe
 
 Package: com.white.deb
 Version: 0.3.0
+Architecture: iphoneos-arm64e
+Maintainer: zhaonan
+Depends: coreutils, sed, findutils
+Filename: ./debs/deb_0.3.0_iphoneos-arm64e.deb
+Size: 4268
+MD5sum: 5e94ee1b54c3552695e3ce23a4a21b82
+SHA1: 35c9a539933b41882a7fc4644d257a9163f4d607
+SHA256: df3a6959bae97b0efa126069c69dcfc7eee3d398c4377037320f74a8a26592c3
+Section: Development
+Description: deb 工具，普通解压，普通打包，批量解压，批量打包，提取已安装软件包，deb 信息查看
+Author: zhaonan <invalidunit@icloud.com>
+Icon: https://gitee.com/baimour/sileo-depiction.git/raw/master/SileoDepiction/newterm/icon.png
+Name: deb
+Sileodepiction: https://gitee.com/baimour/sileo-depiction.git/raw/master/SileoDepiction/deb/Depiction
+
+Package: com.white.deb
+Version: 0.3.0
 Architecture: iphoneos-arm64
 Maintainer: zhaonan
 Depends: coreutils, sed, findutils
@@ -5960,6 +6191,56 @@ Description: 禁用iOS低电量弹窗
 Author: White <1410970825@qq.com>
 Name: 禁用低电量弹窗 (iOS9-15.x)
 Sileodepiction: https://gitee.com/baimour/sileo-depiction.git/raw/master/SileoDepiction/disablelowbattery/Depiction
+
+Package: com.white.disablepastealert16
+Version: 0.0.1
+Architecture: iphoneos-arm64
+Maintainer: SquidForce
+Installed-Size: 168
+Depends: mobilesubstrate, firmware (>= 16.0)
+Filename: ./debs/disablepastealert16_0.0.1_iphoneos-arm64.deb
+Size: 3824
+MD5sum: 9e3906e098636215ae040ddbcd1b7543
+SHA1: 66696fcbd98dcb64841d3280a7b90e725862427f
+SHA256: 04812c47c59d560ab668b5f44cb6b409cd46b2686bc1bb946f2b340452c15360
+Section: Tweaks
+Description: 禁用iOS16+粘贴弹窗，并自动允许
+Author: SquidForce
+Name: DisablePasteAlert16
+
+Package: com.white.disablepastealert16
+Version: 0.0.1
+Architecture: iphoneos-arm64e
+Maintainer: SquidForce
+Installed-Size: 168
+Pre-Depends: rootless-compat(>= 0.9)
+Depends: mobilesubstrate, firmware (>= 16.0)
+Filename: ./debs/disablepastealert16_0.0.1_iphoneos-arm64e.deb
+Size: 5214
+MD5sum: bfa5f431a52f5f497de496c3ed5084ab
+SHA1: d2b998239321e6d2fae2fcc3fd15d6482a189f61
+SHA256: acdbd0f4c5f953ca5e3af491495232d4dff6dd68de02bb124692fbad6e4002cc
+Section: Tweaks
+Description: 禁用iOS16+粘贴弹窗，并自动允许
+Author: SquidForce
+Name: DisablePasteAlert16
+
+Package: com.white.disablepastealert16
+Version: 1.0
+Architecture: iphoneos-arm
+Maintainer: SquidForce
+Installed-Size: 168
+Filename: ./debs/disablepastealert16_1.0_iphoneos-arm.deb
+Size: 3980
+MD5sum: c1b4a390b39c35575f20ddbc23355625
+SHA1: f7f9c92fd06e13239da741ea28e06315b9a3b35b
+SHA256: 102777bde73b87465cfdb2b7a953e944f0cf3192077234ea7374fe6a2e747f6d
+Section: Tweaks
+Description: 1. 禁用iOS16+粘贴警告弹窗，并自动允许
+ 2. 禁用粘贴提醒
+ * 如只需要禁用警告弹窗，可以降级安装0.0.1版本
+Author: SquidForce
+Name: DisablePasteAlert16
 
 Package: com.white.dj97
 Version: 1.0.0
@@ -6705,6 +6986,47 @@ Icon: https://gitee.com/baimour/sileo-depiction.git/raw/master/SileoDepiction/ex
 Name: ExactTime
 Sileodepiction: https://gitee.com/baimour/sileo-depiction.git/raw/master/SileoDepiction/exacttime/Depiction
 
+Package: com.white.exacttime
+Version: 2.0.4
+Architecture: iphoneos-arm64e
+Maintainer: SquidForce
+Installed-Size: 1284
+Pre-Depends: rootless-compat(>= 0.9)
+Depends: firmware (>= 10.0), mobilesubstrate
+Conflicts: com.gilshahar7.exacttime, com.gilshahar7.exacttimemail, com.gilshahar7.exacttimephone, com.gilshahar7.exacttimemessages, com.lclrc.exacttime
+Replaces: com.gilshahar7.exacttime, com.lclrc.exacttime
+Filename: ./debs/exacttime_2.0.4_iphoneos-arm64e.deb
+Size: 116998
+MD5sum: 2faa977839876f578a71f35cf03f9ace
+SHA1: e8ad715d742001afb6fe5439ad8d822c4fbc4451
+SHA256: 573d8a2e2489f66f8dce3613f2cbe3bc531ffa820b1a1b363f1ca1ef2d4d6f64
+Section: Tweaks
+Description: 在通知、信息、电话、邮箱中显示准确时间，闹钟中显示剩余时间
+Author: gilshahar7, SquidForce
+Icon: https://gitee.com/baimour/sileo-depiction.git/raw/master/SileoDepiction/exacttime/icon.png
+Name: ExactTime
+Sileodepiction: https://gitee.com/baimour/sileo-depiction.git/raw/master/SileoDepiction/exacttime/Depiction
+
+Package: com.white.exacttime
+Version: 2.0.4
+Architecture: iphoneos-arm64
+Maintainer: SquidForce
+Installed-Size: 1284
+Depends: firmware (>= 10.0), mobilesubstrate
+Conflicts: com.gilshahar7.exacttime, com.gilshahar7.exacttimemail, com.gilshahar7.exacttimephone, com.gilshahar7.exacttimemessages, com.lclrc.exacttime
+Replaces: com.gilshahar7.exacttime, com.lclrc.exacttime
+Filename: ./debs/exacttime_2.0.4_iphoneos-arm64.deb
+Size: 99520
+MD5sum: 1096e284c37fe5b3a76d68579d2bdb22
+SHA1: ce696013915ff3c7428e9a0db45f4c7e935c7f32
+SHA256: c98773d98b1f5ee6cf001a65f8a14fa7dec679233d9ff03e479dfeb336ed8e90
+Section: Tweaks
+Description: 在通知、信息、电话、邮箱中显示准确时间，闹钟中显示剩余时间
+Author: gilshahar7, SquidForce
+Icon: https://gitee.com/baimour/sileo-depiction.git/raw/master/SileoDepiction/exacttime/icon.png
+Name: ExactTime
+Sileodepiction: https://gitee.com/baimour/sileo-depiction.git/raw/master/SileoDepiction/exacttime/Depiction
+
 Package: com.white.facetimeaudioenabler
 Version: 1.2.0
 Architecture: iphoneos-arm
@@ -6835,6 +7157,26 @@ Name: FakeModel
 Sileodepiction: https://gitee.com/baimour/sileo-depiction.git/raw/master/SileoDepiction/fakemodel/Depiction
 
 Package: com.white.fakemodel
+Version: 1.1-9
+Architecture: iphoneos-arm64e
+Maintainer: Nets
+Pre-Depends: rootless-compat(>= 0.9)
+Depends: firmware (>= 15.0), mobilesubstrate, preferenceloader
+Conflicts: netskao.fakemodel
+Replaces: netskao.fakemodel
+Filename: ./debs/fakemodel_1.1-9_iphoneos-arm64e.deb
+Size: 203250
+MD5sum: dc01e4ddd497e8ca865f39221e38daa3
+SHA1: f705e434dab94fe02b8752f6cc386e9f1411fd9e
+SHA256: fdfe2f74265ac73dbb5dd5b76baeabb45daa11059617e5be1e5357d81b63a8e2
+Section: Tweaks
+Description: 修改为虚假设备型号欺骗应用程序
+Author: Netskao
+Icon: https://gitee.com/baimour/sileo-depiction.git/raw/master/SileoDepiction/fakemodel/icon.png
+Name: FakeModel
+Sileodepiction: https://gitee.com/baimour/sileo-depiction.git/raw/master/SileoDepiction/fakemodel/Depiction
+
+Package: com.white.fakemodel
 Version: 1.2-1
 Architecture: iphoneos-arm
 Maintainer: Nets
@@ -6888,6 +7230,23 @@ Author: iosrxwy
 Icon: https://gitee.com/baimour/sileo-depiction.git/raw/master/SileoDepiction/fanqiehehe/icon.png
 Name: 番茄小说 Crack
 Sileodepiction: https://gitee.com/baimour/sileo-depiction.git/raw/master/SileoDepiction/fanqiehehe/Depiction
+
+Package: com.white.fbo
+Version: 0.0.1
+Architecture: iphoneos-arm64e
+Maintainer: dvntm
+Installed-Size: 168
+Depends: mobilesubstrate (>= 0.9.5000)
+Filename: ./debs/FilesAppfbo_0.0.1_iphoneos-arm64e.deb
+Size: 3284
+MD5sum: e67d4b01817611fbc8e41aabd7cbf5ee
+SHA1: 906acd0b4d963c390490e8cb42316d1787b07d07
+SHA256: f7f9cee808d5187249916e9c49ea21f9d9c48d135539434543b6a25791cbd593
+Section: Tweaks
+Description: 隐藏文件APP底部的最近/共享
+Author: dvntm
+Icon: https://s1.imagehub.cc/images/2025/05/20/4bd06b9a5e82a6f8d920bec3feb93c13.jpeg
+Name: FilesBrowsingOnly
 
 Package: com.white.fgotw60fps
 Version: 0.1.4~b1
@@ -7005,6 +7364,74 @@ Description: 这是可以用Filza编译插件包的插件，专为在手机上�
 Author: SsS136
 Name: Filza Compiler
 Sileodepiction: https://gitee.com/baimour/sileo-depiction.git/raw/master/SileoDepiction/filzacompiler/Depiction
+
+Package: com.white.filzadirprobe
+Version: 1.7.3
+Architecture: iphoneos-arm64
+Maintainer: 0xkuj
+Installed-Size: 240
+Filename: ./debs/FilzaDirProbe_1.7.3_iphoneos-arm64.deb
+Size: 35664
+MD5sum: b2a9b1dcd7f024205a50b7de2717e18e
+SHA1: fff306600b98d3a4bcb452d454dc23e97ddbbc30
+SHA256: 41300ef8548ec150b012443015b77d551aceb2f194d588f12cd9a3618c05fff3
+Section: Tweaks
+Description: 为Filza添加计算文件夹占用大小功能
+Author: 0xkuj
+Icon: https://s1.imagehub.cc/images/2025/04/02/754b2bb601bad95dca5cb982e7d926af.jpeg
+Name: FilzaDirProbe
+
+Package: com.white.filzadirprobe
+Version: 1.7.3
+Architecture: iphoneos-arm64e
+Maintainer: 0xkuj
+Installed-Size: 240
+Pre-Depends: rootless-compat(>= 0.9)
+Filename: ./debs/FilzaDirProbe_1.7.3_iphoneos-arm64e.deb
+Size: 48076
+MD5sum: 8b5b13d44fd41ca4b223f5d797216c31
+SHA1: 7c8cabf0d88fee5aa6ec7195bb5c56db62fcec73
+SHA256: 9ee72ff2a8d95d41d97b4a8a29822c4005fda579883c18fd6ef1ba704fae417b
+Section: Tweaks
+Description: 为Filza添加计算文件夹占用大小功能
+Author: 0xkuj
+Icon: https://s1.imagehub.cc/images/2025/04/02/754b2bb601bad95dca5cb982e7d926af.jpeg
+Name: FilzaDirProbe
+
+Package: com.white.filzaswipeselect
+Version: 0.0.2
+Architecture: iphoneos-arm64
+Maintainer: korboy <korboybeats@gmail.com>
+Installed-Size: 184
+Depends: mobilesubstrate (>= 0.9.5000)
+Filename: ./debs/FilzaSwipeSelect_0.0.2_iphoneos-arm64.deb
+Size: 8668
+MD5sum: cdfa2adaf5171f52c9ad4f9cfa77c125
+SHA1: 419f2f8be44deeafac00a9ac1ce45d4fdc2167f2
+SHA256: b312485790e39fb146d94d31fa9e4228d61bd1028335ad35a78627aeaf29aefe
+Section: Tweaks
+Description: 为Filza增加多选滑动功能
+Author: korboy <korboybeats@gmail.com>
+Icon: https://sini921.github.io/repo/sileodepiction/icon/filzaswipeselect.png
+Name: FilzaSwipeSelect
+
+Package: com.white.filzaswipeselect
+Version: 0.0.2
+Architecture: iphoneos-arm64e
+Maintainer: korboy <korboybeats@gmail.com>
+Installed-Size: 184
+Pre-Depends: rootless-compat(>= 0.9)
+Depends: mobilesubstrate (>= 0.9.5000)
+Filename: ./debs/FilzaSwipeSelect_0.0.2_iphoneos-arm64e.deb
+Size: 11546
+MD5sum: 18944161bed4b6aaa728607a4f709504
+SHA1: b58e3e5015439e55837ce50373c14cfab3a530af
+SHA256: 741f6d5406b4f4561389ec4787896895819065fa68676dd27ee791f1efa0fb60
+Section: Tweaks
+Description: 为Filza增加多选滑动功能
+Author: korboy <korboybeats@gmail.com>
+Icon: https://sini921.github.io/repo/sileodepiction/icon/filzaswipeselect.png
+Name: FilzaSwipeSelect
 
 Package: com.white.fiona
 Version: 1.0.5
@@ -7364,6 +7791,41 @@ Icon: https://gitee.com/baimour/sileo-depiction.git/raw/master/SileoDepiction/fl
 Name: FloatingDockPlus 13/14
 Sileodepiction: https://gitee.com/baimour/sileo-depiction.git/raw/master/SileoDepiction/floatingdockplus/Depiction
 
+Package: com.white.floatingdockxvi
+Version: 2.3
+Architecture: iphoneos-arm64e
+Maintainer: Ethan Whited
+Installed-Size: 812
+Pre-Depends: rootless-compat(>= 0.9)
+Depends: preferenceloader
+Filename: ./debs/FloatingDockXVI_2.3_iphoneos-arm64e.deb
+Size: 407872
+MD5sum: dff9fc9db2e671f5258a18e662f7314f
+SHA1: 89f990aea52c703d7196a17273a2dcdcb673b028
+SHA256: 08a8119953a511c22224fee156782489645507e1b82956aa39039015c18a0b3a
+Section: Tweaks
+Description: 仅支持iOS16的iPad样式悬浮Dock
+Author: Ethan Whited
+Icon: https://s1.imagehub.cc/images/2025/12/31/c000ad65b1c4893e99b9813d3108fc73.png
+Name: FloatingDockXVI
+
+Package: com.white.floatingdockxvi
+Version: 2.3
+Architecture: iphoneos-arm64
+Maintainer: Ethan Whited
+Installed-Size: 812
+Depends: preferenceloader
+Filename: ./debs/FloatingDockXVI_2.3_iphoneos-arm64.deb
+Size: 397712
+MD5sum: 70578ca67ab89aa2638de05aa7859b0c
+SHA1: 884bafd7283b4d6972ca5ebda76d1bff50595896
+SHA256: 788e6b35203a98fd0fe4d191d98fd3b347eb253fc01332ba6d9ab2fbd7690d16
+Section: Tweaks
+Description: 仅支持iOS16的iPad样式悬浮Dock
+Author: Ethan Whited
+Icon: https://s1.imagehub.cc/images/2025/12/31/c000ad65b1c4893e99b9813d3108fc73.png
+Name: FloatingDockXVI
+
 Package: com.white.flux
 Version: 0.9988
 Architecture: iphoneos-arm
@@ -7400,6 +7862,24 @@ Author: XsF1re
 Icon: https://gitee.com/baimour/sileo-depiction.git/raw/master/SileoDepiction/flyjbx/icon.png
 Name: FlyJB X
 Sileodepiction: https://gitee.com/baimour/sileo-depiction.git/raw/master/SileoDepiction/flyjbx/Depiction
+
+Package: com.white.folder4
+Version: 1.2-7
+Architecture: iphoneos-arm64e
+Maintainer: wkk
+Installed-Size: 168
+Pre-Depends: rootless-compat(>= 0.9)
+Depends: mobilesubstrate (>= 0.9.5000)
+Filename: ./debs/folder4_1.2-7_iphoneos-arm64e.deb
+Size: 11952
+MD5sum: eccad0b3a6494bad226dc29e3385292c
+SHA1: 906e8180b5da8846278194820d486c2633b73e46
+SHA256: 34767a32b23670e6f98cf8abedda4a7ec3b03d725fa691bb725a7e241d6a1678
+Section: Tweaks
+Description: 文件夹4x4布局/隐藏打开后的文件夹背景/打开文件夹内app自动关闭文件夹/调整打开后文件夹布局整体为中心/修复SpringBoard奔溃后文件夹图标剩9个/配合源里文件夹阴影使用将SpringBoard占用压榨到最低
+Author: wkk
+Icon: https://s1.imagehub.cc/images/2026/01/17/9209c2f3055f3d518df1df10d0fee36e.png
+Name: Folder4x4
 
 Package: com.white.fontios8
 Version: 1.0.0
@@ -7438,6 +7918,43 @@ Tag: role::enduser
 Author: White <(NULL)>
 Name: 自由之翼体
 Sileodepiction: https://gitee.com/baimour/sileo-depiction.git/raw/master/SileoDepiction/fontzyzy/Depiction
+
+Package: com.white.freepip
+Version: 0.0.6-3
+Architecture: iphoneos-arm64
+Maintainer: Soh Satoh & SINI
+Installed-Size: 440
+Depends: mobilesubstrate (>= 0.9.5000)
+Filename: ./debs/FreePIP_0.0.6-3_iphoneos-arm64.deb
+Size: 44132
+MD5sum: 54f8a2b11608cbd52fc937e902fe7436
+SHA1: ca93858a7e64dd3fb174645f4116bcfb233d45b6
+SHA256: cf35c95f88619b67b87dcd73d739beceef790beeb3f5aef576377200dc065b33
+Section: Tweaks
+Description: 任意调整画中画大小和位置，长按画中画窗口切换模式
+Author: Soh Satoh & SINI
+Icon: https://sini921.github.io/repo/sileodepiction/icon/freepip.png
+Name: FreePIP
+Sileodepiction: https://sini921.github.io/repo/sileodepiction/freepip/js.json
+
+Package: com.white.freepip
+Version: 0.0.6-3
+Architecture: iphoneos-arm64e
+Maintainer: Soh Satoh & SINI
+Installed-Size: 440
+Pre-Depends: rootless-compat(>= 0.9)
+Depends: mobilesubstrate (>= 0.9.5000)
+Filename: ./debs/FreePIP_0.0.6-3_iphoneos-arm64e.deb
+Size: 55886
+MD5sum: 2a5d6c20de274da89c8db0845951c5e4
+SHA1: 817f0cb91d85f4f8300b6256e7d78133c04a25af
+SHA256: fd9952436fda8fa1292af99173097bc44e71b0a61c616e3bc1014bcab88dfc5a
+Section: Tweaks
+Description: 任意调整画中画大小和位置，长按画中画窗口切换模式
+Author: Soh Satoh & SINI
+Icon: https://sini921.github.io/repo/sileodepiction/icon/freepip.png
+Name: FreePIP
+Sileodepiction: https://sini921.github.io/repo/sileodepiction/freepip/js.json
 
 Package: com.white.ftt
 Version: 1.1
@@ -10034,6 +10551,50 @@ Author: iBreak <ibreak2019@qq.com>
 Name: No Parallax
 Sileodepiction: https://gitee.com/baimour/sileo-depiction.git/raw/master/SileoDepiction/noparallax/Depiction
 
+Package: com.white.nopreferencetips
+Version: 1.0.4
+Architecture: iphoneos-arm64e
+Maintainer: 苏苏
+Installed-Size: 168
+Pre-Depends: rootless-compat(>= 0.9), rootless-compat(>= 0.9)
+Depends: mobilesubstrate (>= 0.9.5000), firmware (>= 14.5)
+Filename: ./debs/NoPreferenceTips_1.0.4_iphoneos-arm64e.deb
+Size: 7522
+MD5sum: 68c2dd73201c8620ee59796249f02aac
+SHA1: dc13b6f025edf3b82067d5c964e8d5a8ce34f09b
+SHA256: e4f66aad195bbf9dce2df5e642400525f95b2478ffb376795d93ae97f199675d
+Section: Tweaks
+Description: 屏蔽设备更换第三方电池和其它非官方配件的未知部件提示
+   1. 支持iOS15-iOS16多巴胺无根/隐根环境
+   2. 移除"电池-电池健康与充电"的提醒并显示健康值
+   3. 移除桌面上的设置角标（只显示15天）
+   4. 移除"关于本机"页面-部件和服务历史记录的未知部件提醒（如：电池-未知部件）
+Author: 苏苏
+Icon: https://s1.imagehub.cc/images/2025/02/14/a2e56499e255b0a754bebf8803f037c8.png
+Name: NoPreferencesTips
+
+Package: com.white.nopreferencetips
+Version: 1.0.4
+Architecture: iphoneos-arm64
+Maintainer: 苏苏
+Installed-Size: 168
+Pre-Depends: rootless-compat(>= 0.9)
+Depends: mobilesubstrate (>= 0.9.5000), firmware (>= 14.5)
+Filename: ./debs/NoPreferenceTips_1.0.4_iphoneos-arm64.deb
+Size: 5488
+MD5sum: 728fd2139482a2069a3644a656164aff
+SHA1: c363ad65ebb435fb7c1d06da116498a876c36c14
+SHA256: 67b9708f41243d635d46fdc065ebbe7b69b3a3bec1d58c61e94afcdd7299e894
+Section: Tweaks
+Description: 屏蔽设备更换第三方电池和其它非官方配件的未知部件提示
+   1. 支持iOS15-iOS16多巴胺无根/隐根环境
+   2. 移除"电池-电池健康与充电"的提醒并显示健康值
+   3. 移除桌面上的设置角标（只显示15天）
+   4. 移除"关于本机"页面-部件和服务历史记录的未知部件提醒（如：电池-未知部件）
+Author: 苏苏
+Icon: https://s1.imagehub.cc/images/2025/02/14/a2e56499e255b0a754bebf8803f037c8.png
+Name: NoPreferencesTips
+
 Package: com.white.noquickbar
 Version: 1.0
 Architecture: iphoneos-arm
@@ -10422,6 +10983,43 @@ Icon: https://gitee.com/baimour/sileo-depiction.git/raw/master/SileoDepiction/pi
 Name: 拼多多 NoAds
 Sileodepiction: https://gitee.com/baimour/sileo-depiction.git/raw/master/SileoDepiction/pindduo/Depiction
 
+Package: com.white.pogrs
+Version: 0.5.2
+Architecture: iphoneos-arm64
+Maintainer: Ruphane
+Installed-Size: 480
+Depends: mobilesubstrate (>= 0.9.5000)
+Conflicts: com.lns.pogr
+Filename: ./debs/Pogrs_0.5.2_iphoneos-arm64.deb
+Size: 74972
+MD5sum: 9101e3cfeaba6829a4099861a9ed3952
+SHA1: 90ce7c70cb61d493775c039fe01fe6d4d97630c8
+SHA256: 26982e35094d9c08ef3ca20a9bb8ccbe52aae383bbecad40e7537a81e986d7a9
+Section: Tweaks
+Description: 提高低系统与新AirPods兼容性
+Author: Ruphane
+Icon: https://TrollStoreX.Github.io/sileodepiction/PodsGrant/icon.png
+Name: AirPods PodsGrant
+
+Package: com.white.pogrs
+Version: 0.5.2
+Architecture: iphoneos-arm64e
+Maintainer: Ruphane
+Installed-Size: 480
+Pre-Depends: rootless-compat(>= 0.9)
+Depends: mobilesubstrate (>= 0.9.5000)
+Conflicts: com.lns.pogr
+Filename: ./debs/Pogrs_0.5.2_iphoneos-arm64e.deb
+Size: 86554
+MD5sum: a5b3d5331740948b847346c68beeb46e
+SHA1: 6556c2d4716c525b054feab34d722b01e08d853f
+SHA256: 3008ccab39aa95410e2effa08ae51fa720803dc7bf01081b3f0c9b13d88c8b54
+Section: Tweaks
+Description: 提高低系统与新AirPods兼容性
+Author: Ruphane
+Icon: https://TrollStoreX.Github.io/sileodepiction/PodsGrant/icon.png
+Name: AirPods PodsGrant
+
 Package: com.white.pollapo.pollapo-settings-icons-pack
 Version: 1.0.0
 Architecture: iphoneos-arm
@@ -10529,6 +11127,42 @@ Author: Huayuarc <xuanhua880@gmail.com>
 Icon: https://gitee.com/baimour/sileo-depiction.git/raw/master/SileoDepiction/promovie/icon.png
 Name: ProMovie Hook
 Sileodepiction: https://gitee.com/baimour/sileo-depiction.git/raw/master/SileoDepiction/promovie/Depiction2
+
+Package: com.white.pscamera
+Version: 0.0.1-5
+Architecture: iphoneos-arm64e
+Maintainer: PoomSmart & SINI
+Installed-Size: 600
+Depends: mobilesubstrate (>= 0.9.5000)
+Filename: ./debs/pscamera_0.0.1-5_iphoneos-arm64e.deb
+Size: 121856
+MD5sum: 3a34103f6def11de388b6ca6de043f02
+SHA1: bd52871e9a0373a12a0f8c9ab13f78e5b36ffffa
+SHA256: 76e56dab2132d7196ce324d10d1e1ccbe5a8f6612d7b1aa59aad9331918befd9
+Section: Tweaks
+Description: 系统相机App简单优化，使用了一些PoomSmart的开源代码
+Author: PoomSmart & SINI
+Icon: https://sini921.github.io/repo/sileodepiction/icon/pscamera.png
+Name: PSCamera
+Sileodepiction: https://sini921.github.io/repo/sileodepiction/pscamera/js.json
+
+Package: com.white.pscamera
+Version: 0.0.1-5
+Architecture: iphoneos-arm64
+Maintainer: PoomSmart & SINI
+Installed-Size: 600
+Depends: mobilesubstrate (>= 0.9.5000)
+Filename: ./debs/pscamera_0.0.1-5_iphoneos-arm64.deb
+Size: 122988
+MD5sum: 11ad805eab00f4550b9434cac4910809
+SHA1: d30a8681e08a4f73ae4a051c493636d4096f290d
+SHA256: 0bb7c7a481eba4a8d6ceccaca355a047307659e3c536e73a1d2fbeca566104eb
+Section: Tweaks
+Description: 系统相机App简单优化，使用了一些PoomSmart的开源代码
+Author: PoomSmart & SINI
+Icon: https://sini921.github.io/repo/sileodepiction/icon/pscamera.png
+Name: PSCamera
+Sileodepiction: https://sini921.github.io/repo/sileodepiction/pscamera/js.json
 
 Package: com.white.qeeyou
 Version: 1.0
@@ -10837,6 +11471,39 @@ Author: 来了老弟
 Icon: https://gitee.com/baimour/sileo-depiction.git/raw/master/SileoDepiction/qsyy/icon.png
 Name: 悬浮翻译汉化工具
 Sileodepiction: https://gitee.com/baimour/sileo-depiction.git/raw/master/SileoDepiction/qsyy/Depiction
+
+Package: com.white.quickprefs
+Version: 1.3.3-1
+Architecture: iphoneos-arm64e
+Maintainer: AnthoPak <anthopakdev@gmail.com>
+Pre-Depends: rootless-compat(>= 0.9)
+Depends: firmware (>=11.0), mobilesubstrate, ws.hbang.common (>= 1.14), firmware (>= 11.0)
+Filename: ./debs/QuickPrefs_1.3.3-1_iphoneos-arm64e.deb
+Size: 538164
+MD5sum: 587f393d4f09fa68ac6d2fa4af279690
+SHA1: 3648d9110ea387c58090a98a11eeee20e589bb99
+SHA256: d59bc924b075f74a45bc101546c36ac2f1048e26ee9956520d7092c4029d5da1
+Section: Tweaks
+Description: 抓取设置里的项目，从桌面3D Touch菜单快捷访问
+Author: AnthoPak <anthopakdev@gmail.com>
+Icon: https://s1.imagehub.cc/images/2025/01/24/137ad8ab011c468fac23f82c8eb7c050.png
+Name: QuickPrefs
+
+Package: com.white.quickprefs
+Version: 1.3.3-1
+Architecture: iphoneos-arm64
+Maintainer: AnthoPak <anthopakdev@gmail.com>
+Depends: firmware (>=11.0), mobilesubstrate, ws.hbang.common (>= 1.14), firmware (>= 11.0)
+Filename: ./debs/QuickPrefs_1.3.3-1_iphoneos-arm64.deb
+Size: 511168
+MD5sum: 9cb42a9c415ee0cb68f2ae68b78dfbc6
+SHA1: c2df749990f48aed012e7065dbb452b94f51f916
+SHA256: 24b47820eede72ceec339cd7edb13e5e9f469ab1916349c71d0c3094c63bb7b5
+Section: Tweaks
+Description: 抓取设置里的项目，从桌面3D Touch菜单快捷访问
+Author: AnthoPak <anthopakdev@gmail.com>
+Icon: https://s1.imagehub.cc/images/2025/01/24/137ad8ab011c468fac23f82c8eb7c050.png
+Name: QuickPrefs
 
 Package: com.white.raminfo13
 Version: 2.0
@@ -11339,10 +12006,10 @@ Maintainer: Paisseon
 Installed-Size: 456
 Depends: firmware (>= 13.0), preferenceloader, com.opa334.altlist
 Filename: ./debs/satella2_1.9.0_iphoneos-arm64.deb
-Size: 72612
-MD5sum: e0b36b02ddd73c0cf0c2010179293d8c
-SHA1: 0fa635d1377f12d9392687ea79a21cb26d7c2fce
-SHA256: 59c9d56c5e37aed5dfab4f6f43c4659af49c0c33491f9d3c9b6f892f797147e2
+Size: 72676
+MD5sum: 99dafcd4e94818ca61fc33a26dc21b35
+SHA1: c8a1c655cd7916f2d96cd126d150b2e43c971d5e
+SHA256: 2c41fc11581bf8032c4b1c5e8069a0702f06fff41e1d5b265673a807612b3c9c
 Section: Tweaks
 Description: 现代应用内购破解，内置汉化补丁
 Author: Paisseon
@@ -11588,6 +12255,43 @@ Name: Sharecuts 捷径分享
 Sileodepiction: https://gitee.com/baimour/sileo-depiction.git/raw/master/SileoDepiction/sharecuts/Depiction
 Sponsor: daniel
 
+Package: com.white.showmytouches
+Version: 1.2.1
+Architecture: iphoneos-arm64e
+Maintainer: dvntm & SINI
+Installed-Size: 492
+Pre-Depends: rootless-compat(>= 0.9)
+Depends: mobilesubstrate (>= 0.9.5000)
+Filename: ./debs/showmytouches_1.2.1_iphoneos-arm64e.deb
+Size: 94424
+MD5sum: a99f0651fa326a83259087d0b567c7cf
+SHA1: d240623ccdb3f628d8dc9aedcd80a2d337aadee2
+SHA256: 6945c80c202b07f3b264bc5d5a9a93253670358d5a3433b8ff3c88f4a6df660c
+Section: Tweaks
+Description: 录屏时显示触摸轨迹，基于开源代码的基础上，增加滑动轨迹效果
+Author: dvntm & SINI
+Icon: https://sini921.github.io/repo/sileodepiction/icon/showmytouches.png
+Name: ShowMyTouches
+Sileodepiction: https://sini921.github.io/repo/sileodepiction/showmytouches/js.json
+
+Package: com.white.showmytouches
+Version: 1.2.1
+Architecture: iphoneos-arm64
+Maintainer: dvntm & SINI
+Installed-Size: 492
+Depends: mobilesubstrate (>= 0.9.5000)
+Filename: ./debs/showmytouches_1.2.1_iphoneos-arm64.deb
+Size: 82756
+MD5sum: 5a8dacaf7a2e54dc5f88e27925507be8
+SHA1: 5c9c91749919982dd4fc757863a66353b19ef729
+SHA256: 79d44fa824e43594933282a4350c84b40d6b0c97a20a0243762d9007c207416d
+Section: Tweaks
+Description: 录屏时显示触摸轨迹，基于开源代码的基础上，增加滑动轨迹效果
+Author: dvntm & SINI
+Icon: https://sini921.github.io/repo/sileodepiction/icon/showmytouches.png
+Name: ShowMyTouches
+Sileodepiction: https://sini921.github.io/repo/sileodepiction/showmytouches/js.json
+
 Package: com.white.showtouch
 Version: 1.0.4-2
 Architecture: iphoneos-arm
@@ -11620,6 +12324,25 @@ SHA256: 0635be05201f18f9c2fc1a3408f3723af62399778ba680628e7ebf8eed2792d1
 Section: Tweaks
 Description: 录屏显示触摸屏幕的位置
 Author: LonestarX
+Icon: https://gitee.com/baimour/sileo-depiction.git/raw/master/SileoDepiction/showtouch/icon.png
+Name: ShowTouch
+Sileodepiction: https://gitee.com/baimour/sileo-depiction.git/raw/master/SileoDepiction/showtouch/Depiction
+
+Package: com.white.showtouch
+Version: 1.0.4-3
+Architecture: iphoneos-arm64e
+Maintainer: Nets
+Installed-Size: 1432
+Pre-Depends: rootless-compat(>= 0.9)
+Depends: firmware (>= 15.0), mobilesubstrate, preferenceloader
+Filename: ./debs/showtouch_1.0.4-3_iphoneos-arm64e.deb
+Size: 529482
+MD5sum: a63b84d56f96aac8df91c9264cffea4c
+SHA1: d76812d5e440bbf67f0b1aa2a1f6cf42093cbea8
+SHA256: b9a10949cba481b84b14558fa6db0ef20cb8c40f06621c00a3dc19b70b575945
+Section: Tweaks
+Description: 录屏显示触摸屏幕的位置
+Author: Netskao
 Icon: https://gitee.com/baimour/sileo-depiction.git/raw/master/SileoDepiction/showtouch/icon.png
 Name: ShowTouch
 Sileodepiction: https://gitee.com/baimour/sileo-depiction.git/raw/master/SileoDepiction/showtouch/Depiction
@@ -11680,6 +12403,30 @@ Size: 359384
 MD5sum: bdfc7f639298b85090fa2ce1e22fe526
 SHA1: a241141a87deec2d9a19351622e89c7c86bd50b2
 SHA256: ef8539ef5a5d427697fa9e22f675164ac1a05bef72b04e53954dc425119049a7
+Section: Tweaks
+Homepage: https://creaturecoding.com/
+Description: 设置收纳整合
+Tag: purpose::extension, compatible_min::ios10
+Author: CreatureSurvive <support@creaturecoding.com>
+Depiction: https://creaturecoding.com/?page=depiction&id=shuffle
+Icon: https://gitee.com/baimour/sileo-depiction.git/raw/master/SileoDepiction/shuffle/icon.png
+Name: Shuffle
+Sileodepiction: https://gitee.com/baimour/sileo-depiction.git/raw/master/SileoDepiction/shuffle/Depiction
+
+Package: com.white.shuffle
+Version: 1.6.2
+Architecture: iphoneos-arm64e
+Maintainer: CreatureSurvive <support@creaturecoding.com>
+Installed-Size: 1484
+Pre-Depends: rootless-compat(>= 0.9), firmware (>= 8.0), com.ex.libsubstitute | org.coolstar.libhooker | mobilesubstrate
+Depends: com.creaturecoding.libcspreferences
+Conflicts: com.creaturecoding.shuffle, com.cpdigitaldarkroom.placeholder
+Replaces: com.creaturecoding.shuffle, com.cpdigitaldarkroom.placeholder
+Filename: ./debs/shuffle_1.6.2_iphoneos-arm64e.deb
+Size: 322146
+MD5sum: 0f3997cfe79645e9a7c6565f3a55349b
+SHA1: 819680a16a38518122e44f0d4415fbca5d216246
+SHA256: ce7395433589e51656e92518ccfa2674c2fdf8427eda28234ed3c4e80872f134
 Section: Tweaks
 Homepage: https://creaturecoding.com/
 Description: 设置收纳整合
@@ -12566,6 +13313,39 @@ Section: Carrier_Bundles
 Description: 修复有锁5C/5S使用电信遇到的问题，支持Softbank、AU、DO、Sprint
 Author: ABCydia <admin@abcydia.com>
 Name: FixTele 5C 5S iOS9/10
+
+Package: com.white.teleport
+Version: 1.1
+Architecture: iphoneos-arm64
+Maintainer: Mr.Zhang <mr_zhang_00@163.com>
+Depends: mobilesubstrate
+Filename: ./debs/TelePort_1.1_iphoneos-arm64.deb
+Size: 7387488
+MD5sum: 79538265cf8f97cb3a4590f347e0f512
+SHA1: f94a894e5a4afa8318885a19c5889a2b9327250f
+SHA256: a9692d1c58b4e351a94c8654d862d6d35b1d123d7243a876650c2c7ac52cac15
+Section: Utilities
+Description: 免费的虚拟定位工具，缺点: 不支持中文输入法
+Author: SGWC
+Icon: https://s1.imagehub.cc/images/2026/01/11/ca1989da2f62c977eaa97c587366cb8c.jpeg
+Name: Teleport
+
+Package: com.white.teleport
+Version: 1.1
+Architecture: iphoneos-arm64e
+Maintainer: Mr.Zhang <mr_zhang_00@163.com>
+Pre-Depends: rootless-compat(>= 0.9)
+Depends: mobilesubstrate
+Filename: ./debs/TelePort_1.1_iphoneos-arm64e.deb
+Size: 14919740
+MD5sum: 71dd4efa41197e01b7aad9d2b3e529b0
+SHA1: 2b76a4ee514473a62b6f4b4e790c9be0d76835be
+SHA256: f0abf857bb4b2a337c2d68a8f405c382ebd4d1cc871f6c9c27c2b29d0e8b3d9b
+Section: Utilities
+Description: 免费的虚拟定位工具，缺点: 不支持中文输入法
+Author: SGWC
+Icon: https://s1.imagehub.cc/images/2026/01/11/ca1989da2f62c977eaa97c587366cb8c.jpeg
+Name: Teleport
 
 Package: com.white.tendjc
 Version: 1.0
@@ -13828,16 +14608,15 @@ Sponsor: Huayuarc
 
 Package: com.white.xuanhua120hz
 Version: 1.0.0-11+debug
-Architecture: iphoneos-arm64e
+Architecture: iphoneos-arm64
 Maintainer: Rain
 Installed-Size: 372
-Pre-Depends: rootless-compat(>= 0.9)
 Depends: mobilesubstrate (>= 0.9.5000), firmware (>= 15.0)
-Filename: ./debs/xuanhua120hz_1.0.0-11+debug_iphoneos-arm64e.deb
-Size: 28254
-MD5sum: 37ae5dca61ff7c9ff84b268476eed463
-SHA1: a995f593e11ec3f148f68575c4de434233b4db4c
-SHA256: cfd5d03f79dff4f0f4db45168050df95123ff34544f7755120308b30943850bc
+Filename: ./debs/120hz_1.0.0-11+debug_iphoneos-arm64.deb
+Size: 22208
+MD5sum: 7f80880b653d780f12f3fb714a312fd8
+SHA1: 857578d073059ece26b4be30eb167c79b91abafd
+SHA256: e3783024f43b1a4544e2d683370b0ea4c04bc05bda43b51b28019b516e1f1d3e
 Section: Tweaks
 Description: 免费120Hz刷新率，提升动画速度！开发者Rain。确保您的设备硬件支持120Hz。系统兼容性：此插件可能与iOS版本不兼容，具体取决于系统的内部实现。电池消耗：动态调整刷新率可以降低电池消耗。插件无设置项，多巴胺里注销即可！可以安装搬运工源里的手机性能显示插件即可看到是不是120hz，搜性能显示即可，不一定有用，无效请缷载！
 Author: Rain
@@ -13847,15 +14626,16 @@ Sponsor: Rain
 
 Package: com.white.xuanhua120hz
 Version: 1.0.0-11+debug
-Architecture: iphoneos-arm64
+Architecture: iphoneos-arm64e
 Maintainer: Rain
 Installed-Size: 372
+Pre-Depends: rootless-compat(>= 0.9)
 Depends: mobilesubstrate (>= 0.9.5000), firmware (>= 15.0)
-Filename: ./debs/xuanhua120hz_1.0.0-11+debug_iphoneos-arm64.deb
-Size: 22208
-MD5sum: 7f80880b653d780f12f3fb714a312fd8
-SHA1: 857578d073059ece26b4be30eb167c79b91abafd
-SHA256: e3783024f43b1a4544e2d683370b0ea4c04bc05bda43b51b28019b516e1f1d3e
+Filename: ./debs/120hz_1.0.0-11+debug_iphoneos-arm64e.deb
+Size: 28254
+MD5sum: 37ae5dca61ff7c9ff84b268476eed463
+SHA1: a995f593e11ec3f148f68575c4de434233b4db4c
+SHA256: cfd5d03f79dff4f0f4db45168050df95123ff34544f7755120308b30943850bc
 Section: Tweaks
 Description: 免费120Hz刷新率，提升动画速度！开发者Rain。确保您的设备硬件支持120Hz。系统兼容性：此插件可能与iOS版本不兼容，具体取决于系统的内部实现。电池消耗：动态调整刷新率可以降低电池消耗。插件无设置项，多巴胺里注销即可！可以安装搬运工源里的手机性能显示插件即可看到是不是120hz，搜性能显示即可，不一定有用，无效请缷载！
 Author: Rain
@@ -14178,6 +14958,26 @@ Icon: https://gitee.com/baimour/sileo-depiction.git/raw/master/SileoDepiction/ze
 Name: Zetsu
 Sileodepiction: https://gitee.com/baimour/sileo-depiction.git/raw/master/SileoDepiction/zetsu/Depiction
 
+Package: com.white.zetsu
+Version: 1.5
+Architecture: iphoneos-arm64e
+Maintainer: Dcsyhi <dcsyhi1998@gmail.com>
+Installed-Size: 11004
+Pre-Depends: rootless-compat(>= 0.9)
+Depends: mobilesubstrate,firmware (>=15.0),preferenceloader,com.opa334.ccsupport
+Filename: ./debs/zetsu_1.5_iphoneos-arm64e.deb
+Size: 19751824
+MD5sum: 7f2ae5c31f91c82bacdd8fba5b41b6e6
+SHA1: 6bd7cf35a09016471d44370409ca0ff127529446
+SHA256: c0b9bce3b653ca88693e170a36e76605ad60f2c20ef5ecebe7e9e6cc9521327c
+Section: Tweaks
+Description: 支持iOS15-16.6.1的多任务应用分屏
+Tag: compatible_min::ios15.0
+Author: Dcsyhi <dcsyhi1998@gmail.com>
+Icon: https://gitee.com/baimour/sileo-depiction.git/raw/master/SileoDepiction/zetsu/icon.png
+Name: Zetsu
+Sileodepiction: https://gitee.com/baimour/sileo-depiction.git/raw/master/SileoDepiction/zetsu/Depiction
+
 Package: com.white.zfbb
 Version: 1.2
 Architecture: iphoneos-arm64
@@ -14265,6 +15065,60 @@ Icon: https://gitee.com/baimour/sileo-depiction.git/raw/master/SileoDepiction/Cy
 Name: Cydia Installer
 Sileodepiction: https://gitee.com/baimour/sileo-depiction.git/raw/master/SileoDepiction/Cydia/Depiction
 Sponsor: Procursus Team <support@procurs.us>
+
+Package: dazz
+Version: 1.0.3
+Architecture: iphoneos-arm64
+Maintainer: fries
+Installed-Size: 108
+Depends: mobilesubstrate (>= 0.9.5000)
+Filename: ./debs/dazz_1.0.3_iphoneos-arm64.deb
+Size: 16224
+MD5sum: 89c879b21450532455e6e09035124125
+SHA1: 36d598c5cd2049b97cbf9c0032b7a84a70be45c1
+SHA256: 9cb71d09e74034b9f4c2b171ed979c29c6f69d07d851f9a31ac18e71e447f742
+Section: Tweaks
+Description: DazzCrack，支持2.15.1最新版
+Author: fries
+Icon: https://mieing.github.io/icon/Dazz.png
+Name: DazzCrack
+Sileodepiction: https://mieing.github.io/JSON/Dazz.json
+
+Package: dazz
+Version: 1.0.3
+Architecture: iphoneos-arm
+Maintainer: fries
+Installed-Size: 108
+Depends: mobilesubstrate (>= 0.9.5000)
+Filename: ./debs/dazz_1.0.3_iphoneos-arm.deb
+Size: 16212
+MD5sum: f8c6e21a49287391bdbd762b478dd683
+SHA1: 5e31fe97b91f19ecd5d33d5de7e5a54588a85155
+SHA256: cfbee67b6ddef13be8161acdf05df17e627328e83c1b614cad08792a0cc43a26
+Section: Cracks
+Description: DazzCrack，支持2.15.1最新版
+Author: fries
+Icon: https://mieing.github.io/icon/Dazz.png
+Name: DazzCrack
+Sileodepiction: https://mieing.github.io/JSON/Dazz.json
+
+Package: dazz
+Version: 1.0.3
+Architecture: iphoneos-arm64e
+Maintainer: fries
+Installed-Size: 108
+Depends: mobilesubstrate (>= 0.9.5000)
+Filename: ./debs/dazz_1.0.3_iphoneos-arm64e.deb
+Size: 16000
+MD5sum: 7d2ceb6e205f67d5502b48f81446b0c5
+SHA1: 163cb6d22fea5b7a38b31e4fd1dba850060e11ab
+SHA256: 48fda907dbea1156fa84f283a627c1826a3b538b5d0b191e64d231dfc40e713b
+Section: Tweaks
+Description: DazzCrack，支持2.15.1最新版
+Author: fries
+Icon: https://mieing.github.io/icon/Dazz.png
+Name: DazzCrack
+Sileodepiction: https://mieing.github.io/JSON/Dazz.json
 
 Package: dev.ayden.ios.tweak.lib.libdundas
 Version: 1.0.3
@@ -15224,12 +16078,12 @@ Maintainer: Nets
 Installed-Size: 5188
 Depends: firmware (>= 15.0), mobilesubstrate, preferenceloader
 Filename: ./debs/appdata_1.4.5_iphoneos-arm64.deb
-Size: 1494196
-MD5sum: 6ced6402554137a0d9539c32495284f1
-SHA1: 20bc62813255e315e175c026a13ccb13864cb43b
-SHA256: cd7c815a9cf39d6536f3aad8daaa0df6cdaac7f8e33f75f4df1b95bb853651df
+Size: 1494204
+MD5sum: 576a49aa591472c9f14198f41ecc57c1
+SHA1: 8574346d62123ee7bac4dd4340de6d618c414df2
+SHA256: 9024053939552693187ec3791e485d27a7912e9b3ece9a6352987428f8e23dc6
 Section: Tweaks
-Description: View & Manage Applications Data from your Home Screen
+Description: 从桌面查看和管理应用程序数据
 Author: Fouad Raheb
 Icon: https://gitee.com/baimour/sileo-depiction.git/raw/master/SileoDepiction/appdata/icon.png
 Markdowndescription: 从桌面查看和管理应用程序数据<br><br>• v1.4.5: 修改API界面，以获取应用的降级版本号
@@ -15244,15 +16098,54 @@ Installed-Size: 5188
 Pre-Depends: rootless-compat(>= 0.9)
 Depends: firmware (>= 15.0), mobilesubstrate, preferenceloader
 Filename: ./debs/appdata_1.4.5_iphoneos-arm64e.deb
-Size: 4421448
-MD5sum: 8e22c77921fe6f1088bc2f1175cc11cf
-SHA1: d50c682e25d29639eceb303230fea16b569b752d
-SHA256: 8ed358fb49c8a063a960d2c4b6c7673b2ee973393e84785d1eced2a8430159e4
+Size: 4421386
+MD5sum: 31eb2ddd59e912a3c7c44393684e86bd
+SHA1: 90b769c76a0309f9d6ad51af536b7b3e49b1fbf4
+SHA256: 77184ece475bb465c130fa0a12e571055ab692fa42d86ed4aaf74fa372aa2281
 Section: Tweaks
-Description: View & Manage Applications Data from your Home Screen
+Description: 从桌面查看和管理应用程序数据
 Author: Fouad Raheb
 Icon: https://gitee.com/baimour/sileo-depiction.git/raw/master/SileoDepiction/appdata/icon.png
 Markdowndescription: 从桌面查看和管理应用程序数据<br><br>• v1.4.5: 修改API界面，以获取应用的降级版本号
+Name: AppData
+Sileodepiction: https://gitee.com/baimour/sileo-depiction.git/raw/master/SileoDepiction/appdata/Depiction
+
+Package: netskao.appdata
+Version: 1.4.6
+Architecture: iphoneos-arm64
+Maintainer: Nets
+Installed-Size: 5140
+Depends: firmware (>= 15.0), mobilesubstrate, preferenceloader
+Filename: ./debs/appdata_1.4.6_iphoneos-arm64.deb
+Size: 1500640
+MD5sum: 1295dc27b4859fb2bc98682377859000
+SHA1: 6aa582501e3a05e0f9fa1c7dfff0e9ce6c10c885
+SHA256: 42497d4ccf5d1fbe80424bfaa97b6c45d371513b7eb88f29f77164af48718949
+Section: Tweaks
+Description: 从桌面查看和管理应用程序数据
+Author: Fouad Raheb
+Icon: https://gitee.com/baimour/sileo-depiction.git/raw/master/SileoDepiction/appdata/icon.png
+Markdowndescription: 从桌面查看和管理应用程序数据<br><br>• v1.4.6: 修复iOS15崩溃问题<br><br>• v1.4.5: 修改API界面，以获取应用的降级版本号
+Name: AppData
+Sileodepiction: https://gitee.com/baimour/sileo-depiction.git/raw/master/SileoDepiction/appdata/Depiction
+
+Package: netskao.appdata
+Version: 1.4.6
+Architecture: iphoneos-arm64e
+Maintainer: Nets
+Installed-Size: 5140
+Pre-Depends: rootless-compat(>= 0.9)
+Depends: firmware (>= 15.0), mobilesubstrate, preferenceloader
+Filename: ./debs/appdata_1.4.6_iphoneos-arm64e.deb
+Size: 4441914
+MD5sum: 7aceeb16f332733b952977f82d768d83
+SHA1: 17186d7d0c04ff4ca5273cfbaceceb9122681972
+SHA256: 096a031138d6f7e8d6d95697efea8a8b5f552f4d2a986f0febf4995a50c04053
+Section: Tweaks
+Description: 从桌面查看和管理应用程序数据
+Author: Fouad Raheb
+Icon: https://gitee.com/baimour/sileo-depiction.git/raw/master/SileoDepiction/appdata/icon.png
+Markdowndescription: 从桌面查看和管理应用程序数据<br><br>• v1.4.6: 修复iOS15崩溃问题<br><br>• v1.4.5: 修改API界面，以获取应用的降级版本号
 Name: AppData
 Sileodepiction: https://gitee.com/baimour/sileo-depiction.git/raw/master/SileoDepiction/appdata/Depiction
 
@@ -16835,6 +17728,27 @@ Name: Patches for Filza 64bit
 
 Package: ru.white.cocoatop64
 Version: 2.2.3
+Architecture: iphoneos-arm64e
+Maintainer: SXX, Domo
+Installed-Size: 1308
+Pre-Depends: rootless-compat(>= 0.9)
+Depends: firmware (>= 7.0)
+Conflicts: ru.domo.cocoatop, ru.domo.cocoatop64
+Replaces: ru.domo.cocoatop, ru.domo.cocoatop64
+Filename: ./debs/cocoatop64_2.2.3_iphoneos-arm64e.deb
+Size: 395454
+MD5sum: b11712d6469f0f9b4c5c249bcd6d0608
+SHA1: 4feb956a70bc69557872015f1174b54f2d5c1116
+SHA256: 5dbe81dedca54e4f0898c6fc02161eec6717e4879389cf801a2339e7002c97d6
+Section: Utilities
+Description: iOS图形界面的进程查看器，威峰@Ponyln汉化
+Author: Domo, SXX
+Icon: https://gitee.com/baimour/sileo-depiction.git/raw/master/SileoDepiction/cocoatop/icon.png
+Name: CocoaTop
+Sileodepiction: https://gitee.com/baimour/sileo-depiction.git/raw/master/SileoDepiction/cocoatop/Depiction
+
+Package: ru.white.cocoatop64
+Version: 2.2.3
 Architecture: iphoneos-arm
 Maintainer: SXX, Domo
 Installed-Size: 1596
@@ -16910,4 +17824,24 @@ SHA256: 8bee8415cfab01cfb89820dd08a62cb81687ae41b836053b7fde74d0def37751
 Section: Development
 Priority: optional
 Description: 基于文本的应用程序编程接口
+
+Package: xyz.cypwn.filzathumbnails
+Version: 0.0.3
+Architecture: iphoneos-arm64e
+Maintainer: Korboy <korboybeats@gmail.com>
+Installed-Size: 356
+Pre-Depends: rootless-compat(>= 0.9)
+Depends: mobilesubstrate (>= 0.9.5000)
+Filename: ./debs/xyz.cypwn.filzathumbnails_0.0.3_iphoneos-arm64e.deb
+Size: 73038
+MD5sum: 284c09de5530236e1d0129d5cec156df
+SHA1: 8663f3d3f8bb01108e90e2055a701b9949881522
+SHA256: cf3c9366a63ee595c1d74edafda7433775015f55c3b3e4bf20919c7317edea13
+Section: Tweaks
+Description: 在Filza中启用视频缩略图，并有放大缩略图和图标的选项。包含一个用于管理允许的缩略图路径的菜单
+Author: Korboy <korboybeats@gmail.com>
+Depiction: https://repo.cypwn.xyz/depiction/3441
+Icon: https://repo.cypwn.xyz/assets/repo/Featured/filzathumbnails.png
+Name: FilzaThumbnails
+Sileodepiction: https://repo.cypwn.xyz/sileo_depiction/3441
 
