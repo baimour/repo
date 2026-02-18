@@ -2073,34 +2073,16 @@ Author: Rain
 Name: Rain的设备
 
 Package: com.roothide.patcher
-Version: 2.1.2-1+debug
-Architecture: iphoneos-arm64e
-Maintainer: roothide
-Depends: firmware (>= 15.0), libxar1, ldid, file, dpkg, gawk, plutil (>= 0.2.2-1), uikittools (>= 2.1.6-4)
-Filename: ./debs/com.roothide.patcher_2.1.2-1+debug_iphoneos-arm64e.deb
-Size: 1169072
-MD5sum: 4cdc5af808be6e810e9a87e9a7b3946d
-SHA1: 9a2027f126a66fbd4535c6002f7ba4ac48e6cfa3
-SHA256: d517ac7abb3151c9f790000739e26830b351d83805baac56c12a0f49fa15f764
-Section: Utilities
-Description: 修补无根插件并转换以兼容RootHide，不适用一些插件
-Author: roothide
-Depiction: https://github.com/roothide/RootHidePatcher
-Icon: https://github.com/roothide/RootHidePatcher/blob/master/derootifier-2-modified.png?raw=true
-Name: RootHide Patcher
-Support: https://github.com/roothide/RootHidePatcher
-
-Package: com.roothide.patcher
 Version: 2.1.3-1+debug
 Architecture: iphoneos-arm64e
 Maintainer: roothide
 Installed-Size: 4124
 Depends: firmware (>= 15.0), libxar1, ldid, file, dpkg, gawk, plutil(>= 0.2.2-1), uikittools(>= 2.1.6-4)
 Filename: ./debs/com.roothide.patcher_2.1.3-1+debug_iphoneos-arm64e.deb
-Size: 1169536
-MD5sum: aad3e39bdf52c8969093f6b02fca1820
-SHA1: b1dc4df7fb5a672d4a77773e8a7f3a1a44163948
-SHA256: 8be63a03eb7eb6dd37c81fd41947ae375f1e0ec6af51a942e20750986fa7c3b8
+Size: 1168904
+MD5sum: b1b79495d8b698e86269f5098785d179
+SHA1: b7fd173056153133f7e68c25ae1e151575abcbc3
+SHA256: 8198b18723a66ac6c8583e9203f44dab25dd74cec72d9b0a1dc856ff7dfb2347
 Section: Utilities
 Description: 修补无根插件并转换以兼容RootHide，一些插件不支持
 Author: roothide
@@ -5968,6 +5950,24 @@ Icon: https://gitee.com/baimour/sileo-depiction.git/raw/master/SileoDepiction/ne
 Name: deb
 Sileodepiction: https://gitee.com/baimour/sileo-depiction.git/raw/master/SileoDepiction/deb/Depiction
 
+Package: com.white.debbatch
+Version: 1.2
+Architecture: iphoneos-arm64e
+Maintainer: wkk
+Pre-Depends: rootless-compat(>= 0.9)
+Depends: sudo, bash (>= 5.0.3-2), coreutils (>= 8.31-1), grep (>= 3.1-1), sed (>= 4.5-1), gawk (>= 4.2.1-1), tar (>= 1.33-1)
+Filename: ./debs/debbatch_1.2_iphoneos-arm64e.deb
+Size: 2752
+MD5sum: 80d361c90bc87b9742520b785f7406a3
+SHA1: 64fec96780f6d3a0ed012bd442477cae8fdc927e
+SHA256: 23b91654d70d5bead6dc9c3b374c12154f5ef219ffe7bdd2906af73dd0b7f844
+Section: Tweaks
+Description: 下载后脚本在/var/mobile/Documents/deb-batch.sh
+  * 使用方法：运行后，当前目录下所有.deb文件一键式解压/打�
+Author: wkk
+Icon: https://s1.imagehub.cc/images/2025/01/10/0458f7f83190b2b17070085595312c2b.jpeg
+Name: 一键解压/打包deb
+
 Package: com.white.debd
 Version: 0.2.1
 Architecture: iphoneos-arm64
@@ -6098,6 +6098,230 @@ Name: Designer
 Sileodepiction: https://gitee.com/baimour/sileo-depiction.git/raw/master/SileoDepiction/designer/Depiction
 
 Package: com.white.designer
+Version: 1.4.9
+Architecture: iphoneos-arm64
+Maintainer: JunesiPhone
+Depends: mobilesubstrate, preferenceloader
+Filename: ./debs/designer_1.4.9 _iphoneos-arm64.deb
+Size: 13872180
+MD5sum: e51f3af2fb0745ca564c592290f948dd
+SHA1: 725ec6adb41dd2c4d467d21328ffadb72daf0cff
+SHA256: 8d1e10e2a266d8744bfe0f852b6961af52e5cb023523c784fa05414257513ba8
+Section: Tweaks
+Description: 自定义锁屏和桌面布局
+Author: JunesiPhone <junesgraphics@gmail.com>
+Depiction: https://repo.cypwn.xyz/depiction/2591
+Icon: https://gitee.com/baimour/sileo-depiction.git/raw/master/SileoDepiction/designer/icon.png
+Name: Designer
+Sileodepiction: https://gitee.com/baimour/sileo-depiction.git/raw/master/SileoDepiction/designer/Depiction
+
+Package: com.white.designer
+Version: 1.4.9
+Architecture: iphoneos-arm64e
+Maintainer: JunesiPhone
+Pre-Depends: rootless-compat(>= 0.9)
+Depends: mobilesubstrate, preferenceloader
+Filename: ./debs/designer_1.4.9 _iphoneos-arm64e.deb
+Size: 31798196
+MD5sum: 28649246bf0a8b735ba4e4a699467bc3
+SHA1: ccd3c7069a11471cabecc36f9c18becfab820c54
+SHA256: 1f0e7dc5a705189c267ec7119d9d421a9d5e16a6d13c91c0a10f27687b14d6f5
+Section: Tweaks
+Description: 自定义锁屏和桌面布局
+Author: JunesiPhone <junesgraphics@gmail.com>
+Depiction: https://repo.cypwn.xyz/depiction/2591
+Icon: https://gitee.com/baimour/sileo-depiction.git/raw/master/SileoDepiction/designer/icon.png
+Name: Designer
+Sileodepiction: https://gitee.com/baimour/sileo-depiction.git/raw/master/SileoDepiction/designer/Depiction
+
+Package: com.white.designer
+Version: 1.5
+Architecture: iphoneos-arm64
+Maintainer: JunesiPhone
+Depends: mobilesubstrate, preferenceloader
+Filename: ./debs/designer_1.5_iphoneos-arm64.deb
+Size: 12148488
+MD5sum: 427bfceafacaccf2768b456383b9c106
+SHA1: 341a6ebb28b11973139cce031c9099a97a0cef2f
+SHA256: 3e45c027de7e8bef296ff2b90ced9c5bec8929c221244689189f0f0c951987b0
+Section: Tweaks
+Description: 自定义锁屏和桌面布局
+Author: JunesiPhone <junesgraphics@gmail.com>
+Depiction: https://www.junesiphone.com/supersecret/depiction.php?iframe=depiction/designer
+Icon: https://gitee.com/baimour/sileo-depiction.git/raw/master/SileoDepiction/designer/icon.png
+Name: Designer
+Sileodepiction: https://gitee.com/baimour/sileo-depiction.git/raw/master/SileoDepiction/designer/Depiction
+
+Package: com.white.designer
+Version: 1.5
+Architecture: iphoneos-arm64e
+Maintainer: JunesiPhone
+Pre-Depends: rootless-compat(>= 0.9)
+Depends: mobilesubstrate, preferenceloader
+Filename: ./debs/designer_1.5_iphoneos-arm64e.deb
+Size: 28385434
+MD5sum: a4448442587d7b85f3da6da03ef77c7b
+SHA1: 09c5a0ce9f2e69cc2e4a8fda681ec36bfe685ad1
+SHA256: d9b44ac3ffbb7d982ec4521220bd6b58afdba610b1f50d7f68f79e706f56927b
+Section: Tweaks
+Description: 自定义锁屏和桌面布局
+Author: JunesiPhone <junesgraphics@gmail.com>
+Depiction: https://www.junesiphone.com/supersecret/depiction.php?iframe=depiction/designer
+Icon: https://gitee.com/baimour/sileo-depiction.git/raw/master/SileoDepiction/designer/icon.png
+Name: Designer
+Sileodepiction: https://gitee.com/baimour/sileo-depiction.git/raw/master/SileoDepiction/designer/Depiction
+
+Package: com.white.designer
+Version: 1.5.1
+Architecture: iphoneos-arm64e
+Maintainer: JunesiPhone
+Pre-Depends: rootless-compat(>= 0.9)
+Depends: mobilesubstrate, preferenceloader
+Filename: ./debs/designer_1.5.1_iphoneos-arm64e.deb
+Size: 39736950
+MD5sum: 538757ef1bc2dca325df3044957c0102
+SHA1: 449e8c94fecb12c33e112197b8aac4c18d7b6110
+SHA256: d9eebe1bbf7e2762cb50ba2766b551d1e0996f28a1d94184f09e42166ba12e53
+Section: Tweaks
+Description: 自定义锁屏和桌面布局
+Author: JunesiPhone <junesgraphics@gmail.com>
+Depiction: https://repo.cypwn.xyz/depiction/3023
+Icon: https://gitee.com/baimour/sileo-depiction.git/raw/master/SileoDepiction/designer/icon.png
+Name: Designer
+Sileodepiction: https://gitee.com/baimour/sileo-depiction.git/raw/master/SileoDepiction/designer/Depiction
+
+Package: com.white.designer
+Version: 1.5.1
+Architecture: iphoneos-arm64
+Maintainer: JunesiPhone
+Depends: mobilesubstrate, preferenceloader
+Filename: ./debs/designer_1.5.1_iphoneos-arm64.deb
+Size: 17406900
+MD5sum: 37d63969a945e98e33d70f9698472279
+SHA1: d886e162719773ad0ca57053b6c11f757e268497
+SHA256: db1f29dd1b83ce2f5c4803e5e439edb3d36190b02fa28d9b8905ab5f1030a1aa
+Section: Tweaks
+Description: 自定义锁屏和桌面布局
+Author: JunesiPhone <junesgraphics@gmail.com>
+Depiction: https://repo.cypwn.xyz/depiction/3023
+Icon: https://gitee.com/baimour/sileo-depiction.git/raw/master/SileoDepiction/designer/icon.png
+Name: Designer
+Sileodepiction: https://gitee.com/baimour/sileo-depiction.git/raw/master/SileoDepiction/designer/Depiction
+
+Package: com.white.designer
+Version: 1.5.2
+Architecture: iphoneos-arm64e
+Maintainer: JunesiPhone
+Pre-Depends: rootless-compat(>= 0.9)
+Depends: mobilesubstrate, preferenceloader
+Filename: ./debs/designer_1.5.2_iphoneos-arm64e.deb
+Size: 39794782
+MD5sum: aa93b2744636e08cbb8f08acbe4994ef
+SHA1: bdfea2dad29e32472fe1c316ac13adb6b7a56b58
+SHA256: ec562fce7e3da88bc0252fdd3ef3927a6813645b6cb1726c5c1e51699d417070
+Section: Tweaks
+Description: 自定义锁屏和桌面布局
+Author: JunesiPhone <junesgraphics@gmail.com>
+Depiction: https://repo.cypwn.xyz/depiction/3299
+Icon: https://gitee.com/baimour/sileo-depiction.git/raw/master/SileoDepiction/designer/icon.png
+Name: Designer
+Sileodepiction: https://gitee.com/baimour/sileo-depiction.git/raw/master/SileoDepiction/designer/Depiction
+
+Package: com.white.designer
+Version: 1.5.2
+Architecture: iphoneos-arm64
+Maintainer: JunesiPhone
+Depends: mobilesubstrate, preferenceloader
+Filename: ./debs/designer_1.5.2_iphoneos-arm64.deb
+Size: 17405980
+MD5sum: 8b72594f606c6f712c8d56e2085927fa
+SHA1: 484f29f9b103b5ca6a66570e4fc5f3d5b0af1772
+SHA256: 093dfb08d7c73dfdab057560302002c90ed577c5ef70a532b2e80715d7a27d24
+Section: Tweaks
+Description: 自定义锁屏和桌面布局
+Author: JunesiPhone <junesgraphics@gmail.com>
+Depiction: https://repo.cypwn.xyz/depiction/3299
+Icon: https://gitee.com/baimour/sileo-depiction.git/raw/master/SileoDepiction/designer/icon.png
+Name: Designer
+Sileodepiction: https://gitee.com/baimour/sileo-depiction.git/raw/master/SileoDepiction/designer/Depiction
+
+Package: com.white.designer
+Version: 1.5.3
+Architecture: iphoneos-arm64e
+Maintainer: JunesiPhone
+Installed-Size: 19180
+Pre-Depends: rootless-compat(>= 0.9)
+Depends: mobilesubstrate, preferenceloader
+Filename: ./debs/designer_1.5.3 _iphoneos-arm64e.deb
+Size: 40127512
+MD5sum: 239155283fb52cc376f786ca7b161779
+SHA1: d4f8a0c3c386bd1d36c8c5d86a06e1de1ecb80ec
+SHA256: 05b0825b1801c36b7f4c42acf5c9754a7e633172f4ad491e0f3a2eecc54504d0
+Section: Tweaks
+Description: 自定义锁屏和桌面布局
+Author: JunesiPhone <junesgraphics@gmail.com>
+Depiction: https://repo.cypwn.xyz/depiction/3307
+Icon: https://gitee.com/baimour/sileo-depiction.git/raw/master/SileoDepiction/designer/icon.png
+Name: Designer
+Sileodepiction: https://gitee.com/baimour/sileo-depiction.git/raw/master/SileoDepiction/designer/Depiction
+
+Package: com.white.designer
+Version: 1.5.3
+Architecture: iphoneos-arm64
+Maintainer: JunesiPhone
+Installed-Size: 19180
+Depends: mobilesubstrate, preferenceloader
+Filename: ./debs/designer_1.5.3 _iphoneos-arm64.deb
+Size: 17515240
+MD5sum: a0aeaf5858dbb2fbe324ab408bc4d6bd
+SHA1: 63530b43771dfc789a9fe34fbac50a1a533845f1
+SHA256: f12f5ca89a4eaf95e5dbd541a90114ec385c4e5f7cccf23261a89fc1c79d4c14
+Section: Tweaks
+Description: 自定义锁屏和桌面布局
+Author: JunesiPhone <junesgraphics@gmail.com>
+Depiction: https://repo.cypwn.xyz/depiction/3307
+Icon: https://gitee.com/baimour/sileo-depiction.git/raw/master/SileoDepiction/designer/icon.png
+Name: Designer
+Sileodepiction: https://gitee.com/baimour/sileo-depiction.git/raw/master/SileoDepiction/designer/Depiction
+
+Package: com.white.designer
+Version: 1.5.4
+Architecture: iphoneos-arm64
+Maintainer: JunesiPhone
+Depends: mobilesubstrate, preferenceloader
+Filename: ./debs/designer_1.5.4_iphoneos-arm64.deb
+Size: 17531940
+MD5sum: 44820c7659edb341da426c7a732b866f
+SHA1: cc977175f687e66054534afee6576f6f8f07a343
+SHA256: 9b5f44a2718f7ce180e42d525c412c7236f18630b8f079c576707417b3f47f59
+Section: Tweaks
+Description: 自定义锁屏和桌面布局
+Author: JunesiPhone <junesgraphics@gmail.com>
+Depiction: https://repo.cypwn.xyz/depiction/3318
+Icon: https://gitee.com/baimour/sileo-depiction.git/raw/master/SileoDepiction/designer/icon.png
+Name: Designer
+Sileodepiction: https://gitee.com/baimour/sileo-depiction.git/raw/master/SileoDepiction/designer/Depiction
+
+Package: com.white.designer
+Version: 1.5.4
+Architecture: iphoneos-arm64e
+Maintainer: JunesiPhone
+Pre-Depends: rootless-compat(>= 0.9)
+Depends: mobilesubstrate, preferenceloader
+Filename: ./debs/designer_1.5.4_iphoneos-arm64e.deb
+Size: 40191394
+MD5sum: e6194c89f35e152078216589204c7d4a
+SHA1: 5293036279858000bd5b3c65dc7456e4945bfd32
+SHA256: 09be804eb75485c6de403a00da0c6346309f925db973f40d424933b9c6f872d4
+Section: Tweaks
+Description: 自定义锁屏和桌面布局
+Author: JunesiPhone <junesgraphics@gmail.com>
+Depiction: https://repo.cypwn.xyz/depiction/3318
+Icon: https://gitee.com/baimour/sileo-depiction.git/raw/master/SileoDepiction/designer/icon.png
+Name: Designer
+Sileodepiction: https://gitee.com/baimour/sileo-depiction.git/raw/master/SileoDepiction/designer/Depiction
+
+Package: com.white.designer
 Version: 1.5.5
 Architecture: iphoneos-arm64
 Maintainer: JunesiPhone
@@ -6128,6 +6352,45 @@ Size: 24876458
 MD5sum: 3842557827cca3ae209012a2f2559077
 SHA1: 3ae30b1a871cbc154797d97bfe36dee352237e64
 SHA256: 0faf743e71c065e806ba2d76ec16049a57a10432cb05fff96e773067247e7f96
+Section: Tweaks
+Description: 自定义锁屏和桌面布局
+Author: JunesiPhone <junesgraphics@gmail.com>
+Depiction: https://repo.cypwn.xyz/depiction/3393
+Icon: https://gitee.com/baimour/sileo-depiction.git/raw/master/SileoDepiction/designer/icon.png
+Name: Designer
+Sileodepiction: https://gitee.com/baimour/sileo-depiction.git/raw/master/SileoDepiction/designer/Depiction
+
+Package: com.white.designer
+Version: 1.5.5
+Architecture: iphoneos-arm64e
+Maintainer: JunesiPhone
+Installed-Size: 20612
+Pre-Depends: rootless-compat(>= 0.9)
+Depends: firmware (>= 15.0), mobilesubstrate, preferenceloader
+Filename: ./debs/designer_1.5.5 _iphoneos-arm64e.deb
+Size: 54124274
+MD5sum: a62f11beff9f1df7bcbd3f1227c9d4d6
+SHA1: 7bbb65ae256523acc02dc418c7c14d506c39fc09
+SHA256: a7256ec8c989688fdcbab09629c8edcb38c66b0edb6a02fe1d497d6a33e7e769
+Section: Tweaks
+Description: 自定义锁屏和桌面布局
+Author: JunesiPhone <junesgraphics@gmail.com>
+Depiction: https://repo.cypwn.xyz/depiction/3393
+Icon: https://gitee.com/baimour/sileo-depiction.git/raw/master/SileoDepiction/designer/icon.png
+Name: Designer
+Sileodepiction: https://gitee.com/baimour/sileo-depiction.git/raw/master/SileoDepiction/designer/Depiction
+
+Package: com.white.designer
+Version: 1.5.5
+Architecture: iphoneos-arm64
+Maintainer: JunesiPhone
+Installed-Size: 20612
+Depends: firmware (>= 15.0), mobilesubstrate, preferenceloader
+Filename: ./debs/designer_1.5.5 _iphoneos-arm64.deb
+Size: 23378428
+MD5sum: ffb5d94ffde12c8fb233d67f170ca545
+SHA1: bdd0a89a7f6d7da1ad5a1208d904af6d6c852d72
+SHA256: 27736ce68dfdf6f5c7a8cbab9f56b356ce5ec6775148fccff8b80cd0cf848a80
 Section: Tweaks
 Description: 自定义锁屏和桌面布局
 Author: JunesiPhone <junesgraphics@gmail.com>
@@ -12494,6 +12757,51 @@ Icon: https://gitee.com/baimour/sileo-depiction.git/raw/master/SileoDepiction/sh
 Name: Shuffle
 Sileodepiction: https://gitee.com/baimour/sileo-depiction.git/raw/master/SileoDepiction/shuffle/Depiction
 
+Package: com.white.sileo
+Version: 2.5.4
+Architecture: iphoneos-arm64
+Maintainer: Korboy <korboybeats@gmail.com>
+Depends: firmware (>= 11.0), firmware(>=12.2) | org.swift.libswift (>=5.0), coreutils (>= 8.30-1), dpkg (>= 1.19.4-1), apt (>= 1.8.2), libzstd1
+Conflicts: org.coolstar.sileo, xyz.cypwn.sileo, com.white.sileo-zh
+Provides: org.coolstar.sileo
+Filename: ./debs/sileo_2.5.4_iphoneos-arm64.deb
+Size: 2648148
+MD5sum: 36906456d129c112ce6d52a903d8b8e6
+SHA1: fcb0351bc2c547fc610d19000527dc61db0b4053
+SHA256: b8f594ae737d7876869abe7a1b983ca103eaf6002243047857ef394daccba98e
+Section: Utilities
+Description: 现代化APT插件包管理器前端
+  - ****`--- 2.5.4更新日志 ---`****
+  - 软件源刷新性能改进 (快3倍)
+  - 软件源刷新时的总进度条
+  - 轻点"精选、新闻"和"软件源"选项可滚动到顶部
+  - 使用可折叠菜单重新设计设置
+  - 重新设计忽略关键字UI
+  - 重新安装已安装插件包的滑动操作
+  - 复制DEB链接滑动操作
+  - 下载DEB现在适用于本地安装的插件包 (重新打包)
+  - 设置新增触摸震动切换
+  - 排序模式适用于已安装的插件�
+  - Fiona兼容性修复
+  - 各种错误修复和Swift 6合规性
+  - ****`--- 2.5.3-1更新日志 ---`****
+  - 修复了安装插件后不显示注销提示的问题
+  - ****`--- 2.5.3更新日志 ---`****
+  - 启用/禁用筛选切换
+  - 删除所有关键词选项
+  - 包括描述切换
+  - ****`--- 2.5.2更新日志 ---`****
+  - 软件源搜索栏 - 按名称或URL搜索软件源
+  - 下载DEB滑动动作
+  - 忽略关键词 - 过滤插件�
+  - 编辑忽略得关键词
+  - 清理软件源 - 扫描并删除失效软件源
+Author: Amy While, waruhachi, Korboy <korboybeats@gmail.com>
+Depiction: https://repo.cypwn.xyz/depiction/3481
+Icon: https://repo.cypwn.xyz/packages/Sileo-Rootless/icon.png
+Name: Sileo
+Sileodepiction: https://repo.cypwn.xyz/sileo_depiction/3481
+
 Package: com.white.sileo-zh
 Version: 1.0
 Architecture: iphoneos-arm
@@ -12515,15 +12823,35 @@ Sileodepiction: https://gitee.com/baimour/sileo-depiction.git/raw/master/SileoDe
 
 Package: com.white.sileo-zh
 Version: 1.0
+Architecture: iphoneos-arm64e
+Maintainer: White
+Pre-Depends: rootless-compat(>= 0.9)
+Depends: org.coolstar.sileo
+Replaces: org.coolstar.sileo
+Filename: ./debs/sileo-zh_1.0_iphoneos-arm64e.deb
+Size: 10958
+MD5sum: c9e96151fff005d95768925dab80884a
+SHA1: acac2761f7c9b578af78732a854d0c782d38f7ce
+SHA256: c89013af13cc8173d15ac6023640ad6e274d89fb92b2cad8922d98c1ad6d0f3f
+Section: Localizations
+Description: 完善Sileo部分汉化
+Author: White
+Depiction: N/A
+Icon: https://gitee.com/baimour/sileo-depiction.git/raw/master/SileoDepiction/sileo-zh/icon.png
+Name: zh-Hans For Sileo
+Sileodepiction: https://gitee.com/baimour/sileo-depiction.git/raw/master/SileoDepiction/sileo-zh/Depiction
+
+Package: com.white.sileo-zh
+Version: 1.0
 Architecture: iphoneos-arm64
 Maintainer: White
 Depends: org.coolstar.sileo
 Replaces: org.coolstar.sileo
 Filename: ./debs/sileo-zh_1.0_iphoneos-arm64.deb
-Size: 8944
-MD5sum: c8ac09ff333cdd19654e5cbf3fdb5b60
-SHA1: 0726a5a382fda301ac5a62ad4e5af872a9a2bf8d
-SHA256: 25e1332a40d7e64aee48b8ce2f865ef94512e3ff0ed741fe0ad8b4391faf0a70
+Size: 9148
+MD5sum: 66d50b305920e0d149580cdea26b9fcb
+SHA1: 0ae04abaa684f637809e3d8192975cdbc838972e
+SHA256: 53606eb63c42e462871755425f1114a50ca81751fd153e5d6406e3ed667c574e
 Section: Localizations
 Description: 完善Sileo部分汉化
 Author: White
