@@ -6079,6 +6079,63 @@ Icon: https://gitee.com/baimour/sileo-depiction.git/raw/master/SileoDepiction/de
 Name: Designer
 Sileodepiction: https://gitee.com/baimour/sileo-depiction.git/raw/master/SileoDepiction/designer/Depiction
 
+Package: com.white.designer
+Version: 1.4.8
+Architecture: iphoneos-arm64e
+Maintainer: JunesiPhone
+Pre-Depends: rootless-compat(>= 0.9)
+Depends: firmware (>= 15.0), mobilesubstrate, preferenceloader
+Filename: ./debs/designer_1.4.8_iphoneos-arm64e.deb
+Size: 15183886
+MD5sum: c3d666db99125580d17f9e7bc1e23b55
+SHA1: 1b9877d93930cea42ef32f033a7c59d257a64d12
+SHA256: 77c94c121dc9074db757f8b7e6ed5cb936bc109c0c283295dc625790742d58d0
+Section: Tweaks
+Description: 自定义锁屏和桌面布局
+Author: JunesiPhone
+Icon: https://gitee.com/baimour/sileo-depiction.git/raw/master/SileoDepiction/designer/icon.png
+Name: Designer
+Sileodepiction: https://gitee.com/baimour/sileo-depiction.git/raw/master/SileoDepiction/designer/Depiction
+
+Package: com.white.designer
+Version: 1.5.5
+Architecture: iphoneos-arm64
+Maintainer: JunesiPhone
+Installed-Size: 20612
+Depends: firmware (>= 15.0), mobilesubstrate, preferenceloader
+Filename: ./debs/designer_1.5.5_iphoneos-arm64.deb
+Size: 7281532
+MD5sum: 4db77614b38e08f54046d3ab36c70fb2
+SHA1: 7c9fe85efdd380aabd261d0eefd0676a9959eac3
+SHA256: 0f282415b4bb422ca9cfcbdea2fe48abd8ea933c268bb761afcd3dad5aa46d91
+Section: Tweaks
+Description: 自定义锁屏和桌面布局
+Author: JunesiPhone <junesgraphics@gmail.com>
+Depiction: https://repo.cypwn.xyz/depiction/3393
+Icon: https://gitee.com/baimour/sileo-depiction.git/raw/master/SileoDepiction/designer/icon.png
+Name: Designer
+Sileodepiction: https://gitee.com/baimour/sileo-depiction.git/raw/master/SileoDepiction/designer/Depiction
+
+Package: com.white.designer
+Version: 1.5.5
+Architecture: iphoneos-arm64e
+Maintainer: JunesiPhone
+Installed-Size: 20612
+Pre-Depends: rootless-compat(>= 0.9)
+Depends: firmware (>= 15.0), mobilesubstrate, preferenceloader
+Filename: ./debs/designer_1.5.5_iphoneos-arm64e.deb
+Size: 24876458
+MD5sum: 3842557827cca3ae209012a2f2559077
+SHA1: 3ae30b1a871cbc154797d97bfe36dee352237e64
+SHA256: 0faf743e71c065e806ba2d76ec16049a57a10432cb05fff96e773067247e7f96
+Section: Tweaks
+Description: 自定义锁屏和桌面布局
+Author: JunesiPhone <junesgraphics@gmail.com>
+Depiction: https://repo.cypwn.xyz/depiction/3393
+Icon: https://gitee.com/baimour/sileo-depiction.git/raw/master/SileoDepiction/designer/icon.png
+Name: Designer
+Sileodepiction: https://gitee.com/baimour/sileo-depiction.git/raw/master/SileoDepiction/designer/Depiction
+
 Package: com.white.detailedpowerusage
 Version: 1.0.1
 Architecture: iphoneos-arm
