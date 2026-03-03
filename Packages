@@ -4408,6 +4408,47 @@ Icon: https://gitee.com/baimour/sileo-depiction.git/raw/master/SileoDepiction/Bi
 Name: 哔哩哔哩大会员画质
 Sileodepiction: https://gitee.com/baimour/sileo-depiction.git/raw/master/SileoDepiction/BilibiliUnlock/Depiction
 
+Package: com.white.bilibiliTweak
+Version: 2.5.0
+Architecture: iphoneos-arm64e
+Maintainer: TouchWorld
+Pre-Depends: rootless-compat(>= 0.9)
+Depends: firmware (>= 5.0), mobilesubstrate
+Conflicts: com.touchWorld.bilibiliTweak
+Replaces: com.touchWorld.bilibiliTweak
+Filename: ./debs/bilibiliTweak_2.5.0_iphoneos-arm64e.deb
+Size: 211060
+MD5sum: 3e96f96c2b76ef0dfdb2273d897f1929
+SHA1: 1e3f9079d973f08d2a6988e95151cab18cb1c146
+SHA256: e57891cfbd9713b4032fb4a0a171182e963dcbc57f3f036c1fb6b765bd9e23e1
+Section: NoAds
+Priority: optional
+Homepage: https://github.com/TouchFriend/BiliBiliTweak
+Description: 去除哔哩哔哩广告插件
+Author: TouchWorld
+Icon: https://touchfriend.github.io/depictions/com.touchWorld.bilibiliTweak/icon.png
+Name: BilibiliTweak
+
+Package: com.white.bilibiliTweak
+Version: 2.5.0
+Architecture: iphoneos-arm64
+Maintainer: TouchWorld
+Depends: firmware (>= 5.0), mobilesubstrate
+Conflicts: com.touchWorld.bilibiliTweak
+Replaces: com.touchWorld.bilibiliTweak
+Filename: ./debs/bilibiliTweak_2.5.0_iphoneos-arm64.deb
+Size: 161528
+MD5sum: a5e17f1d220904b91f2d9910936f9cc7
+SHA1: cbd292982cd056baef93c72d760a1aff0cc8101d
+SHA256: 2af4060e2ae13b45bda3354582f79bf44f06ef2cfdce2d6cf016636049976760
+Section: NoAds
+Priority: optional
+Homepage: https://github.com/TouchFriend/BiliBiliTweak
+Description: 去除哔哩哔哩广告插件
+Author: TouchWorld
+Icon: https://touchfriend.github.io/depictions/com.touchWorld.bilibiliTweak/icon.png
+Name: BilibiliTweak
+
 Package: com.white.bilibilipure
 Version: 1.2-3.1
 Architecture: iphoneos-arm
@@ -13410,6 +13451,39 @@ Description: 给默认键盘增加滑动移动光标功能
 Author: Kyle Howells
 Name: SwipeSelection
 
+Package: com.white.systeminfo
+Version: 2.7.2-3
+Architecture: iphoneos-arm64e
+Maintainer: AnubisTweaks
+Pre-Depends: rootless-compat(>= 0.9)
+Depends: mobilesubstrate, oldabi
+Filename: ./debs/systeminfo_2.7.2-3_iphoneos-arm64e.deb
+Size: 375750
+MD5sum: 26b026b7a648835d82cae33f2aa16dc6
+SHA1: c2f89960d57bf5ee26043149aaa457ae8c520a7e
+SHA256: 05f92140d0dd649e5adb47e3ea06cbc8a1be57c5ebc46bf44d605739b889ad0c
+Section: Tweaks
+Description: "设置"-"通用"-"关于"和其他部分中的系统信息，设置boot-nonce，保存SHSH、电池信息等
+Author: ARX8x + AnubisTweaks
+Depiction: https://arx8x.github.io/depictions/systeminfo.html
+Name: System Info
+
+Package: com.white.systeminfo
+Version: 2.7.2-3
+Architecture: iphoneos-arm64
+Maintainer: AnubisTweaks
+Depends: mobilesubstrate, oldabi
+Filename: ./debs/systeminfo_2.7.2-3_iphoneos-arm64.deb
+Size: 272632
+MD5sum: bbf53860e90487c4776442e93adb22c1
+SHA1: ed8d57835df587b352e82bcd81b2856026244373
+SHA256: 0f2510defbefd17f58ad349fd341aa5503c5fe6deabd1e4e583baa6af5a8986c
+Section: Tweaks
+Description: "设置"-"通用"-"关于"和其他部分中的系统信息，设置boot-nonce，保存SHSH、电池信息等
+Author: ARX8x + AnubisTweaks
+Depiction: https://arx8x.github.io/depictions/systeminfo.html
+Name: System Info
+
 Package: com.white.tai
 Version: 5.2.2
 Architecture: iphoneos-arm
@@ -14176,6 +14250,45 @@ Author: Randy420 <randy.skinner@hotmail.com>
 Depiction: https://Randy-420.GitHub.io/depic/420Tools.html
 Name: 420 Tools
 Sileodepiction: https://gitee.com/baimour/sileo-depiction.git/raw/master/SileoDepiction/RandyTool/Depiction
+
+Package: com.white.translux
+Version: 1.1.0
+Architecture: iphoneos-arm64e
+Maintainer: AnubisTweaks
+Pre-Depends: rootless-compat(>= 0.9)
+Depends: mobilesubstrate, firmware (>= 15.0), preferenceloader, com.opa334.altlist (>= 1.0.4), xyz.cypwn.anuisance
+Filename: ./debs/translux_1.1.0_iphoneos-arm64e.deb
+Size: 313740
+MD5sum: 02a0a377f32432f3ef92212668844ce9
+SHA1: 83ef84963fcdf9b5f1bd23fe83f183cab455b304
+SHA256: 722d632d63166a379e560504dd29a2964b09736edca6c9785b96769c4f9fe420
+Section: Tweaks
+Homepage: https://github.com/AnubisTweaks
+Description: 具有OCR支持的iOS高级翻译集成（具有增强日志记录的DEBUG BUILD）将翻译按钮添加到所有应用程序的文本选择菜单中，包括用于图像OCR和翻译的Snapper 3集成。支持谷歌，百度、ModernMT、微软翻译引擎和Youdao、Yandex OCR引擎。可自定义用户界面、应用程序白名单
+Author: AnubisTweaks
+Depiction: https://repo.cypwn.xyz/depiction/3491
+Icon: https://repo.cypwn.xyz/packages/TransLux-Rootless/icon.png
+Name: TransLux
+Sileodepiction: https://repo.cypwn.xyz/sileo_depiction/3491
+
+Package: com.white.translux
+Version: 1.1.0
+Architecture: iphoneos-arm64
+Maintainer: AnubisTweaks
+Depends: mobilesubstrate, firmware (>= 15.0), preferenceloader, com.opa334.altlist (>= 1.0.4), xyz.cypwn.anuisance
+Filename: ./debs/translux_1.1.0_iphoneos-arm64.deb
+Size: 271028
+MD5sum: 2e52f5b82e03634192d9d808adc1eedd
+SHA1: 988b55002f002ed1c9280cc0ccca8e326f70b3db
+SHA256: 148be9dbca6f56043368f2c0b976b880a9bd69f83991e4fa82eb5268c1c3cd36
+Section: Tweaks
+Homepage: https://github.com/AnubisTweaks
+Description: 具有OCR支持的iOS高级翻译集成（具有增强日志记录的DEBUG BUILD）将翻译按钮添加到所有应用程序的文本选择菜单中，包括用于图像OCR和翻译的Snapper 3集成。支持谷歌，百度、ModernMT、微软翻译引擎和Youdao、Yandex OCR引擎。可自定义用户界面、应用程序白名单
+Author: AnubisTweaks
+Depiction: https://repo.cypwn.xyz/depiction/3491
+Icon: https://repo.cypwn.xyz/packages/TransLux-Rootless/icon.png
+Name: TransLux
+Sileodepiction: https://repo.cypwn.xyz/sileo_depiction/3491
 
 Package: com.white.tsssaver
 Version: 2.0.5-1
