@@ -3208,6 +3208,39 @@ Icon2: file:///Applications/AMG.app/AppIcon60x60@2x.png
 Name: AMG 一键新机
 Sileodepiction: https://gitee.com/baimour/sileo-depiction.git/raw/master/SileoDepiction/amg/Depiction
 
+Package: com.white.ampere
+Version: 1.4
+Architecture: iphoneos-arm64e
+Maintainer: MTAC
+Installed-Size: 604
+Pre-Depends: rootless-compat(>= 0.9)
+Depends: mobilesubstrate, firmware (>= 14.0), firmware (<< 16.0), preferenceloader
+Filename: ./debs/ampere_1.4_iphoneos-arm64e.deb
+Size: 135148
+MD5sum: f4b70c2f1e4be2bda9a5003554d8796d
+SHA1: 4c4a6ca76828d905cb57df4b940fa1d694dc6bee
+SHA256: 03295598cecb9f2fd3a5b9df8e87b85fde0acf5e988f3e3f73b7b292eb8ecf69
+Section: Tweaks
+Description: iOS 16风格的电池显示
+Author: MTAC
+Name: Ampere
+
+Package: com.white.ampere
+Version: 1.4
+Architecture: iphoneos-arm64
+Maintainer: MTAC
+Installed-Size: 604
+Depends: mobilesubstrate, firmware (>= 14.0), firmware (<< 16.0), preferenceloader
+Filename: ./debs/ampere_1.4_iphoneos-arm64.deb
+Size: 105908
+MD5sum: 6194e7a687ce0e8d2dbf6f9ed42e642b
+SHA1: c3714095c5f43dbee301b0f417651cfea9d63654
+SHA256: 6262522a34becab81c6d1a5672e404cda07acead59d894d14c176036b49edc6e
+Section: Tweaks
+Description: iOS 16风格的电池显示
+Author: MTAC
+Name: Ampere
+
 Package: com.white.analytics
 Version: 0.0.3
 Architecture: iphoneos-arm
@@ -3247,6 +3280,41 @@ Icon: https://gitee.com/baimour/sileo-depiction.git/raw/master/SileoDepiction/an
 Name: AnimationsBeFastPlus
 Sileodepiction: https://gitee.com/baimour/sileo-depiction.git/raw/master/SileoDepiction/animationsbefastplus/Depiction
 Sponsor: White <1410970825@qq.com>
+
+Package: com.white.anthocrack2
+Version: 1.0.0
+Architecture: iphoneos-arm64e
+Maintainer: CyPwn
+Pre-Depends: rootless-compat(>= 0.9)
+Depends: mobilesubstrate
+Filename: ./debs/anthocrack2_1.0.0_iphoneos-arm64e.deb
+Size: 4162
+MD5sum: 9deb39474d113bbc8b02de3f5e2bc538
+SHA1: b7a87d978d0943f4e3431c839e13f9e8cd203e81
+SHA256: 6e4b4f434f1dce317eca21a9e7b74a8b00c1a4d3f76111070ff98493701191aa
+Section: Tweaks
+Description: 禁用AnthoPak插件的弹窗，这是给95%盗版用户的！
+Author: CBZ
+Depiction: https://repo.cypwn.xyz/depiction/2153
+Name: AnthoCrack2
+Sileodepiction: https://repo.cypwn.xyz/sileo_depiction/2153
+
+Package: com.white.anthocrack2
+Version: 1.0.0
+Architecture: iphoneos-arm64
+Maintainer: CyPwn
+Depends: mobilesubstrate
+Filename: ./debs/anthocrack2_1.0.0_iphoneos-arm64.deb
+Size: 2908
+MD5sum: 3af29fca874a306c1a0085bc2004fdc0
+SHA1: 9a4be35fb5e516042dc9a7fd0b587e0c2e063aab
+SHA256: f7c799a695c33b74f76bf6195aa9d1b0cba86f0a320d8d790d5c575d1a7bb4ec
+Section: Tweaks
+Description: 禁用AnthoPak插件的弹窗，这是给95%盗版用户的！
+Author: CBZ
+Depiction: https://repo.cypwn.xyz/depiction/2153
+Name: AnthoCrack2
+Sileodepiction: https://repo.cypwn.xyz/sileo_depiction/2153
 
 Package: com.white.anuisance
 Version: 1.0
@@ -4746,6 +4814,76 @@ Author: Netskao
 Icon: https://gitee.com/baimour/sileo-depiction.git/raw/master/SileoDepiction/BilibiliUnlock/icon.png
 Name: 哔哩哔哩 NoAds(重写版)
 Sileodepiction: https://gitee.com/baimour/sileo-depiction.git/raw/master/SileoDepiction/BilibiliUnlock/nDepiction
+
+Package: com.white.bloom
+Version: 1.3
+Architecture: iphoneos-arm64e
+Maintainer: yan
+Installed-Size: 2648
+Pre-Depends: rootless-compat(>= 0.9)
+Depends: dev.theos.orion14, firmware (>= 14.0), com.ginsu.comet, com.yan.lottie
+Filename: ./debs/bloom_1.3_iphoneos-arm64e.deb
+Size: 913210
+MD5sum: abf031be1ed42b521c20424ebb3454d1
+SHA1: a29258b142fb63e255276ef0973f6fd2d15fd26e
+SHA256: 8a62800b957d3db3e19a89a0289a388fa73a524db81234d1d5f63f2cd506644e
+Section: Tweaks
+Description: 精美的通知动画，增强通知体验
+Author: yan
+Icon: https://repo.cypwn.xyz/packages/Bloom-Rootless/icon.png
+Name: Bloom
+
+Package: com.white.bloom
+Version: 1.3
+Architecture: iphoneos-arm64
+Maintainer: yan
+Installed-Size: 2648
+Depends: dev.theos.orion14, firmware (>= 14.0), com.ginsu.comet, com.yan.lottie
+Filename: ./debs/bloom_1.3_iphoneos-arm64.deb
+Size: 352032
+MD5sum: be2a6026c0e0997f101c07962c6df6a1
+SHA1: 73842ca7e93ab2b2dd9b73dd08864835c18e00e6
+SHA256: efa5738a98240c7109d517e23d9602a336ed779241ea2b9b1d210a37518a7456
+Section: Tweaks
+Description: 精美的通知动画，增强通知体验
+Author: yan
+Icon: https://repo.cypwn.xyz/packages/Bloom-Rootless/icon.png
+Name: Bloom
+
+Package: com.white.bloompulseoutline2
+Version: 0.0.1
+Architecture: iphoneos-arm64
+Maintainer: Korboy
+Depends: mobilesubstrate
+Filename: ./debs/bloompulseoutline2_0.0.1_iphoneos-arm64.deb
+Size: 2284
+MD5sum: 2805729ad5f59246479efa95e05760bd
+SHA1: 5b8e2f7d1b7f42bf53d388cb6d7f6a33733a80d1
+SHA256: 193ebdbe5fea575a012465fd62a3b43e409d849ceacf2cf5f8b51a26f0a0706f
+Section: Themes
+Description: Bloom的更好的脉冲轮廓动画，仅支持iPhone 13 Pro Max
+Author: Korboy
+Depiction: https://repo.cypwn.xyz/depiction/2347
+Name: Bloom Pulse Outline 2 Animation
+Sileodepiction: https://repo.cypwn.xyz/sileo_depiction/2347
+
+Package: com.white.bloompulseoutline2
+Version: 0.0.1
+Architecture: iphoneos-arm64e
+Maintainer: Korboy
+Pre-Depends: rootless-compat(>= 0.9)
+Depends: mobilesubstrate
+Filename: ./debs/bloompulseoutline2_0.0.1_iphoneos-arm64e.deb
+Size: 3000
+MD5sum: 5c1cf2e825b15de740c6972c3b51047f
+SHA1: 7631195c1186e7d4e321a60e2cc51c5b993fe61e
+SHA256: 038bfcd6f82e7f1cb20a7a08e5c2ffe5b12094d0741a4955adba8ddae528dec6
+Section: Themes
+Description: Bloom的更好的脉冲轮廓动画，仅支持iPhone 13 Pro Max
+Author: Korboy
+Depiction: https://repo.cypwn.xyz/depiction/2347
+Name: Bloom Pulse Outline 2 Animation
+Sileodepiction: https://repo.cypwn.xyz/sileo_depiction/2347
 
 Package: com.white.boardswipe
 Version: 1.0.0
@@ -6946,6 +7084,43 @@ Depiction: https://repo.cypwn.xyz/depiction/2054
 Icon: https://media.havoc.app/62040a16cc1cde4bfe9aba43
 Name: DLEasy
 Sileodepiction: https://repo.cypwn.xyz/sileo_depiction/2054
+
+Package: com.white.dleasy
+Version: 2.14.8
+Architecture: iphoneos-arm64e
+Maintainer: AhmedBafkir
+Pre-Depends: rootless-compat(>= 0.9)
+Depends: firmware (>= 12.0), mobilesubstrate, preferenceloader
+Filename: ./debs/dleasy_2.14.8_iphoneos-arm64e.deb
+Size: 14879908
+MD5sum: db2adc9339ec4c3294300e089db0e640
+SHA1: c4070fae997ce0d18c7ca9788eb748279e95916b
+SHA256: c336f7c62f96021ba63266f21ac31fd728841bd0033bcba7e16da2658bba904c
+Section: Tweaks
+Description: 轻松从社交应用程序下载/分享图像和视频！
+Author: AhmedBafkir
+Depiction: https://repo.cypwn.xyz/depiction/3172
+Icon: https://repo.cypwn.xyz/packages/DLEasy-Rootless/icon.png
+Name: DLEasy
+Sileodepiction: https://repo.cypwn.xyz/sileo_depiction/3172
+
+Package: com.white.dleasy
+Version: 2.14.8
+Architecture: iphoneos-arm64
+Maintainer: AhmedBafkir
+Depends: firmware (>= 12.0), mobilesubstrate, preferenceloader
+Filename: ./debs/dleasy_2.14.8_iphoneos-arm64.deb
+Size: 5550832
+MD5sum: 56a3d27c4eed093140cb26a2a02b5081
+SHA1: a208fd4b978021ca849fd1aa84b986f9e458f0a0
+SHA256: fba2c012ecd2f28f03aad6c3438b711c3f590d98b260491fbfc35ec18a7a24e4
+Section: Tweaks
+Description: 轻松从社交应用程序下载/分享图像和视频！
+Author: AhmedBafkir
+Depiction: https://repo.cypwn.xyz/depiction/3172
+Icon: https://repo.cypwn.xyz/packages/DLEasy-Rootless/icon.png
+Name: DLEasy
+Sileodepiction: https://repo.cypwn.xyz/sileo_depiction/3172
 
 Package: com.white.dndmyrecording
 Version: 1.2.1
@@ -11128,6 +11303,43 @@ Icon: https://gitee.com/baimour/sileo-depiction.git/raw/master/SileoDepiction/ne
 Name: NetworkManager
 Sileodepiction: https://gitee.com/baimour/sileo-depiction.git/raw/master/SileoDepiction/networkmanager/Depiction
 
+Package: com.white.networkmanager
+Version: 1.4.3
+Architecture: iphoneos-arm64
+Maintainer: NoisyFlake, Nixuge
+Depends: mobilesubstrate, com.opa334.ccsupport
+Filename: ./debs/networkmanager_1.4.3_iphoneos-arm64.deb
+Size: 38100
+MD5sum: 379cefd011af7d18e5375168f22e77cc
+SHA1: 45c224d4c2651f20ef01070d594b2b822e7b9401
+SHA256: 36f234e12c08e9cb7bb2fe130cc30134764fb64ddece871b10c1bfa70760ee51
+Section: Tweaks
+Description: 从控制中心切换2G/3G/4G/5G网络
+Author: NoisyFlake, Nixuge
+Depiction: https://repo.cypwn.xyz/depiction/2337
+Icon: http://cydia.nixuge.me/assets/me.nixuge.networkmanager/icon.png
+Name: NetworkManagerReborn
+Sileodepiction: https://repo.cypwn.xyz/sileo_depiction/2337
+
+Package: com.white.networkmanager
+Version: 1.4.3
+Architecture: iphoneos-arm64e
+Maintainer: NoisyFlake, Nixuge
+Pre-Depends: rootless-compat(>= 0.9)
+Depends: mobilesubstrate, com.opa334.ccsupport
+Filename: ./debs/networkmanager_1.4.3_iphoneos-arm64e.deb
+Size: 46714
+MD5sum: 56af47b5ccf339572f415f6484076c35
+SHA1: 5ea92e51f529351047a19e2c62266928b9de4d6c
+SHA256: 7b3698d1d65a635e4bb8c518840ad5af1632685db9582faedb2538457a58b021
+Section: Tweaks
+Description: 从控制中心切换2G/3G/4G/5G网络
+Author: NoisyFlake, Nixuge
+Depiction: https://repo.cypwn.xyz/depiction/2337
+Icon: http://cydia.nixuge.me/assets/me.nixuge.networkmanager/icon.png
+Name: NetworkManagerReborn
+Sileodepiction: https://repo.cypwn.xyz/sileo_depiction/2337
+
 Package: com.white.networkspeed13
 Version: 2.5
 Architecture: iphoneos-arm
@@ -11998,6 +12210,53 @@ Author: White <(null)>
 Icon: https://gitee.com/baimour/sileo-depiction.git/raw/master/SileoDepiction/pindduo/icon.png
 Name: 拼多多 NoAds
 Sileodepiction: https://gitee.com/baimour/sileo-depiction.git/raw/master/SileoDepiction/pindduo/Depiction
+
+Package: com.white.playmusiconrecord
+Version: 1.0.4
+Architecture: iphoneos-arm64e
+Maintainer: BigBoss <bigboss@thebigboss.org>
+Installed-Size: 386
+Pre-Depends: rootless-compat(>= 0.9)
+Depends: mobilesubstrate, firmware (>= 9.0), preferenceloader
+Filename: ./debs/playmusiconrecord_1.0.4_iphoneos-arm64e.deb
+Size: 49706
+MD5sum: 8567e781890ec039e431d5b4ffa46a60
+SHA1: 8cde59a74f8caeb1d80bea6959208260170c3b49
+SHA256: 754558ff07d41fa380985535ab54e1a87076dc24c10911f0dd9d765ad5d306d0
+Section: Tweaks
+Priority: optional
+Homepage: http://moreinfo.thebigboss.org/moreinfo/depiction.php?file=playmusiconrecordDp
+Description: 录制视频时禁用音乐/音频停止！
+Tag: purpose::extension
+Author: CydiaGeek <lucaluca86@aol.com>
+Depiction: http://moreinfo.thebigboss.org/moreinfo/depiction.php?file=playmusiconrecordDp
+Dev: lucaluca86
+Icon: file:///Library/PreferenceBundles/PlayMusicOnRecord.bundle/PlayMusicOnRecord@2x.png
+Name: PlayMusicOnRecord
+Sponsor: thebigboss.org <http://thebigboss.org>
+
+Package: com.white.playmusiconrecord
+Version: 1.0.4
+Architecture: iphoneos-arm64
+Maintainer: BigBoss <bigboss@thebigboss.org>
+Installed-Size: 386
+Depends: mobilesubstrate, firmware (>= 9.0), preferenceloader
+Filename: ./debs/playmusiconrecord_1.0.4_iphoneos-arm64.deb
+Size: 43128
+MD5sum: 55228f2a48a6c29c789228f0f08a206f
+SHA1: c5f1a308e106ea317a142d92c30bf5025ee5face
+SHA256: d6138944bbf13805d95083a5bc0a9e307d36f0de724f74a5c0d2015e9ff7c044
+Section: Tweaks
+Priority: optional
+Homepage: http://moreinfo.thebigboss.org/moreinfo/depiction.php?file=playmusiconrecordDp
+Description: 录制视频时禁用音乐/音频停止！
+Tag: purpose::extension
+Author: CydiaGeek <lucaluca86@aol.com>
+Depiction: http://moreinfo.thebigboss.org/moreinfo/depiction.php?file=playmusiconrecordDp
+Dev: lucaluca86
+Icon: file:///Library/PreferenceBundles/PlayMusicOnRecord.bundle/PlayMusicOnRecord@2x.png
+Name: PlayMusicOnRecord
+Sponsor: thebigboss.org <http://thebigboss.org>
 
 Package: com.white.pogrs
 Version: 0.5.2
