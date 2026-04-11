@@ -687,6 +687,43 @@ Icon: https://gitee.com/baimour/sileo-depiction.git/raw/master/SileoDepiction/so
 Name: Souvenir
 Sileodepiction: https://gitee.com/baimour/sileo-depiction.git/raw/master/SileoDepiction/souvenir/Depiction
 
+Package: com.eliofeghali.souvenir
+Version: 1.32
+Architecture: iphoneos-arm64
+Maintainer: Elio Feghali
+Installed-Size: 676
+Depends: firmware (>= 14.0), mobilesubstrate (>= 0.9.5000)
+Filename: ./debs/com.eliofeghali.souvenir_1.32_iphoneos-arm64.deb
+Size: 112488
+MD5sum: 7bf3a3bc4780a5724992c9615742a4b2
+SHA1: 9a481aac1529ad5631024ccc60e6f270aac62b38
+SHA256: 505f7ccb4505f2b9172354e91679d07b884fec167b6274f4cbd83f4c9e3a0936
+Section: Tweaks
+Description: 锁屏界面自定义美化！
+Author: Elio Feghali
+Icon: https://gitee.com/baimour/sileo-depiction.git/raw/master/SileoDepiction/souvenir/icon.png
+Name: Souvenir
+Sileodepiction: https://gitee.com/baimour/sileo-depiction.git/raw/master/SileoDepiction/souvenir/Depiction
+
+Package: com.eliofeghali.souvenir
+Version: 1.32
+Architecture: iphoneos-arm64e
+Maintainer: Elio Feghali
+Installed-Size: 676
+Pre-Depends: rootless-compat(>= 0.9)
+Depends: firmware (>= 14.0), mobilesubstrate (>= 0.9.5000)
+Filename: ./debs/com.eliofeghali.souvenir_1.32_iphoneos-arm64e.deb
+Size: 144458
+MD5sum: d0d63c24356e2e830842680be0208d1f
+SHA1: 901972d1ac67346917b9ad77c6647fc0b918bd76
+SHA256: af35618e3fa5dc1b42d9af916d7366f0d0950c2a8ea283c534604b014c70e173
+Section: Tweaks
+Description: 锁屏界面自定义美化！
+Author: Elio Feghali
+Icon: https://gitee.com/baimour/sileo-depiction.git/raw/master/SileoDepiction/souvenir/icon.png
+Name: Souvenir
+Sileodepiction: https://gitee.com/baimour/sileo-depiction.git/raw/master/SileoDepiction/souvenir/Depiction
+
 Package: com.haoerloveyou.killupdate
 Version: 1.2.0
 Architecture: iphoneos-arm
@@ -2110,6 +2147,47 @@ Section: Tweaks
 Description: 任意伪装自己设备型号！
 Author: Rain
 Name: Rain的设备
+
+Package: com.rain.rainmhz
+Version: 3.0-1-2
+Architecture: iphoneos-arm64
+Maintainer: Rain
+Installed-Size: 620
+Depends: mobilesubstrate, preferenceloader, firmware (>= 14.0)
+Filename: ./debs/com.rain.rainmhz_3.0-1-2_iphoneos-arm64.deb
+Size: 75546
+MD5sum: 1e4e8139313dbc18126813c4c96f1820
+SHA1: 2f52ad5974198f766b869ad762b294a48ed21eda
+SHA256: dc1aa074d4e2800db95e7876aba77e136e611d7d93fe33068b2584ef4d7ba538
+Section: Tweaks
+Description: Rain的CPU频率控制插件 - 14层策略锁定CPU性能状态
+ 通过IOKit控制Apple ARM DVFS，支持低功耗/均衡/高性能模式
+ 14层策略: 热节流绕过、P/E核独立调控、GPU联动调频、内存带宽控制、Jetsam内存提升
+ 游戏模式、应用级智能调频、迷你跑分、实时仪表盘、电量预估
+Tag: role::hacker, purpose::extension
+Author: Rain
+Name: Rain的Mhz
+
+Package: com.rain.rainmhz
+Version: 3.0-1-2
+Architecture: iphoneos-arm64e
+Maintainer: Rain
+Installed-Size: 620
+Pre-Depends: rootless-compat(>= 0.9)
+Depends: mobilesubstrate, preferenceloader, firmware (>= 14.0)
+Filename: ./debs/com.rain.rainmhz_3.0-1-2_iphoneos-arm64e.deb
+Size: 94154
+MD5sum: 11fc2fbc5bfe073f91d66dd385b7c025
+SHA1: c135a08c381fcf06a9b6d3ccb2bb2bb033cc661b
+SHA256: b298e83f3d962cd436371705cb494bddd053e62ddea0beb845e696a8256719f2
+Section: Tweaks
+Description: Rain的CPU频率控制插件 - 14层策略锁定CPU性能状态
+ 通过IOKit控制Apple ARM DVFS，支持低功耗/均衡/高性能模式
+ 14层策略: 热节流绕过、P/E核独立调控、GPU联动调频、内存带宽控制、Jetsam内存提升
+ 游戏模式、应用级智能调频、迷你跑分、实时仪表盘、电量预估
+Tag: role::hacker, purpose::extension
+Author: Rain
+Name: Rain的Mhz
 
 Package: com.roothide.patcher
 Version: 2.1.3-1+debug
@@ -4960,6 +5038,53 @@ Author: AnubisTweaks
 Icon: https://raw.githubusercontent.com/AnubisTweaks/AnubisTweaks.github.io/main/assets/icons/boardswipe/icon.png
 Name: BoardSwipe
 
+Package: com.white.byehomebottombarx
+Version: 1.3.8
+Architecture: iphoneos-arm64
+Maintainer: BigBoss <bigboss@thebigboss.org>
+Installed-Size: 675
+Depends: mobilesubstrate, firmware (>= 11.0), org.thebigboss.libcolorpicker
+Filename: ./debs/byehomebottombarx_1.3.8_iphoneos-arm64.deb
+Size: 65392
+MD5sum: 858efeb73a7dc9b9f7decc85a3c085d9
+SHA1: eb560186994640bf6253c054f54f9856f1691907
+SHA256: c3edc757f264ad5bcabe8b4723ca5357b2d8cdb95dee0bd5dc4148e04837f21e
+Section: Tweaks
+Priority: optional
+Homepage: http://moreinfo.thebigboss.org/moreinfo/depiction.php?file=byehomebottombarxDp
+Description: 移除/淡出iPhone X主页底部横条
+Tag: purpose::extension
+Author: CydiaGeek <lucaluca86@aol.com>
+Depiction: http://moreinfo.thebigboss.org/moreinfo/depiction.php?file=byehomebottombarxDp
+Dev: lucaluca86
+Icon: file:///Library/PreferenceBundles/ByeHomeBottomBarX.bundle/ByeHomeBottomBarX@2x.png
+Name: ByeHomeBottomBarX
+Sponsor: thebigboss.org <http://thebigboss.org>
+
+Package: com.white.byehomebottombarx
+Version: 1.3.8
+Architecture: iphoneos-arm64e
+Maintainer: BigBoss <bigboss@thebigboss.org>
+Installed-Size: 675
+Pre-Depends: rootless-compat(>= 0.9)
+Depends: mobilesubstrate, firmware (>= 11.0), org.thebigboss.libcolorpicker
+Filename: ./debs/byehomebottombarx_1.3.8_iphoneos-arm64e.deb
+Size: 74876
+MD5sum: fdf07a11995ad23c008dca2145b0c973
+SHA1: 5513e2f8ecbf4a67bda413fa7461c72fd55a767c
+SHA256: c23351e4d81511ecb5e70d0117120e84b23e4632d4122b5bddab2c1831dc35f1
+Section: Tweaks
+Priority: optional
+Homepage: http://moreinfo.thebigboss.org/moreinfo/depiction.php?file=byehomebottombarxDp
+Description: 移除/淡出iPhone X主页底部横条
+Tag: purpose::extension
+Author: CydiaGeek <lucaluca86@aol.com>
+Depiction: http://moreinfo.thebigboss.org/moreinfo/depiction.php?file=byehomebottombarxDp
+Dev: lucaluca86
+Icon: file:///Library/PreferenceBundles/ByeHomeBottomBarX.bundle/ByeHomeBottomBarX@2x.png
+Name: ByeHomeBottomBarX
+Sponsor: thebigboss.org <http://thebigboss.org>
+
 Package: com.white.bytafont2
 Version: 2.6.4
 Architecture: iphoneos-arm
@@ -6794,6 +6919,24 @@ Sileodepiction: https://gitee.com/baimour/sileo-depiction.git/raw/master/SileoDe
 
 Package: com.white.designer
 Version: 1.5.4
+Architecture: iphoneos-arm
+Maintainer: JunesiPhone
+Depends: firmware (>= 13.0), mobilesubstrate, preferenceloader
+Filename: ./debs/designer_1.5.4_iphoneos-arm.deb
+Size: 15767260
+MD5sum: e0073793095aa933c79c5dc018cc64e5
+SHA1: 3a4ec656e633bdea90495b78117dc6121315c486
+SHA256: 6fb237019f0f9ea992a0773c61bd4388852505d6f6c00f2e3fa9caa15c0e3e1f
+Section: Tweaks
+Description: 自定义锁屏和桌面布局
+Author: JunesiPhone <junesgraphics@gmail.com>
+Depiction: https://repo.cypwn.xyz/depiction/3393
+Icon: https://gitee.com/baimour/sileo-depiction.git/raw/master/SileoDepiction/designer/icon.png
+Name: Designer
+Sileodepiction: https://gitee.com/baimour/sileo-depiction.git/raw/master/SileoDepiction/designer/Depiction
+
+Package: com.white.designer
+Version: 1.5.4
 Architecture: iphoneos-arm64
 Maintainer: JunesiPhone
 Depends: mobilesubstrate, preferenceloader
@@ -6834,12 +6977,13 @@ Version: 1.5.5
 Architecture: iphoneos-arm64
 Maintainer: JunesiPhone
 Installed-Size: 20612
+Pre-Depends: rootless-compat(>= 0.9)
 Depends: firmware (>= 15.0), mobilesubstrate, preferenceloader
 Filename: ./debs/designer_1.5.5_iphoneos-arm64.deb
-Size: 7281532
-MD5sum: 4db77614b38e08f54046d3ab36c70fb2
-SHA1: 7c9fe85efdd380aabd261d0eefd0676a9959eac3
-SHA256: 0f282415b4bb422ca9cfcbdea2fe48abd8ea933c268bb761afcd3dad5aa46d91
+Size: 26876540
+MD5sum: e3fa318f058a79d416bf0262d84a861d
+SHA1: 64992cec8dabebf882db26647337e1754fa2409a
+SHA256: d7fddd823e3e6531a2ca34f79c743f685c4390c0dd9be6788beff0bcc3bc463f
 Section: Tweaks
 Description: 自定义锁屏和桌面布局
 Author: JunesiPhone <junesgraphics@gmail.com>
@@ -6853,13 +6997,13 @@ Version: 1.5.5
 Architecture: iphoneos-arm64e
 Maintainer: JunesiPhone
 Installed-Size: 20612
-Pre-Depends: rootless-compat(>= 0.9)
+Pre-Depends: rootless-compat(>= 0.9), rootless-compat(>= 0.9)
 Depends: firmware (>= 15.0), mobilesubstrate, preferenceloader
 Filename: ./debs/designer_1.5.5_iphoneos-arm64e.deb
-Size: 24876458
-MD5sum: 3842557827cca3ae209012a2f2559077
-SHA1: 3ae30b1a871cbc154797d97bfe36dee352237e64
-SHA256: 0faf743e71c065e806ba2d76ec16049a57a10432cb05fff96e773067247e7f96
+Size: 61215758
+MD5sum: d185cca78b8626365401bd151d3bf8d8
+SHA1: d3d35909867b5bcb8796c64f53f419bbf477442d
+SHA256: 14d18c10fd21fefc47edb408ee09d96d19b24c2a26ffa2833e0c97c6f3cdcda8
 Section: Tweaks
 Description: 自定义锁屏和桌面布局
 Author: JunesiPhone <junesgraphics@gmail.com>
@@ -6906,6 +7050,43 @@ Depiction: https://repo.cypwn.xyz/depiction/3393
 Icon: https://gitee.com/baimour/sileo-depiction.git/raw/master/SileoDepiction/designer/icon.png
 Name: Designer
 Sileodepiction: https://gitee.com/baimour/sileo-depiction.git/raw/master/SileoDepiction/designer/Depiction
+
+Package: com.white.desktoplyrics
+Version: 0.3.9~b1
+Architecture: iphoneos-arm64e
+Maintainer: Brend0n
+Installed-Size: 2748
+Pre-Depends: rootless-compat(>= 0.9)
+Depends: mobilesubstrate, com.rpetrich.rocketbootstrap (>= 1.0.2) | firmware (>= 15.0), preferenceloader
+Filename: ./debs/desktoplyrics_0.3.9~b1_iphoneos-arm64e.deb
+Size: 1575016
+MD5sum: 5f74e0a7ef8acf31e1d7ecc081f01fbf
+SHA1: a8629c5648b1d7139502a541f97b526f039bde4a
+SHA256: c0a4012c021159c0fe6e05a5ecb84a74751cfdaaed7a923c16933eae01850725
+Section: Tweaks
+Description: 在任意位置显示桌面歌词，支持QQ、网易云、酷狗、酷我、咪咕，可能支持Spotify
+Author: Brend0n
+Icon: https://chinesebuilding.club/pic/cydia.png
+Name: DesktopLyrics
+Sponsor: Brend0n
+
+Package: com.white.desktoplyrics
+Version: 0.3.9~b1
+Architecture: iphoneos-arm64
+Maintainer: Brend0n
+Installed-Size: 2748
+Depends: mobilesubstrate, com.rpetrich.rocketbootstrap (>= 1.0.2) | firmware (>= 15.0), preferenceloader
+Filename: ./debs/desktoplyrics_0.3.9~b1_iphoneos-arm64.deb
+Size: 623044
+MD5sum: 1afd026c02c58ab0e62c03dd7f78bf91
+SHA1: 0d46eb70026e106540727b9e06fe1f36c7bb828c
+SHA256: 67e157a24df66710f3230219164af3a194820d8221426153a1a894e9a3c961c3
+Section: Tweaks
+Description: 在任意位置显示桌面歌词，支持QQ、网易云、酷狗、酷我、咪咕，可能支持Spotify
+Author: Brend0n
+Icon: https://chinesebuilding.club/pic/cydia.png
+Name: DesktopLyrics
+Sponsor: Brend0n
 
 Package: com.white.detailedpowerusage
 Version: 1.0.1
@@ -10104,6 +10285,45 @@ Author: @CrazyMind90
 Icon: https://gitee.com/baimour/sileo-depiction.git/raw/master/SileoDepiction/iTheosmaker/icon.png
 Name: iTheosMaker
 Sileodepiction: https://gitee.com/baimour/sileo-depiction.git/raw/master/SileoDepiction/iTheosmaker/Depiction
+
+Package: com.white.iwanttranslucent
+Version: 0.9.4
+Architecture: iphoneos-arm64e
+Maintainer: Luki
+Installed-Size: 168
+Pre-Depends: rootless-compat(>= 0.9)
+Depends: mobilesubstrate
+Filename: ./debs/iwanttranslucent_0.9.4_iphoneos-arm64e.deb
+Size: 7602
+MD5sum: b7c35a2d17e78f90b8eb098285f7c464
+SHA1: 104a158f399e4189081b3d1f783456f115c4be18
+SHA256: 87dc100ad058ef76ce9511e97a6be6b1672fa20b9dc7be36dd689427497baf15
+Section: Tweaks
+Description: 替换3D Touch菜单的丑陋效果，使用干净的半透明外观
+Author: Luki
+Depiction: https://luki120.github.io/depictions/web/?p=me.luki.iwanttranslucent
+Icon: https://raw.githubusercontent.com/Luki120/luki120.github.io/master/assets/Tweaks/SpringBoard/IWantTranslucent/IWantTranslucent.png
+Name: IWantTranslucent
+Sileodepiction: https://luki120.github.io/depictions/native/me.luki.iwanttranslucent/depiction.json
+
+Package: com.white.iwanttranslucent
+Version: 0.9.4
+Architecture: iphoneos-arm64
+Maintainer: Luki
+Installed-Size: 168
+Depends: mobilesubstrate
+Filename: ./debs/iwanttranslucent_0.9.4_iphoneos-arm64.deb
+Size: 5652
+MD5sum: feb19f19c4a7a4b804aa632181a6610b
+SHA1: b95e337a4efcbf48acf908d4b650a091b4f6476a
+SHA256: d6f985683549907e8c7416d9d9e7f29bfc20fe9ff2370508b24e246cdc149e09
+Section: Tweaks
+Description: 替换3D Touch菜单的丑陋效果，使用干净的半透明外观
+Author: Luki
+Depiction: https://luki120.github.io/depictions/web/?p=me.luki.iwanttranslucent
+Icon: https://raw.githubusercontent.com/Luki120/luki120.github.io/master/assets/Tweaks/SpringBoard/IWantTranslucent/IWantTranslucent.png
+Name: IWantTranslucent
+Sileodepiction: https://luki120.github.io/depictions/native/me.luki.iwanttranslucent/depiction.json
 
 Package: com.white.jailbreakhistorytheme
 Version: 1.6
@@ -15035,6 +15255,41 @@ Icon: https://gitee.com/baimour/sileo-depiction.git/raw/master/SileoDepiction/ta
 Name: Dependencies for Procursus
 Sileodepiction: https://gitee.com/baimour/sileo-depiction.git/raw/master/SileoDepiction/taidependscoolstar/Depiction
 
+Package: com.white.tako
+Version: 3.5.2
+Architecture: iphoneos-arm64e
+Maintainer: b4db1r3
+Pre-Depends: rootless-compat(>= 0.9)
+Depends: mobilesubstrate, preferenceloader, ws.hbang.common (>= 1.16),com.mrgcgamer.libgcuniversal
+Conflicts: com.xyaman.tako, com.dao.axon, com.hk.axon.cn.rl, com.b4db1r3.tako, me.nepeta.axon, xyz.cypwn.tako, xyz.cypwn.axon
+Filename: ./debs/tako_3.5.2_iphoneos-arm64e.deb
+Size: 128302
+MD5sum: 9d6f1c7d22bf20d43da7be6479f0e785
+SHA1: 93be0cc8e2fde6e6e5cf539dcbf70ee334577e9f
+SHA256: c45d3b3462745e55b8c66da75da71a3607aa3b544e09918fab643634c7d283c0
+Section: Tweaks
+Description: 类似Group和Axon的通知聚合插件，b4db1r3优化编译版
+Author: Xyaman & b4db1r3
+Name: Tako
+Sileodepiction: https://xiangfeidexiaohuo.github.io/sileodepiction/tako/js.json
+
+Package: com.white.tako
+Version: 3.5.2
+Architecture: iphoneos-arm64
+Maintainer: b4db1r3
+Depends: mobilesubstrate, preferenceloader, ws.hbang.common (>= 1.16),com.mrgcgamer.libgcuniversal
+Conflicts: com.xyaman.tako, com.dao.axon, com.hk.axon.cn.rl, com.b4db1r3.tako, me.nepeta.axon, xyz.cypwn.tako, xyz.cypwn.axon
+Filename: ./debs/tako_3.5.2_iphoneos-arm64.deb
+Size: 93920
+MD5sum: 0d5948fb3321728702b51fc4704e6100
+SHA1: dbfda1139f9b033adfb067f976ebb08b8301698e
+SHA256: 101dd3e0e1d6629ed33ada28ff8d0842d8c0e4a5ef5a0af4711217d8a787427b
+Section: Tweaks
+Description: 类似Group和Axon的通知聚合插件，b4db1r3优化编译版
+Author: Xyaman & b4db1r3
+Name: Tako
+Sileodepiction: https://xiangfeidexiaohuo.github.io/sileodepiction/tako/js.json
+
 Package: com.white.taobao
 Version: 1.0-1
 Architecture: iphoneos-arm64
@@ -16336,6 +16591,41 @@ Depiction: https://repo.cypwn.xyz/depiction/528
 Icon: https://repo.cypwn.xyz/assets/repo/Featured/vintage-keyboard.png
 Name: Vintage Keyboard Pack
 Sileodepiction: https://repo.cypwn.xyz/sileo_depiction/528
+
+Package: com.white.visibleisland
+Version: 2.0
+Architecture: iphoneos-arm64
+Maintainer: ethxnn88
+Depends: firmware (>= 16.0), firmware (<= 16.6.1), mobilesubstrate (>= 0.9.5000), preferenceloader
+Filename: ./debs/visibleisland_2.0_iphoneos-arm64.deb
+Size: 28448
+MD5sum: 4028cf77cdd58f5f6ec7e0f04bab83f2
+SHA1: 696ce7101074d5e67f485488ed7ebfd2f324b994
+SHA256: 79470ff6123fb10f87d9285abc846a715e6b156395a814ee45e6ca781842b2aa
+Section: Tweaks
+Description: 为iOS16以上的老设备开启灵动岛，支持自定义灵动岛位置，支持自定义通知位置、支持自定义灵动岛透明度和颜色、支持自定义灵动岛比例。iOS 15及更低版本系统，请勿安装！
+Author: ethxnn88
+Icon: https://chinesebuilding.club/pic/cydia.png
+Name: VisibleIsland
+Sponsor: ethxnn88
+
+Package: com.white.visibleisland
+Version: 2.0
+Architecture: iphoneos-arm64e
+Maintainer: ethxnn88
+Pre-Depends: rootless-compat(>= 0.9)
+Depends: firmware (>= 16.0), firmware (<= 16.6.1), mobilesubstrate (>= 0.9.5000), preferenceloader
+Filename: ./debs/visibleisland_2.0_iphoneos-arm64e.deb
+Size: 37750
+MD5sum: 28f8f4757030f7098744274a7e0d0c5e
+SHA1: 743c43ff5a9267e72bbbe4fc7b8cacfdf9629dc0
+SHA256: 719fa7ec5228076b090b11f4b7042af76e3ec096861350b88f2d4baeb033f807
+Section: Tweaks
+Description: 为iOS16以上的老设备开启灵动岛，支持自定义灵动岛位置，支持自定义通知位置、支持自定义灵动岛透明度和颜色、支持自定义灵动岛比例。iOS 15及更低版本系统，请勿安装！
+Author: ethxnn88
+Icon: https://chinesebuilding.club/pic/cydia.png
+Name: VisibleIsland
+Sponsor: ethxnn88
 
 Package: com.white.voicechangerx
 Version: 2.4-10
