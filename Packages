@@ -6980,10 +6980,10 @@ Installed-Size: 20612
 Pre-Depends: rootless-compat(>= 0.9)
 Depends: firmware (>= 15.0), mobilesubstrate, preferenceloader
 Filename: ./debs/designer_1.5.5_iphoneos-arm64.deb
-Size: 26876540
-MD5sum: e3fa318f058a79d416bf0262d84a861d
-SHA1: 64992cec8dabebf882db26647337e1754fa2409a
-SHA256: d7fddd823e3e6531a2ca34f79c743f685c4390c0dd9be6788beff0bcc3bc463f
+Size: 29269752
+MD5sum: 24fc9e5027785a96b139ae0943df74d7
+SHA1: 95bac82b8d08a33ce9ddb8bfd2b7bca289aaa61b
+SHA256: fe771c16d53b685bf269ca48a5a39851024b2ebde5f6695e657294621bda4d54
 Section: Tweaks
 Description: 自定义锁屏和桌面布局
 Author: JunesiPhone <junesgraphics@gmail.com>
@@ -7000,10 +7000,10 @@ Installed-Size: 20612
 Pre-Depends: rootless-compat(>= 0.9), rootless-compat(>= 0.9)
 Depends: firmware (>= 15.0), mobilesubstrate, preferenceloader
 Filename: ./debs/designer_1.5.5_iphoneos-arm64e.deb
-Size: 61215758
-MD5sum: d185cca78b8626365401bd151d3bf8d8
-SHA1: d3d35909867b5bcb8796c64f53f419bbf477442d
-SHA256: 14d18c10fd21fefc47edb408ee09d96d19b24c2a26ffa2833e0c97c6f3cdcda8
+Size: 58503240
+MD5sum: e607aa3d5979f9e8180880f507c7860c
+SHA1: e64a0b0bc64e5b5282d65fd3e8ba4bb48a3c16bb
+SHA256: 41949f30f30af45d1c94ea64c08dd9627661c6b02463a4bb411770c4e52c73a7
 Section: Tweaks
 Description: 自定义锁屏和桌面布局
 Author: JunesiPhone <junesgraphics@gmail.com>
