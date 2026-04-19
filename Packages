@@ -634,6 +634,115 @@ Icon: https://gitee.com/baimour/sileo-depiction.git/raw/master/SileoDepiction/Bi
 Name: 哔哩哔哩国际版大会员画质
 Sileodepiction: https://gitee.com/baimour/sileo-depiction.git/raw/master/SileoDepiction/BilibiliUnlock/Depiction2
 
+Package: com.dylv.liquidass
+Version: 7.2.alpha
+Architecture: iphoneos-arm64e
+Maintainer: dylv
+Installed-Size: 1340
+Depends: mobilesubstrate (>= 0.9.5000), firmware (>= 14.0), preferenceloader
+Filename: ./debs/com.dylv.liquidass_7.2.alpha_iphoneos-arm64e.deb
+Size: 274052
+MD5sum: b1532cf40c2160d3af9d9451d41e7d20
+SHA1: d16a6e2e28889f894f3f982e04a68278336a8264
+SHA256: 2bf10755406cb6f1f06c8919e774e60c50c2a1a91f9f8e556148ae3aee276bd6
+Section: Tweaks
+Description: 让旧设备体验iOS 26的液态玻璃效果
+Author: dylv
+Icon: https://TrollStoreX.Github.io/sileodepiction/Liquidass/icon.png
+Name: Liquid Glass
+Sileodepiction: https://TrollStoreX.Github.io/sileodepiction/Liquidass/js.json
+
+Package: com.dylv.liquidass
+Version: 7.2.alpha
+Architecture: iphoneos-arm
+Maintainer: dylv
+Installed-Size: 1340
+Depends: mobilesubstrate (>= 0.9.5000), firmware (>= 14.0), preferenceloader
+Filename: ./debs/com.dylv.liquidass_7.2.alpha_iphoneos-arm.deb
+Size: 274104
+MD5sum: a3182a981efd9bde44315843e7bcc4ca
+SHA1: f6973a716a7005c88bfe8042b3e9b880db9eaed7
+SHA256: 0d6f8568c19eb3b4bf869d8de352ca153b316466551b0b0ffb4034c97a098920
+Section: Tweaks
+Description: 让旧设备体验iOS 26的液态玻璃效果
+Author: dylv
+Icon: https://TrollStoreX.Github.io/sileodepiction/Liquidass/icon.png
+Name: Liquid Glass
+Sileodepiction: https://TrollStoreX.Github.io/sileodepiction/Liquidass/js.json
+
+Package: com.dylv.liquidass
+Version: 7.2.alpha
+Architecture: iphoneos-arm64
+Maintainer: dylv
+Installed-Size: 1340
+Depends: mobilesubstrate (>= 0.9.5000), firmware (>= 14.0), preferenceloader
+Filename: ./debs/com.dylv.liquidass_7.2.alpha_iphoneos-arm64.deb
+Size: 274184
+MD5sum: b5d43c95715d0f583fa4918528a8892c
+SHA1: abb0e48b72544c666cbbdc07099cb038c56efab4
+SHA256: 745384741793251a9fa5d52b708206657cbebbb8e26c55f0f73eaab81fefe635
+Section: Tweaks
+Description: 让旧设备体验iOS 26的液态玻璃效果
+Author: dylv
+Icon: https://TrollStoreX.Github.io/sileodepiction/Liquidass/icon.png
+Name: Liquid Glass
+Sileodepiction: https://TrollStoreX.Github.io/sileodepiction/Liquidass/js.json
+
+Package: com.dylv.liquidass
+Version: 7.alpha
+Architecture: iphoneos-arm64e
+Maintainer: dylv
+Installed-Size: 1184
+Depends: mobilesubstrate (>= 0.9.5000), firmware (>= 14.0), preferenceloader
+Filename: ./debs/com.dylv.liquidass_7.alpha_iphoneos-arm64e.deb
+Size: 348864
+MD5sum: e4360b9bf6b4e14012b6e0e4f9fe0278
+SHA1: 0514c426d7e1b7087a718c751f2781d56497b6ae
+SHA256: 33d9753e9e209a13bbf316182b6ec655d378916d239c80c41fba08458bcadc4f
+Section: Tweaks
+Description: 让旧设备体验iOS 26的液态玻璃效果
+Author: dylv
+Icon: https://TrollStoreX.Github.io/sileodepiction/Liquidass/icon.png
+Name: Liquid Glass
+Sileodepiction: https://TrollStoreX.Github.io/sileodepiction/Liquidass/js.json
+
+Package: com.dylv.liquidass
+Version: 7.alpha
+Architecture: iphoneos-arm64
+Maintainer: dylv
+Installed-Size: 1092
+Depends: mobilesubstrate (>= 0.9.5000), firmware (>= 14.0), preferenceloader
+Conflicts: dylv.liquidass
+Filename: ./debs/com.dylv.liquidass_7.alpha_iphoneos-arm64.deb
+Size: 349812
+MD5sum: 9efafb80af6ff489ee4d3cb5a4ca7edf
+SHA1: 445a61c1d1cb2b7a3cddf9af1eb575d8e4a50a03
+SHA256: 68d3353bd6152b97a6c7f66f7a691f04cc59ed98952770549836803d6a576847
+Section: Tweaks
+Description: 让旧设备体验iOS 26的液态玻璃效果
+Author: dylv
+Icon: https://TrollStoreX.Github.io/sileodepiction/Liquidass/icon.png
+Name: Liquid Glass
+Sileodepiction: https://TrollStoreX.Github.io/sileodepiction/Liquidass/js.json
+
+Package: com.dylv.liquidass
+Version: 7.alpha
+Architecture: iphoneos-arm
+Maintainer: dylv
+Installed-Size: 1184
+Depends: mobilesubstrate (>= 0.9.5000), firmware (>= 14.0), preferenceloader
+Filename: ./debs/com.dylv.liquidass_7.alpha_iphoneos-arm.deb
+Size: 349136
+MD5sum: 3fbabd90f7cfa805e7978a3b38585ad4
+SHA1: e8786b3762e4ce5e7cc846a7132c33679fa2585e
+SHA256: b6d06e92cea96f4539f256e204542cd78af4fd4478db8e3bf347a7972d029de0
+Section: Tweaks
+Description: 让旧设备体验iOS 26的液态玻璃效果
+Author: dylv
+Icon: https://TrollStoreX.Github.io/sileodepiction/Liquidass/icon.png
+Name: Liquid Glass
+Sileodepiction: https://TrollStoreX.Github.io/sileodepiction/Liquidass/js.json
+
 Package: com.eliofeghali.souvenir
 Version: 1.25
 Architecture: iphoneos-arm
