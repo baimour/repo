@@ -641,10 +641,10 @@ Maintainer: dylv
 Installed-Size: 1340
 Depends: mobilesubstrate (>= 0.9.5000), firmware (>= 14.0), preferenceloader
 Filename: ./debs/com.dylv.liquidass_7.2.alpha_iphoneos-arm64e.deb
-Size: 274052
-MD5sum: b1532cf40c2160d3af9d9451d41e7d20
-SHA1: d16a6e2e28889f894f3f982e04a68278336a8264
-SHA256: 2bf10755406cb6f1f06c8919e774e60c50c2a1a91f9f8e556148ae3aee276bd6
+Size: 274236
+MD5sum: 8b4d7e6b4880c514ad0d98862f3ee1a1
+SHA1: bcef5d794b1962856196088b32538e232594a43e
+SHA256: 8f70ec83f04aa1c9eef6cfc28bf208bc73948bfdcd89e5b1122e87cdfa6fb98e
 Section: Tweaks
 Description: 让旧设备体验iOS 26的液态玻璃效果
 Author: dylv
@@ -659,10 +659,10 @@ Maintainer: dylv
 Installed-Size: 1340
 Depends: mobilesubstrate (>= 0.9.5000), firmware (>= 14.0), preferenceloader
 Filename: ./debs/com.dylv.liquidass_7.2.alpha_iphoneos-arm.deb
-Size: 274104
-MD5sum: a3182a981efd9bde44315843e7bcc4ca
-SHA1: f6973a716a7005c88bfe8042b3e9b880db9eaed7
-SHA256: 0d6f8568c19eb3b4bf869d8de352ca153b316466551b0b0ffb4034c97a098920
+Size: 273964
+MD5sum: 7724b2ae4e6e242a14198199471ed234
+SHA1: 2752c211f0945d5fb9cf6a0348017a4087d97056
+SHA256: d3a227c0ebd6670094d9ad765fe6f6fe2a0bbfb9d79f2f960df9a9e0cc87171b
 Section: Tweaks
 Description: 让旧设备体验iOS 26的液态玻璃效果
 Author: dylv
@@ -677,10 +677,10 @@ Maintainer: dylv
 Installed-Size: 1340
 Depends: mobilesubstrate (>= 0.9.5000), firmware (>= 14.0), preferenceloader
 Filename: ./debs/com.dylv.liquidass_7.2.alpha_iphoneos-arm64.deb
-Size: 274184
-MD5sum: b5d43c95715d0f583fa4918528a8892c
-SHA1: abb0e48b72544c666cbbdc07099cb038c56efab4
-SHA256: 745384741793251a9fa5d52b708206657cbebbb8e26c55f0f73eaab81fefe635
+Size: 274068
+MD5sum: 630d3085ebd0ef023674ea4b0e243a7d
+SHA1: 0aaf5d715e306d4646c73f2c64e7542f5ddeef4d
+SHA256: 57d86abccbec480f08778cee9f03d8bd3e225b8bea52b6c3cdfed00bae4fbe59
 Section: Tweaks
 Description: 让旧设备体验iOS 26的液态玻璃效果
 Author: dylv
@@ -695,10 +695,10 @@ Maintainer: dylv
 Installed-Size: 1184
 Depends: mobilesubstrate (>= 0.9.5000), firmware (>= 14.0), preferenceloader
 Filename: ./debs/com.dylv.liquidass_7.alpha_iphoneos-arm64e.deb
-Size: 348864
-MD5sum: e4360b9bf6b4e14012b6e0e4f9fe0278
-SHA1: 0514c426d7e1b7087a718c751f2781d56497b6ae
-SHA256: 33d9753e9e209a13bbf316182b6ec655d378916d239c80c41fba08458bcadc4f
+Size: 349364
+MD5sum: 7ffb6aaaf24a2a9750dd92ea8a15c681
+SHA1: 0c6f9199e7c02c94abfec9d0c380916232436d2d
+SHA256: 8b43c4d66cdc9d133549b7d43ef9f834f6233427f3dcb40e0851dd70ea9b3a0e
 Section: Tweaks
 Description: 让旧设备体验iOS 26的液态玻璃效果
 Author: dylv
@@ -732,10 +732,10 @@ Maintainer: dylv
 Installed-Size: 1184
 Depends: mobilesubstrate (>= 0.9.5000), firmware (>= 14.0), preferenceloader
 Filename: ./debs/com.dylv.liquidass_7.alpha_iphoneos-arm.deb
-Size: 349136
-MD5sum: 3fbabd90f7cfa805e7978a3b38585ad4
-SHA1: e8786b3762e4ce5e7cc846a7132c33679fa2585e
-SHA256: b6d06e92cea96f4539f256e204542cd78af4fd4478db8e3bf347a7972d029de0
+Size: 349728
+MD5sum: 332218a0beb5eea90e0a4b6b74e124df
+SHA1: 5ab9c8de60c1797ba0bb409a7e64b0b0e189f7f0
+SHA256: 93a021d1faf63b127407127c3dede44395cea71d9bf28379c4313cc9e233dc8b
 Section: Tweaks
 Description: 让旧设备体验iOS 26的液态玻璃效果
 Author: dylv
