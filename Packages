@@ -2862,6 +2862,41 @@ Icon: https://gitee.com/baimour/sileo-depiction.git/raw/master/SileoDepiction/18
 Name: 天翼云盘 Hook
 Sileodepiction: https://gitee.com/baimour/sileo-depiction.git/raw/master/SileoDepiction/189cloud/Depiction
 
+Package: com.white.26kbhook
+Version: 1.0-2
+Architecture: iphoneos-arm64
+Maintainer: White
+Installed-Size: 168
+Depends: mobilesubstrate (>= 0.9.5000)
+Filename: ./debs/26kbhook_1.0-2_iphoneos-arm64.deb
+Size: 4104
+MD5sum: 2c0ea3cab24b8daff94c633fe3cf3ed8
+SHA1: ec8f5e51d8d21d5441bbda4c84a386a445946340
+SHA256: 3b136b7e478f342db6a499855add91cb4f9564a30953f9c4d8d2c058959f9a36
+Section: Tweaks
+Description: 解决26/9键布局问题
+Author: White
+Icon: https://s1.imagehub.cc/images/2025/12/26/29fda3e52ac78c6958ecf3b5dac18673.png
+Name: 仿iOS 26键盘圆角
+
+Package: com.white.26kbhook
+Version: 1.0-2
+Architecture: iphoneos-arm64e
+Maintainer: White
+Installed-Size: 168
+Pre-Depends: rootless-compat(>= 0.9)
+Depends: mobilesubstrate (>= 0.9.5000)
+Filename: ./debs/26kbhook_1.0-2_iphoneos-arm64e.deb
+Size: 5626
+MD5sum: 0a04ff478b69703d682971d96f5ba857
+SHA1: 0c858a7185b29f637c55b5f59ad763561fe6d3b6
+SHA256: 152291dcf6cc33bd3f6893375492d73cbe9cfd26866180eb612179b355c5cd39
+Section: Tweaks
+Description: 解决26/9键布局问题
+Author: White
+Icon: https://s1.imagehub.cc/images/2025/12/26/29fda3e52ac78c6958ecf3b5dac18673.png
+Name: 仿iOS 26键盘圆角
+
 Package: com.white.5s234
 Version: 1.1
 Architecture: iphoneos-arm
@@ -5146,6 +5181,51 @@ Description: 上下滑动快捷切换/关闭键盘
 Author: AnubisTweaks
 Icon: https://raw.githubusercontent.com/AnubisTweaks/AnubisTweaks.github.io/main/assets/icons/boardswipe/icon.png
 Name: BoardSwipe
+
+Package: com.white.byebreadcrumbs
+Version: 1.0.4
+Architecture: iphoneos-arm64e
+Maintainer: BigBoss <bigboss@thebigboss.org>
+Installed-Size: 173
+Pre-Depends: rootless-compat(>= 0.9)
+Depends: mobilesubstrate, firmware (>= 9.0)
+Filename: ./debs/byebreadcrumbs_1.0.4_iphoneos-arm64e.deb
+Size: 5142
+MD5sum: 8cc0fbc9eba51e65cd58024a0be33375
+SHA1: 3cac2c9d9de6b4b51abd5bcbf7d6d8e51c1085fb
+SHA256: 126d1937f10f2229b6a047dbb2bbfab2ac0ba733f2ddf46be68d944c8c1a8202
+Section: Tweaks
+Priority: optional
+Homepage: http://moreinfo.thebigboss.org/moreinfo/depiction.php?file=byebreadcrumbsDp
+Description: 移除状态栏右上角的快捷返回！
+Tag: purpose::extension
+Author: CydiaGeek <lucaluca86@aol.com>
+Depiction: http://moreinfo.thebigboss.org/moreinfo/depiction.php?file=byebreadcrumbsDp
+Dev: lucaluca86
+Name: ByeBreadcrumbs
+Sponsor: thebigboss.org <http://thebigboss.org>
+
+Package: com.white.byebreadcrumbs
+Version: 1.0.4
+Architecture: iphoneos-arm64
+Maintainer: BigBoss <bigboss@thebigboss.org>
+Installed-Size: 173
+Depends: mobilesubstrate, firmware (>= 9.0)
+Filename: ./debs/byebreadcrumbs_1.0.4_iphoneos-arm64.deb
+Size: 3768
+MD5sum: cea8bef9b5d4625faa1394a176a971db
+SHA1: e3134638b6f044f815ec5a6997cb67cd06bcce37
+SHA256: ea4f4f37e23e8aaed91d28d3cde05b366f9fb88290a7d67cda48a0e252cdabc7
+Section: Tweaks
+Priority: optional
+Homepage: http://moreinfo.thebigboss.org/moreinfo/depiction.php?file=byebreadcrumbsDp
+Description: 移除状态栏右上角的快捷返回！
+Tag: purpose::extension
+Author: CydiaGeek <lucaluca86@aol.com>
+Depiction: http://moreinfo.thebigboss.org/moreinfo/depiction.php?file=byebreadcrumbsDp
+Dev: lucaluca86
+Name: ByeBreadcrumbs
+Sponsor: thebigboss.org <http://thebigboss.org>
 
 Package: com.white.byehomebottombarx
 Version: 1.3.8
@@ -10638,15 +10718,16 @@ Installed-Size: 1364
 Pre-Depends: rootless-compat(>= 0.9)
 Depends: mobilesubstrate
 Filename: ./debs/kbappdock_1.5_iphoneos-arm64e.deb
-Size: 847480
-MD5sum: d90962f43f23d6cad1030d06d9d6d195
-SHA1: 819d75bb20737a9a11888f49e2277c1c9ec3d761
-SHA256: 6a185da7474ea18d6755e83fc6ab85b60d08cf475dbaf70b0b26dec0f539271f
+Size: 847520
+MD5sum: 1a5621d0c8be24cee7e0a79c434893dc
+SHA1: 187b2739efe9fb613c85eeb5b5f84c451521d003
+SHA256: 80f50cd46b4d0bb26326c5301376456208f06a3dda5cd6c70ae63875a977939f
 Section: Tweaks
 Description: 您可以在键盘的底座上添加应用程序
 Author: Dcsyhi
-Icon: https://dcsyhi1998.github.io/icons/kbappdock/icon@2x.png
+Icon: https://gitee.com/baimour/sileo-depiction.git/raw/master/SileoDepiction/kbapp/icon.png
 Name: KBApp
+Sileodepiction: https://gitee.com/baimour/sileo-depiction.git/raw/master/SileoDepiction/kbapp/Depiction
 
 Package: com.white.kbappdock
 Version: 1.5
@@ -10655,15 +10736,16 @@ Maintainer: Dcsyhi
 Installed-Size: 1364
 Depends: mobilesubstrate
 Filename: ./debs/kbappdock_1.5_iphoneos-arm64.deb
-Size: 810448
-MD5sum: 75965069647c2d572e549afbba989f24
-SHA1: 08776223dce21759f4146cdc484819a887e7680f
-SHA256: 596e6fcd3dc2eb13723bf9c1d6a4b4ee4b5cea5d5531ef4254e4c305c9ad3752
+Size: 810736
+MD5sum: a838e8d70769800f3d490b5ae721beb5
+SHA1: 1b917dc97d39aabb8431dd14e15e55bb6368737c
+SHA256: c95e24a36e58d3a481b91d3b1a1b90b8f100c2c2f78c13c6b8b8abdb0883903c
 Section: Tweaks
 Description: 您可以在键盘的底座上添加应用程序
 Author: Dcsyhi
-Icon: https://dcsyhi1998.github.io/icons/kbappdock/icon@2x.png
+Icon: https://gitee.com/baimour/sileo-depiction.git/raw/master/SileoDepiction/kbapp/icon.png
 Name: KBApp
+Sileodepiction: https://gitee.com/baimour/sileo-depiction.git/raw/master/SileoDepiction/kbapp/Depiction
 
 Package: com.white.kbpro
 Version: 2.1.1
@@ -12690,6 +12772,45 @@ Author: 0xkuj
 Icon: https://gitee.com/baimour/sileo-depiction.git/raw/master/SileoDepiction/notificationsgroupcounts/icon.png
 Name: NotificationsGroupCount
 Sileodepiction: https://gitee.com/baimour/sileo-depiction.git/raw/master/SileoDepiction/notificationsgroupcounts/Depiction
+
+Package: com.white.notificationsgroupcounts
+Version: 1.0.7
+Architecture: iphoneos-arm64e
+Maintainer: 0xkuj
+Installed-Size: 448
+Pre-Depends: rootless-compat(>= 0.9)
+Depends: mobilesubstrate (>= 0.9.5000)
+Conflicts: 0xkuj.notificationsgroupcount
+Filename: ./debs/notificationsgroupcounts_1.0.7_iphoneos-arm64e.deb
+Size: 94258
+MD5sum: fe7329e1f66b2a3f0de017408d7cc10f
+SHA1: 2884ce3f37e2ffccbf15b2097c1b50b960084a77
+SHA256: 2dcffcbbed5af7365ce316b49b2925ec4ccfeb968b4f61ff1a0e7f731c02dab9
+Section: Tweaks
+Description: 在通知界面显示分组消息数量
+Author: 0xkuj
+Icon: https://TrollStoreX.Github.io/sileodepiction/NotificationsGroupCount/icon.png
+Name: NotificationsGroupCount
+Sileodepiction: https://TrollStoreX.Github.io/sileodepiction/NotificationsGroupCount/js.json
+
+Package: com.white.notificationsgroupcounts
+Version: 1.0.7
+Architecture: iphoneos-arm64
+Maintainer: 0xkuj
+Installed-Size: 448
+Depends: mobilesubstrate (>= 0.9.5000)
+Conflicts: 0xkuj.notificationsgroupcount
+Filename: ./debs/notificationsgroupcounts_1.0.7_iphoneos-arm64.deb
+Size: 80512
+MD5sum: 14d261d36906c3839b08bff2c9012476
+SHA1: b0afc0c1e19e009363b9a118073bccc192e1f39a
+SHA256: 4cc2dee3087bc8fde837c0d1ab3de746167cba83829f453b92f7213039e28407
+Section: Tweaks
+Description: 在通知界面显示分组消息数量
+Author: 0xkuj
+Icon: https://TrollStoreX.Github.io/sileodepiction/NotificationsGroupCount/icon.png
+Name: NotificationsGroupCount
+Sileodepiction: https://TrollStoreX.Github.io/sileodepiction/NotificationsGroupCount/js.json
 
 Package: com.white.notitapdelay
 Version: 1.2
@@ -16838,43 +16959,6 @@ Author: ethxnn88
 Icon: https://chinesebuilding.club/pic/cydia.png
 Name: VisibleIsland
 Sponsor: ethxnn88
-
-Package: com.white.vitreux
-Version: 1.3
-Architecture: iphoneos-arm64
-Maintainer: MTAC
-Installed-Size: 7028
-Depends: mobilesubstrate (>= 0.9.5000), firmware (>= 15.0)
-Filename: ./debs/vitreux_1.3_iphoneos-arm64.deb
-Size: 5924568
-MD5sum: 3cafc7e1caae9f249cddea0a0955b58b
-SHA1: 40453af3c5555e323f6a2096f1735ef29197a75d
-SHA256: a402ee61e7a05f1e18c46732020b3804906442b57a890c5c47745b30d4fada49
-Section: Tweaks
-Description: 全局液态玻璃效果
-Author: MTAC
-Icon: https://mtac.app/repo/assets/com.mtac.vitreux/icon-rounded.png
-Name: Vitreux
-Sileodepiction: https://mtac.app/repo/depiction/native/com.mtac.vitreux.json
-
-Package: com.white.vitreux
-Version: 1.3
-Architecture: iphoneos-arm64e
-Maintainer: MTAC
-Installed-Size: 7028
-Pre-Depends: rootless-compat(>= 0.9)
-Depends: mobilesubstrate (>= 0.9.5000), firmware (>= 15.0)
-Filename: ./debs/vitreux_1.3_iphoneos-arm64e.deb
-Size: 12217142
-MD5sum: ca87b441ff70861d71d353c7c373b9ae
-SHA1: 6fd82620d6855abe9af359b3dcad72713d449fb5
-SHA256: 38dc1d93e6adf1f17c78f513b5def1b52e5a5f1326ed63397c25bfd14c9dcf42
-Section: Tweaks
-Description: 全局液态玻璃效果
-Author: MTAC
-Icon: https://mtac.app/repo/assets/com.mtac.vitreux/icon-rounded.png
-Name: Vitreux
-Sileodepiction: https://mtac.app/repo/depiction/native/com.mtac.vitreux.json
 
 Package: com.white.voicechangerx
 Version: 2.4-10
