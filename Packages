@@ -16960,6 +16960,43 @@ Icon: https://chinesebuilding.club/pic/cydia.png
 Name: VisibleIsland
 Sponsor: ethxnn88
 
+Package: com.white.vitreux
+Version: 1.3
+Architecture: iphoneos-arm64
+Maintainer: MTAC
+Installed-Size: 7028
+Depends: mobilesubstrate (>= 0.9.5000), firmware (>= 15.0)
+Filename: ./debs/vitreux_1.3_iphoneos-arm64.deb
+Size: 5924568
+MD5sum: 3cafc7e1caae9f249cddea0a0955b58b
+SHA1: 40453af3c5555e323f6a2096f1735ef29197a75d
+SHA256: a402ee61e7a05f1e18c46732020b3804906442b57a890c5c47745b30d4fada49
+Section: Tweaks
+Description: 全局液态玻璃效果
+Author: MTAC
+Icon: https://mtac.app/repo/assets/com.mtac.vitreux/icon-rounded.png
+Name: Vitreux
+Sileodepiction: https://mtac.app/repo/depiction/native/com.mtac.vitreux.json
+
+Package: com.white.vitreux
+Version: 1.3
+Architecture: iphoneos-arm64e
+Maintainer: MTAC
+Installed-Size: 7028
+Pre-Depends: rootless-compat(>= 0.9)
+Depends: mobilesubstrate (>= 0.9.5000), firmware (>= 15.0)
+Filename: ./debs/vitreux_1.3_iphoneos-arm64e.deb
+Size: 12217142
+MD5sum: ca87b441ff70861d71d353c7c373b9ae
+SHA1: 6fd82620d6855abe9af359b3dcad72713d449fb5
+SHA256: 38dc1d93e6adf1f17c78f513b5def1b52e5a5f1326ed63397c25bfd14c9dcf42
+Section: Tweaks
+Description: 全局液态玻璃效果
+Author: MTAC
+Icon: https://mtac.app/repo/assets/com.mtac.vitreux/icon-rounded.png
+Name: Vitreux
+Sileodepiction: https://mtac.app/repo/depiction/native/com.mtac.vitreux.json
+
 Package: com.white.voicechangerx
 Version: 2.4-10
 Architecture: iphoneos-arm
