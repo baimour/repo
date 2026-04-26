@@ -5433,6 +5433,43 @@ Author: iTweakiOS
 Name: CarrierCrack - Global (iOS 14)
 Sileodepiction: https://gitee.com/baimour/sileo-depiction.git/raw/master/SileoDepiction/globalios/Depiction
 
+Package: com.white.cc26
+Version: 1.0.6
+Architecture: iphoneos-arm64e
+Maintainer: therealhoodboy
+Installed-Size: 1496
+Pre-Depends: rootless-compat(>= 0.9)
+Depends: mobilesubstrate (>= 0.9.5000), preferenceloader, firmware (>= 13.0), firmware (<< 18.0)
+Filename: ./debs/cc26_1.0.6_iphoneos-arm64e.deb
+Size: 856558
+MD5sum: 89703ed365afbb959e4c9f301d2159f5
+SHA1: d05442688354c6dea9b058441bcdc3756aec6c15
+SHA256: a7671e5d3bb94e352751244c0f4e9e0c92ff6aa59dacac0a7bba3c66aa51d04b
+Section: Tweaks
+Description: 仿iOS26样式控制中心
+Author: therealhoodboy
+Icon: https://chinesebuilding.club/pic/cydia.png
+Name: iOS26控制中心
+Sponsor: therealhoodboy
+
+Package: com.white.cc26
+Version: 1.0.6
+Architecture: iphoneos-arm64
+Maintainer: therealhoodboy
+Installed-Size: 1496
+Depends: mobilesubstrate (>= 0.9.5000), preferenceloader, firmware (>= 13.0), firmware (<< 18.0)
+Filename: ./debs/cc26_1.0.6_iphoneos-arm64.deb
+Size: 831940
+MD5sum: d17960e2c8340fcdc2adb41afe73c779
+SHA1: 53dc6ee797ce08e4b2640a175b6688da4f642054
+SHA256: 2751d207c9ee7041a979ff790907a1779e004c1f761878b5fc166656d49ba844
+Section: Tweaks
+Description: 仿iOS26样式控制中心
+Author: therealhoodboy
+Icon: https://chinesebuilding.club/pic/cydia.png
+Name: iOS26控制中心
+Sponsor: therealhoodboy
+
 Package: com.white.ccborder
 Version: 1.1.2-39
 Architecture: iphoneos-arm64e
@@ -13084,6 +13121,76 @@ Author: White <(null)>
 Icon: https://gitee.com/baimour/sileo-depiction.git/raw/master/SileoDepiction/pindduo/icon.png
 Name: 拼多多 NoAds
 Sileodepiction: https://gitee.com/baimour/sileo-depiction.git/raw/master/SileoDepiction/pindduo/Depiction
+
+Package: com.white.pip2hook
+Version: 1.0-1
+Architecture: iphoneos-arm64e
+Maintainer: wkk
+Installed-Size: 184
+Pre-Depends: rootless-compat(>= 0.9)
+Depends: mobilesubstrate (>= 0.9.5000)
+Filename: ./debs/pip2hook_1.0-1_iphoneos-arm64e.deb
+Size: 10850
+MD5sum: c457048f9b2b385e3e6bb53dd21888d2
+SHA1: 746bf2697f716f8d99585c0e9b85a3b78f60b596
+SHA256: 8b594180769d7c4aa4c6929283bc8cab6002aa9066914abe3c198bcbde19c564
+Section: Tweaks
+Description: 隐藏画中画挂起时的背景和箭头，保留交互，使其完全隐藏
+Author: wkk
+Icon: https://s1.imagehub.cc/images/2025/12/26/29fda3e52ac78c6958ecf3b5dac18673.png
+Name: 隐藏画中画挂起背景2
+
+Package: com.white.pip2hook
+Version: 1.0-1
+Architecture: iphoneos-arm64
+Maintainer: wkk
+Installed-Size: 184
+Depends: mobilesubstrate (>= 0.9.5000)
+Filename: ./debs/pip2hook_1.0-1_iphoneos-arm64.deb
+Size: 7908
+MD5sum: 21ffa2dfe85293fbe26eb2799a7a7a84
+SHA1: cf659b371d2d99b6e10a4e9f0ceab67c1c1ffd71
+SHA256: 011d508ca35b08d97148b03995a06dc26b67fced04a19d1d051d6bde18d61ed9
+Section: Tweaks
+Description: 隐藏画中画挂起时的背景和箭头，保留交互，使其完全隐藏
+Author: wkk
+Icon: https://s1.imagehub.cc/images/2025/12/26/29fda3e52ac78c6958ecf3b5dac18673.png
+Name: 隐藏画中画挂起背景2
+
+Package: com.white.piphook
+Version: 1.0-1
+Architecture: iphoneos-arm64e
+Maintainer: wkk
+Installed-Size: 184
+Pre-Depends: rootless-compat(>= 0.9)
+Depends: mobilesubstrate (>= 0.9.5000)
+Filename: ./debs/piphook_1.0-1_iphoneos-arm64e.deb
+Size: 8566
+MD5sum: 88dcace7a78eecaabe4cd71fdf21bbab
+SHA1: b2f0bd1d6f4df56245b76fe32d8a404f7dcfa160
+SHA256: ebb1bd19f110de457c802c9bba6d6091d09227c7e7982382235977eb22ce31e9
+Section: Tweaks
+Description: 隐藏画中画挂起时的背景，保留箭头，使其看上去没有那么显眼
+Author: wkk
+Icon: https://s1.imagehub.cc/images/2025/12/26/29fda3e52ac78c6958ecf3b5dac18673.png
+Name: 隐藏画中画挂起背景
+
+Package: com.white.piphook
+Version: 1.0-1
+Architecture: iphoneos-arm64
+Maintainer: wkk
+Installed-Size: 184
+Depends: mobilesubstrate (>= 0.9.5000)
+Filename: ./debs/piphook_1.0-1_iphoneos-arm64.deb
+Size: 6300
+MD5sum: 181a21c0370d6bf2f22022c5593c842b
+SHA1: cd7f0a06df8a672b5aaf5d079eb241abdcf9df14
+SHA256: 79f3f281956cb9b58ddac3a7569ee3c84610fb7dc1c71f722b150dd0e7deb043
+Section: Tweaks
+Description: 隐藏画中画挂起时的背景，保留箭头，使其看上去没有那么显眼
+Author: wkk
+Icon: https://s1.imagehub.cc/images/2025/12/26/29fda3e52ac78c6958ecf3b5dac18673.png
+Name: 隐藏画中画挂起背景
 
 Package: com.white.playmusiconrecord
 Version: 1.0.4
